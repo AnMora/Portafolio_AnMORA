@@ -1,0 +1,108 @@
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  .wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: auto;
+    display: block;
+    width: 500px; }
+  
+  .cssload-loader {
+    width: 500px;
+    height: 500px;
+    /*margin: 1em;*/
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background: #000; }
+  
+  .cssload-loader,
+  .cssload-loader:after,
+  .cssload-loader:before {
+    animation: 1.15s infinite ease-in-out;
+    -o-animation: 1.15s infinite ease-in-out;
+    -ms-animation: 1.15s infinite ease-in-out;
+    -webkit-animation: 1.15s infinite ease-in-out;
+    -moz-animation: 1.15s infinite ease-in-out; }
+  
+  .cssload-loader:after,
+  .cssload-loader:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  
+  .cssload-loader {
+    animation-name: cssload-loader;
+    -o-animation-name: cssload-loader;
+    -ms-animation-name: cssload-loader;
+    -webkit-animation-name: cssload-loader;
+    -moz-animation-name: cssload-loader; }
+  
+  @keyframes cssload-loader {
+    from {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1; }
+    to {
+      -webkit-transform: scale(5);
+              transform: scale(5);
+      opacity: 0; } }
+  @-webkit-keyframes cssload-loader {
+    from {
+      -webkit-transform: scale(0);
+      opacity: 1; }
+    to {
+      -webkit-transform: scale(1);
+      opacity: 0; } }
+  
+   /* Presentation */
+   header .xlog {
+    position: relative;
+    width: 150px; }
+  
+  header .xlog {
+    -webkit-animation: 5s girar2 infinite;
+            animation: 5s girar2 infinite;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible; }
+  
+  @-webkit-keyframes girar2 {
+    0% {
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg); }
+    50% {
+      -webkit-transform: rotateY(720deg);
+              transform: rotateY(720deg); }
+    100% {
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg); } }
+  
+  @keyframes girar2 {
+    0% {
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg); }
+    50% {
+      -webkit-transform: rotateY(720deg);
+              transform: rotateY(720deg); }
+    100% {
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg); } }

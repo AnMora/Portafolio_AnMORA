@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import logo from './multimedia/Nll_LllMllTS.png';
+import './CSS/loading.css';
+import $  from 'jquery';
+window.jQuery = $;
+
+export class Loading extends Component {
+    componentDidMount(){
+        $('#preloader').fadeOut('1000', function () {
+            $(this).remove();
+        });
+    }
+
+    render() {
+        return (
+            <>
+                <div id="preloader">
+                    <div class="wrapper">
+                        <img src={logo} className="cssload-loader" alt="Proyecto MllRA" />
+                    </div>
+                </div>
+            </>
+        )
+    }
+}
+
+export default Loading;
