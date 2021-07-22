@@ -6045,7 +6045,9 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
-    border-right: 0.2rem solid #cf1111;
+    /* border-right: 0.2rem solid #cf1111; */
+    border: 0.2rem solid transparent;
+    border-image: linear-gradient(to left, #161616 0%, #cf1111 100%) 1;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -6055,7 +6057,9 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.2rem solid #cf1111;
+    /* border: 0.2rem solid #cf1111; */
+    border: 0.2rem solid transparent;
+    border-image: linear-gradient(to right, #161616 0%, #cf1111 100%) 1;
   }
   #sideNav .navbar-collapse {
     display: flex;

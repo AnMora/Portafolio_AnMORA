@@ -41,7 +41,7 @@ const About = (props) => {
   const clientId = About.clientId
   
   const responseGoogle = (req) => {
-    console.log(`Estoy en responseGoogle`)
+    // console.log(`Estoy en responseGoogle`)
     const email = req.profileObj.email;
     setEmailValido(true);
     return setEmail(email);
@@ -53,7 +53,7 @@ const About = (props) => {
   const enviarEmail = (e) => {
     e.preventDefault();
     if(email === "" || asunto === "" || descripcion === ""){
-      toast.error(`Hace falta datos por llenar!`, {
+      toast.error(`Porfavor, completa los datos!`, {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
       setUsuarioValido(true);
@@ -74,7 +74,7 @@ const About = (props) => {
         setUsuarioValido(true);
         setCaptchaValido(true);
       } else {
-        toast.error(`Por favor acepta el Captcha!`, {
+        toast.error(`Porfavor, acepta el captcha!`, {
           position: toast.POSITION.BOTTOM_RIGHT,
         });
         setUsuarioValido(true);

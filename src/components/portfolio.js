@@ -12,7 +12,7 @@ import Projects from './projects';
 import Certifications from './certifications';
 
 // Data
-import Data from '../Utils/DataInformation'; 
+import Data from '../Utils/DataInformation';
 
 export class Portfolio extends Component {
     state = {
