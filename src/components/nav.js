@@ -36,9 +36,9 @@ class Nav extends Component {
             </span>
             <span className="d-none d-lg-block">
               <img
-                className="img-fluid img-profile rounded-circle mx-auto mb-2"
+                className="img-fluid img-profile mx-auto"
                 src={logo}
-                alt="..."
+                alt="AnM||RA NO_L||M||TS"
               />
             </span>
           </a>
