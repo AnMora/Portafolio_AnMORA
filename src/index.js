@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./CSS/bootstrap.min.css";
 import './CSS/general.css';
 
 import Portfolio from './components/portfolio';

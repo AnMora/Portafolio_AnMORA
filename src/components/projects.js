@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import image01 from "../multimedia/demo-image-01.jpg";
-import image02 from "../multimedia/demo-image-02.jpg";
+// import image01 from "../multimedia/demo-image-01.jpg";
+import image01 from "../multimedia/PRO_HTML_API_JSON.gif";
+import image02 from "../multimedia/PRO_SITRAINA.gif";
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,21 +19,21 @@ const Projects = (props) => {
         {position % 2 ? (
           <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
             <div className="col-lg-6">
-              {item.img === "image01" ? (
-                <img
-                  className="img-fluid"
-                  src={image01}
-                  alt=""
-                  data-aos="fade-up"
-                />
-              ) : (
-                <img
-                  className="img-fluid"
-                  src={image02}
-                  alt=""
-                  data-aos="fade-up"
-                />
-              )}
+            {item.img === "image01" ? (
+              <img
+                className="img-fluid"
+                src={image01}
+                alt={item.Title}
+                data-aos="fade-up"
+              />
+            ) : (
+              <img
+                className="img-fluid"
+                src={image02}
+                alt={item.Title}
+                data-aos="fade-up"
+              />
+            )}
             </div>
             <div className="col-lg-6">
               <div className="bg-black text-center h-100 project">
@@ -40,12 +41,12 @@ const Projects = (props) => {
                   <div className="project-text w-100 my-auto text-center text-lg-left" data-aos="fade-up">
                     <h4 className="text-white">{item.Title}</h4>
                     <h4 className="text-danger-danger">{item.Project_by}</h4>
-                    <p>{item.Description}</p>
-                    <div>
+                    <p className="text-light">{item.Description}</p>
+                    <div className="text-light">
                       Link:{" "}
                       <a
                         className="text-danger-danger"
-                        href="{item.link_verified}"
+                        href={item.link}
                         target="_blank"
                       >
                         {item.link}
@@ -64,14 +65,14 @@ const Projects = (props) => {
               <img
                 className="img-fluid"
                 src={image01}
-                alt=""
+                alt={item.Title}
                 data-aos="fade-up"
               />
             ) : (
               <img
                 className="img-fluid"
                 src={image02}
-                alt=""
+                alt={item.Title}
                 data-aos="fade-up"
               />
             )}
@@ -82,12 +83,12 @@ const Projects = (props) => {
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">{item.Title}</h4>
                   <h4 className="text-danger-danger">{item.Project_by}</h4>
-                  <p>{item.Description}</p>
-                  <div>
+                  <p className="text-light">{item.Description}</p>
+                  <div className="text-light">
                     Link:{" "}
                     <a
                       className="text-danger-danger"
-                      href="{item.link_verified}"
+                      href={item.link}
                       target="_blank"
                     >
                       {item.link}
