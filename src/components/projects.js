@@ -35,10 +35,10 @@ const Projects = (props) => {
               />
             )}
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-up">
               <div className="bg-black text-center h-100 project">
                 <div className="d-flex h-100">
-                  <div className="project-text w-100 my-auto text-center text-lg-left" data-aos="fade-up">
+                  <div className="project-text w-100 my-auto text-center text-lg-left">
                     <h4 className="text-white">{item.Title}</h4>
                     <h4 className="text-danger-danger">{item.Project_by}</h4>
                     <p className="text-light">{item.Description}</p>
@@ -111,10 +111,12 @@ const Projects = (props) => {
         id={Projects.id}
         className="resume-section projects-section"
       >
-        <div className="resume-section-content" data-aos="fade-up">
+        <div className="resume-section-content">
           <h2 className="mb-5 text-danger-danger">{Projects.Option}</h2>
-          
           {Projects_info}
+
+          
+          <h4 className="mt-3" data-aos="fade-up">Pronto se mostrarán más proyectos que siguen en producción...</h4>
         </div>
       </section>
     </>
