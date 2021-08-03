@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../multimedia/MORASKULL1.png";
+import logo from "../multimedia/Nll_LllMllTS.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/js/dist/collapse";
 import "../CSS/general.css";
