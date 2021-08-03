@@ -39,10 +39,11 @@ const About = (props) => {
   const template = About.template;
   const user = About.user;
   const clientId = About.clientId
+  const siteKey = About.siteKey
   
   const responseGoogle = (req) => {
-    // console.log(`Estoy en responseGoogle`)
     const email = req.profileObj.email;
+    console.log(email)
     setEmailValido(true);
     return setEmail(email);
   }
@@ -283,7 +284,7 @@ const About = (props) => {
                 </div>
                 <ReCAPTCHA
                   ref={captcha}
-                  sitekey="6LfELJEbAAAAAK2Z1EW1Liv48bC7rfJuEzE6cVWI"
+                  sitekey={siteKey}
                   onChange={onChange}
                 />
               </div>
