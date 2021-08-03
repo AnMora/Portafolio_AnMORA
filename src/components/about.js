@@ -42,7 +42,7 @@ const About = (props) => {
   const siteKey = About.siteKey
   
   const responseGoogle = (req) => {
-    const email = req.profileObj.email;
+    const email = req.profileObj?.email;
     console.log(email)
     setEmailValido(true);
     return setEmail(email);
