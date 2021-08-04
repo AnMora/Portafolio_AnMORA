@@ -470,7 +470,7 @@ const Data = {
             Project_by: "Instituto Nacional de Aprendizaje",
             Description: "Proyecto nuevo, continuacion de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje(INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en negociaciones para su total implementacion. Preview, en su funcion las pagina principal, hoja de miercoles y contactenos.",
             img: "image02",
-            link: "https://compassionate-raman-bd77d3.netlify.app"
+            link: "https://proyectositraina.netlify.app"
         }
     ]
 }
