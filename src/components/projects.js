@@ -114,8 +114,6 @@ const Projects = (props) => {
         <div className="resume-section-content">
           <h2 className="mb-5 text-danger-danger">{Projects.Option}</h2>
           {Projects_info}
-
-          
           <h4 className="mt-3" data-aos="fade-up">Pronto se mostrarán más proyectos que siguen en producción...</h4>
         </div>
       </section>

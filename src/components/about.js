@@ -165,13 +165,24 @@ const About = (props) => {
     <>
       <section className="resume-section" id={About_id.id}>
         <div className="resume-section-content" data-aos="fade-up">
-          <h1>
+          <h1 className="mb-0">
             {About.Name}
             <span className="text-danger-danger">{About.LastName}</span>
           </h1>
-          <p>{About.description}</p>
-          <p>{About.second_description}</p>
-          <div className="social-icons">{About_icons}</div>
+          <h3 className="mb-0">
+            {About.descripcion}
+          </h3>
+          <p>{About.presentacion}</p>
+          <p>{About.resumen}</p>
+          {/* <h2 className="text-danger-danger">{About.Titulo_mision}</h2>
+          <div>
+            {About.mision}
+          </div>
+          <h2 className="text-danger-danger">{About.Titulo_vision}</h2>
+          <div>
+            {About.vision}
+          </div> */}
+          <div className="mt-2 social-icons">{About_icons}</div>
         </div>
       </section>
       <hr className="m-0" />

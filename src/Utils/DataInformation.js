@@ -42,8 +42,15 @@ const Data = {
             Direction: "San Antonio de Escazu",
             Telephone: "(+506) 7254-7757",
             email: "anmora.2396@gmail.com",
-            description: "Gracias a mí formación especializada, me encantaría poder entrar a formar parte de una empresa para poder aplicar todos mis conocimientos e ideas y, al mismo tiempo, que me permita desarrollarme profesionalmente.",
-            second_description: "Tengo experiencia en programacion orientado a objetos para proporcionar una sinopsis sólida para descripciones generales de alto nivel. Los enfoques iterativos de la estrategia corporativa fomentan el pensamiento colaborativo para promover la propuesta de valor general.",
+            descripcion: "Desarrollador Web Full Stack",
+            presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
+            resumen: "Capacitado en nuevas tecnologias, aprendizaje en nuevas herramientas tendencias del mercado y tener proyeccion de servicios, provisionar los recursos y productos de alta calidad mejora el desempeño que garantiza la funcionalidad y mejoramiento para un crecimiento a mayor nivel de escabilidad.",
+            Titulo_mision: "Mision",
+            mision: "Proveer las herramientas web que impulsen el desarrollo competitivo y efectivo, proporcionando crecimiento e ingresos economicos deseados, proyectos que satisfagan las necesidades de los clientes y superen las espectativas de escabilidad y crecimiento para sus emprendimiento.",
+            Titulo_vision: "Vision",
+            vision: "Proyectar mis servicios y poder ser proveedor web de productos de alta calidad que faciliten el desempeño competitivo y el crecimiento para su empresa. Enfocado principalmente para paginas web, portales web, plataformas de comunicación y mercado de servicios.",
+            Titulo_compromiso: "Compromiso",
+            compromiso: "Como objetivo principal es garantizar y mantener la adecuada integridad, funcionalidad y desempeño de los productos, mediante implementacion de ideas, monitoreo y mejoramiento de factores de exito, así como la satisfacción de las necesidades, eficiencia y eficacia de productos y servicios de óptica calidad sobre nuevas tecnologias.",
             links: [
                 {
                     name: "Enviar Correo",
