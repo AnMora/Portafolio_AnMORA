@@ -169,9 +169,10 @@ const About = (props) => {
             {About.Name}
             <span className="text-danger-danger">{About.LastName}</span>
           </h1>
-          <h3 className="mb-0">
+          <div className="subheading mb-3">{About.descripcion}</div>
+          {/* <h3 className="mb-0">
             {About.descripcion}
-          </h3>
+          </h3> */}
           <p>{About.presentacion}</p>
           <p>{About.resumen}</p>
           {/* <h2 className="text-danger-danger">{About.Titulo_mision}</h2>
@@ -182,7 +183,7 @@ const About = (props) => {
           <div>
             {About.vision}
           </div> */}
-          <div className="subheading mb-3">Te invito a usar la primera opcion "enviar correo" por si deseas comunicarte conmigo</div>
+          <p>{About.invitacion}</p>
           <div className="mt-2 social-icons">{About_icons}</div>
         </div>
       </section>
