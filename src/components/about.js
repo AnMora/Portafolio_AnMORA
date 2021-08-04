@@ -182,6 +182,7 @@ const About = (props) => {
           <div>
             {About.vision}
           </div> */}
+          <div className="subheading mb-3">Te invito a usar la primera opcion "enviar correo" por si deseas comunicarte conmigo</div>
           <div className="mt-2 social-icons">{About_icons}</div>
         </div>
       </section>
