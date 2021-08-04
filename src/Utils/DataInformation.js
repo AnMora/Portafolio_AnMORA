@@ -72,11 +72,11 @@ const Data = {
                     icon: "fab fa-github",
                     link: "https://github.com/AnMora"
                 },
-                {
-                    name: "Facebook",
-                    icon: "fab fa-facebook-f",
-                    link: "https://www.facebook.com/an.mora011/"
-                },
+                // {
+                //     name: "Facebook",
+                //     icon: "fab fa-facebook-f",
+                //     link: "https://www.facebook.com/an.mora011/"
+                // },
                 {
                     name: "(Slack) An Mora",
                     icon: "fab fa-slack"
