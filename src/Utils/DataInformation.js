@@ -235,7 +235,7 @@ const Data = {
     Pro_Practice: [
         {
             Workplace: "4Geeks Academy",
-            Workplace_nick: "4Geeks Product",
+            Workplace_nick: "BreathCode (4Geeks Product)",
             Ubication: "No obtenido",
             telephone: "No obtenido",
             position: "Front End / Back-End Developer",
