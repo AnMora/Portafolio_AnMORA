@@ -242,7 +242,7 @@ const Data = {
             supervisor: "Lic. Alejandro Sanchez",
             range: "4Geeks Co-founder & Master Mentor",
             cellphone: "No obtenido",
-            job_description: "Encargado de Front-End y Back-End bajo asignaturas de SCRUM correspondientes a diferentes proyectos de la academia para mi entrenamiento, investigación, muestra de avances y manejo de controlador de versiones.",
+            job_description: "Encargado de Front-End y Back-End bajo asignaturas de Tech SCRUM correspondientes a diferentes proyectos de la academia para mi entrenamiento, investigación, uso de diferentes herramientas como AXIOS to FETCH API, Material Design UI, Matx React, React-Toastify, API Django, muestra de avances y manejo de controlador de versiones en ramas Master y Development.",
             link_name: "breatheco.de",
             link_verified: "https://github.com/orgs/4GeeksAcademy/projects",
             since_On_Day: "5",
@@ -446,6 +446,10 @@ const Data = {
                 {
                     name: "PYTHON",
                     icon: "fab fa-python"
+                },
+                {
+                    name: "Django Rest Framework",
+                    icon: "fas fa-cogs"
                 },
                 {
                     name: "Robot 3T",

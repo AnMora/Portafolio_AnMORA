@@ -35,11 +35,15 @@ class Nav extends Component {
             {About.First_NickName}<span className="text-danger-danger">{About.LastName}</span>
             </span>
             <span className="d-none d-lg-block">
-              <img
-                className="img-fluid img-profile mx-auto"
-                src={logo}
-                alt="AnM||RA NO_L||M||TS"
-              />
+              <div className="rotate">
+                <div className="image">
+                  <img
+                    className="img-fluid img-profile mx-auto"
+                    src={logo}
+                    alt="AnM||RA NO_L||M||TS"
+                  />
+                </div>
+              </div>
             </span>
           </a>
           <button
