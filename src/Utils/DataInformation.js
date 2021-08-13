@@ -16,7 +16,7 @@ const Data = {
             id: "certification"
         },
         {
-            Option: "Prac. Profesional",
+            Option: "Profesional",
             hash: "#experience",
             Option_complete: "Practica Profesional",
             id: "experience"
