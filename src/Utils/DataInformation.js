@@ -372,12 +372,20 @@ const Data = {
                     icon: "fab fa-sass"
                 },
                 {
-                    name: "JS",
+                    name: "JavaScript",
                     icon: "fab fa-js"
+                },
+                {
+                    name: "VANILLAJS",
+                    icon: "fab fa-node-js"
                 },
                 {
                     name: "REACTJS",
                     icon: "fab fa-react"
+                },
+                {
+                    name: "REACT FLUX",
+                    icon: "fab fa-jsfiddle"
                 },
                 {
                     name: "Fetch API",
@@ -394,6 +402,10 @@ const Data = {
                 {
                     name: "NPM",
                     icon: "fab fa-npm"
+                },
+                {
+                    name: "WEBPACK",
+                    icon: "fas fa-box-open"
                 },
                 {
                     name: "Firefox Dev Edition",
@@ -424,16 +436,24 @@ const Data = {
                     icon: "fas fa-code-branch"
                 },
                 {
+                    name: "NODEJS",
+                    icon: "fab fa-node"
+                },
+                {
                     name: "EXPRESSJS",
                     icon: "fas fa-cogs"
+                },
+                {
+                    name: "PYTHON",
+                    icon: "fab fa-python"
                 },
                 {
                     name: "FLASK",
                     icon: "fas fa-flask"
                 },
                 {
-                    name: "NODEJS",
-                    icon: "fab fa-node"
+                    name: "Django Rest Framework",
+                    icon: "fas fa-cogs"
                 },
                 {
                     name: "MONGODB",
@@ -442,14 +462,6 @@ const Data = {
                 {
                     name: "MONGODB Compass",
                     icon: "far fa-compass"
-                },
-                {
-                    name: "PYTHON",
-                    icon: "fab fa-python"
-                },
-                {
-                    name: "Django Rest Framework",
-                    icon: "fas fa-cogs"
                 },
                 {
                     name: "Robot 3T",
