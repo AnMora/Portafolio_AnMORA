@@ -291,20 +291,27 @@ const Data = {
     Skills: [
         {
             subheading: "Lenguajes de programacion & herramientas",
-            workflow: "Flujo de trabajo",
+            workflow: "Habilidades Blandas",
             description: [
                 {
-                    flujo: "Diseño receptivo, primero en dispositivos móviles"
+                    flujo: "Diseño receptivo, primero en dispositivos móviles, multifuncional"
                 },
                 {
                     flujo: "Pruebas y depuración de navegadores cruzados"
                 },
                 {
-                    flujo: "Equipos multifuncionales"
+                    flujo: "Desarrollo ágil y SCRUM"
                 },
                 {
-                    flujo: "Desarrollo ágil y Scrum"
+                    flujo: "Pensamiento analítico, crítico e innovación"
+                },
+                {
+                    flujo: "Creatividad, originalidad e iniciativa"
+                },
+                {
+                    flujo: "Razonamiento, resolución de problemas complejos e ideación"
                 }
+
             ],
             links: [
                 {
