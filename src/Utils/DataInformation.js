@@ -479,6 +479,10 @@ const Data = {
                     icon: "far fa-compass"
                 },
                 {
+                    name: "MONGODB ATLAS",
+                    icon: "fas fa-cloud-upload-alt"
+                },
+                {
                     name: "Robot 3T",
                     icon: "fas fa-robot"
                 },
