@@ -82,6 +82,7 @@ const About = (props) => {
         });
         setUsuarioValido(true);
         setCaptchaValido(true);
+        return setEmailValido(false);
       } else {
         toast.error(`Porfavor, acepta el captcha!`, {
           position: toast.POSITION.BOTTOM_RIGHT,
