@@ -451,6 +451,14 @@ const Data = {
                     icon: "fas fa-cogs"
                 },
                 {
+                    name: "ODM MONGOOSE",
+                    icon: "fas fa-cog"
+                },
+                {
+                    name: "SWAGGE API REST",
+                    icon: "fas fa-wrench"
+                },
+                {
                     name: "PYTHON",
                     icon: "fab fa-python"
                 },
@@ -459,7 +467,7 @@ const Data = {
                     icon: "fas fa-flask"
                 },
                 {
-                    name: "Django Rest Framework",
+                    name: "Django DRF",
                     icon: "fas fa-cogs"
                 },
                 {
