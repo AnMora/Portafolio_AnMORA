@@ -44,8 +44,16 @@ const About = (props) => {
   const responseGoogle = (req) => {
     const email = req.profileObj?.email;
     console.log(email)
-    setEmailValido(true);
-    return setEmail(email);
+    if(email === undefined || email === ""){
+      toast.error(`Porfavor, agregue un correo!`, {
+        position: toast.POSITION.BOTTOM_RIGHT,
+      });
+      setEmailValido(false);
+      return setEmail("");
+    }else{
+      setEmailValido(true);
+      return setEmail(email);
+    }
   }
 
   // const { almacenada } = responseGoogle;
@@ -53,14 +61,14 @@ const About = (props) => {
 
   const enviarEmail = (e) => {
     e.preventDefault();
-    if(email === "" || asunto === "" || descripcion === ""){
+    if(email === "" || email === undefined && asunto === "" || descripcion === ""){
       toast.error(`Porfavor, completa los datos!`, {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
-      setUsuarioValido(true);
+      setUsuarioValido(false);
       setCaptchaValido(false);
     }else{
-      if (captcha.current.getValue()) {
+      if(captcha.current.getValue()) {
         emailjs.sendForm(service, template, e.target, user)
         .then((result) => {
           toast.success(`El correo se envio exitosamente!`, {
