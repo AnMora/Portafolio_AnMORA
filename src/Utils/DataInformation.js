@@ -455,7 +455,7 @@ const Data = {
                     icon: "fas fa-cog"
                 },
                 {
-                    name: "SWAGGE API REST",
+                    name: "SWAGGER API REST",
                     icon: "fas fa-wrench"
                 },
                 {
