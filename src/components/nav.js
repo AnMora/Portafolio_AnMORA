@@ -30,6 +30,7 @@ class Nav extends Component {
           className="navbar navbar-expand-lg navbar-dark bg-black fixed-top"
           id="sideNav"
         >
+          <div className="column-style-top"></div>
           <a className="navbar-brand js-scroll-trigger">
             <span className="d-block d-lg-none">
             {About.First_NickName}<span className="text-danger-danger">{About.LastName}</span>
@@ -62,6 +63,7 @@ class Nav extends Component {
               {Options}
             </ul>
           </div>
+          <div className="column-style-bottom"></div>
         </nav>
       </>
     );
