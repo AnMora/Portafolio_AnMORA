@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import image01 from "../multimedia/demo-image-01.jpg";
 import image01 from "../multimedia/PRO_HTML_API_JSON.gif";
 import image02 from "../multimedia/PRO_SITRAINA.gif";
+import image03 from "../multimedia/Que_peli_ver.gif";
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -71,7 +72,7 @@ const Projects = (props) => {
             ) : (
               <img
                 className="img-fluid"
-                src={image02}
+                src={image03}
                 alt={item.Title}
                 data-aos="fade-up"
               />
@@ -123,6 +124,6 @@ const Projects = (props) => {
 
 export default Projects;
 
-// Además de ser desarrollador web, disfruto la mayor parte del tiempo al aire libre. En el invierno, soy un ávido esquiador y un escalador de hielo novato. Durante los meses más cálidos aquí en Colorado, disfruto del ciclismo de montaña, la escalada libre y el kayak.
+// Además de ser desarrollador web, disfruto parte del tiempo a investigar y evacuar dudas tecnologicas. Soy un avido dibujante, deseo lograr un sitio web para publicar mis dibujos y permitir a otros dibujantes que den a conocer sus proyectos. Durante los dias de descanso, disfruto pasar en familia, compartir con amistades y compartir con los que he perdido comunicacion.
 
-// Cuando me obligan a entrar en casa, sigo una serie de películas y programas de televisión de ciencia ficción y fantasía, soy un aspirante a chef y dedico gran parte de mi tiempo libre a explorar los últimos avances tecnológicos en el mundo del desarrollo web front-end.
+// Dedico gran parte de mi tiempo libre a explorar los últimos avances tecnológicos en el mundo del desarrollo web front-end.

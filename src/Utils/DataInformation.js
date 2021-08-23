@@ -514,7 +514,16 @@ const Data = {
             Description: "Proyecto nuevo, continuacion de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje(INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en negociaciones para su total implementacion. Preview, en su funcion las pagina principal, hoja de miercoles y contactenos.",
             img: "image02",
             link: "https://proyectositraina.netlify.app"
-        }
+        },
+        {
+            Title: "Que pelis ver?",
+            Project_by: "AnMORA",
+            Description: "Proyecto personal de investigacion y aprendizaje para sugerir peliculas y que se almacenen para que otros podamos ver, se utilizaron herramientas de Front End en ReactJS, usando React AXIOS para Fetch API con Back End NodeJS y uso de Base de Datos con almacen en MongoDB ATLAS, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y Heroku para su almacen. El sitio aun se encuentra en construccion y en mejoras.",
+            img: "image03",
+            link: "https://mighty-gorge-25078.herokuapp.com/"
+        },
+
+        // Proyecto de investigacion y aprendizaje de manejo de Front End React JS y usando React AXIOS para Fetch API con Back End NodeJS y uso de Base de Datos con almacen en MongoDB ATLAS, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y Heroku. El sitio aun se encuentra en construccion.
     ]
 }
 
