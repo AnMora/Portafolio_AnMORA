@@ -497,7 +497,7 @@ const Data = {
         {
             Title: "Proyecto M||RA",
             Project_by: "Instituto Nacional de Aprendizaje",
-            Description: "El propósito de esta sitio es dar a conocer las capacidades que como desarrolladores web obtuvimos mediante un largo tiempo de estudio. La informacion es extraida REST API en formato JSON con AJAX manejando el DOM directamente con JS. Cabe resaltar el entretenimiento del sitio web con videos y musica que incluye, ideas propias de mi persona.",
+            Description: "El propósito de esta sitio es dar a conocer las capacidades que como desarrolladores web obtuvimos mediante un largo tiempo de estudio. La arquitectura de software se realiza API REST remota para la interaccion de servicio web en data JSON y AJAX con JavaScript. Cabe resaltar el entretenimiento del sitio web con videos y musica que incluye, ideas propias de mi persona.",
             img: "image01",
             link: "https://anmora.github.io/Practica-HTML-API-JSON/index.html"
         },
@@ -518,12 +518,10 @@ const Data = {
         {
             Title: "Que pelis ver?",
             Project_by: "AnMORA",
-            Description: "Proyecto personal de investigacion y aprendizaje para sugerir peliculas y que se almacenen para que otros podamos ver, se utilizaron herramientas de Front End en ReactJS, usando React AXIOS para Fetch API con Back End NodeJS y uso de Base de Datos con almacen en MongoDB ATLAS, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y Heroku para su almacen. El sitio aun se encuentra en construccion y en mejoras.",
+            Description: "Proyecto personal de investigacion y aprendizaje para sugerir peliculas y que otros podamos ver, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aun se encuentra en construccion y en mejoras.",
             img: "image03",
             link: "https://mighty-gorge-25078.herokuapp.com/"
         },
-
-        // Proyecto de investigacion y aprendizaje de manejo de Front End React JS y usando React AXIOS para Fetch API con Back End NodeJS y uso de Base de Datos con almacen en MongoDB ATLAS, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y Heroku. El sitio aun se encuentra en construccion.
     ]
 }
 
