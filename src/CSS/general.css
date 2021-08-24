@@ -6133,8 +6133,8 @@ p.lead {
   .column-style-top{
     position: fixed;
     top: 0;
-    left: 262px;
-    width: 20px;
+    left: 252px;
+    width: 40px;
     height: 60px;
     background-color: #7e0412;
     z-index: 100;
@@ -6149,27 +6149,27 @@ p.lead {
     background-color: #161616;
     left: 0;
     bottom: -10px;
-    transform: skewY(40deg);
+    transform: skewY(45deg);
   }
 
   .column-style-top::after{
     content: '';
     width: 50%;
-    min-height: 70px;
+    min-height: 100px;
     max-height: 25vh;
     position: absolute;
     background-color: #cf1111;
     bottom: 0;
     right: 0;
-    bottom: -5px;
-    transform: skewY(-40deg);
+    bottom: -15px;
+    transform: skewY(-45deg);
   }
   
   .column-style-bottom{
     position: fixed;
     bottom: 0;
-    left: 262px;
-    width: 20px;
+    left: 252px;
+    width: 40px;
     height: 60px;
     background-color: #7e0412;
     z-index: 100;
@@ -6184,19 +6184,19 @@ p.lead {
     background-color: #161616;
     left: 0;
     bottom: 20px;
-    transform: skewY(-40deg);
+    transform: skewY(-45deg);
   }
 
   .column-style-bottom::after{
     content: '';
     width: 50%;
-    min-height: 70px;
+    min-height: 100px;
     max-height: 25vh;
     position: absolute;
     background-color: #cf1111;
     right: 0;
-    bottom: -5px;
-    transform: skewY(40deg);
+    top: -15px;
+    transform: skewY(45deg);
   }
 }
 .social-icons .social-icon {
