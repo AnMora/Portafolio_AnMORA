@@ -6108,7 +6108,7 @@ p.lead {
 .column-style-left-bottom{
   position: fixed;
     bottom: 55px;
-    left: -10px;
+    left: -9px;
     width: 20px;
     height: 20px;
     background-color: #cf1111;
@@ -6142,7 +6142,7 @@ p.lead {
 .column-style-right-bottom{
   position: fixed;
     bottom: 55px;
-    right: -10px;
+    right: -9px;
     width: 20px;
     height: 20px;
     background-color: #cf1111;
@@ -6286,7 +6286,6 @@ p.lead {
     max-height: 25vh;
     position: absolute;
     background-color: #cf1111;
-    bottom: 0;
     right: 0;
     bottom: -15px;
     transform: skewY(-45deg);
@@ -6310,7 +6309,7 @@ p.lead {
     position: absolute;
     background-color: #fff;
     right: 0;
-    bottom: -10px;
+    bottom: -15px;
     transform: skewY(-45deg);
   }
 
@@ -6321,7 +6320,6 @@ p.lead {
     max-height: 25vh;
     position: absolute;
     background-color: #cf1111;
-    bottom: 0;
     left: 0;
     bottom: -15px;
     transform: skewY(45deg);
@@ -6377,7 +6375,7 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #161616;
+    background-color: #fff;
     right: 0;
     bottom: 20px;
     transform: skewY(45deg);
