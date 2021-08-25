@@ -6048,12 +6048,12 @@ p.lead {
 .column-style-left-top::before{
   content: '';
   width: 50%;
-  min-height: 100px;
+  min-height: 2000px;
   max-height: 25vh;
   position: absolute;
   background-color: #cf1111;
   left: 0;
-  bottom: -15px;
+  bottom: -1000px;
   transform: skewY(45deg);
 }
 
@@ -6066,7 +6066,7 @@ p.lead {
   background-color: #cf1111;
   bottom: 0;
   right: 0;
-  bottom: 16px;
+  bottom: 20px;
   transform: skewY(-45deg);
 }
 
@@ -6082,12 +6082,12 @@ p.lead {
 .column-style-right-top::before{
   content: '';
   width: 50%;
-  min-height: 100px;
+  min-height: 2000px;
   max-height: 25vh;
   position: absolute;
   background-color: #cf1111;
   right: 0;
-  bottom: -15px;
+  bottom: -1000px;
   transform: skewY(-45deg);
 }
 
@@ -6100,7 +6100,7 @@ p.lead {
   background-color: #cf1111;
   bottom: 0;
   left: 0;
-  bottom: 16px;
+  bottom: 20px;
   transform: skewY(45deg);
 }
 
