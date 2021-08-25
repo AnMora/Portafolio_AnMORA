@@ -6066,7 +6066,7 @@ p.lead {
   background-color: #cf1111;
   bottom: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 10px;
   transform: skewY(-45deg);
 }
 
@@ -6100,7 +6100,7 @@ p.lead {
   background-color: #cf1111;
   bottom: 0;
   left: 0;
-  bottom: 20px;
+  bottom: 10px;
   transform: skewY(45deg);
 }
 
