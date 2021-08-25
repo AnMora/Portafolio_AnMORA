@@ -179,19 +179,8 @@ const About = (props) => {
             <span className="text-danger-danger">{About.LastName}</span>
           </h1>
           <div className="subheading mb-3">{About.descripcion}</div>
-          {/* <h3 className="mb-0">
-            {About.descripcion}
-          </h3> */}
           <p>{About.presentacion}</p>
           <p>{About.resumen}</p>
-          {/* <h2 className="text-danger-danger">{About.Titulo_mision}</h2>
-          <div>
-            {About.mision}
-          </div>
-          <h2 className="text-danger-danger">{About.Titulo_vision}</h2>
-          <div>
-            {About.vision}
-          </div> */}
           <p>{About.invitacion}</p>
           <div className="mt-2 social-icons">{About_icons}</div>
         </div>
@@ -249,25 +238,6 @@ const About = (props) => {
                         </div>
                       </>
                     }
-                    {/* <div className="col-sm-6">
-                      <input
-                        type="email"
-                        className="form-control-plaintext"
-                        placeholder="email@example.com"
-                        value={email}
-                        name="email"
-                        onChange={e => setEmail(e.target.value)}
-                      />
-                    </div>
-                    <div className="col-sm-4">
-                      <GoogleLogin
-                        clientId="820641787972-k7l8h3q7a4mt28maotjod30ffqirrq8l.apps.googleusercontent.com"
-                        buttonText="Login"
-                        onSuccess={responseGoogle}
-                        onFailure={responseGoogle}
-                        cookiePolicy={'single_host_origin'}
-                      />
-                    </div> */}
                     <label
                       className="col-sm-2 col-form-label"
                     >
