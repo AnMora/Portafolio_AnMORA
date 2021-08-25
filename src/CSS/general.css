@@ -6053,7 +6053,7 @@ p.lead {
   max-height: 25vh;
   position: absolute;
   background-color: #cf1111;
-  left: 0;
+  left: 1px;
   bottom: -1000px;
   transform: skewY(45deg);
 }
@@ -6087,7 +6087,7 @@ p.lead {
   max-height: 25vh;
   position: absolute;
   background-color: #cf1111;
-  right: 0;
+  right: 2px;
   bottom: -1000px;
   transform: skewY(-45deg);
 }
