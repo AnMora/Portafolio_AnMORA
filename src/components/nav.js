@@ -46,8 +46,6 @@ class Nav extends Component {
               </div>
             </span>
           </a>
-          <div className="column-style-top"></div>
-          <div className="column-style-bottom"></div>
           <button
             className="navbar-toggler"
             type="button"
@@ -64,10 +62,13 @@ class Nav extends Component {
               {Options}
             </ul>
           </div>          
-          {/* <div className="column-style-left-top"></div>
+          <div className="column-style-left-top"></div>
           <div className="column-style-left-bottom"></div>
           <div className="column-style-right-top"></div>
-          <div className="column-style-right-bottom"></div> */}
+          <div className="column-style-right-bottom"></div>
+
+          <div className="column-style-top"></div>
+          <div className="column-style-bottom"></div>
         </nav>
         
       </>
