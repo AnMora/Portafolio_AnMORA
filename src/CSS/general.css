@@ -6100,7 +6100,7 @@ p.lead {
   position: absolute;
   background-color: #cf1111;
   bottom: 0;
-  left: 1px;
+  left: 0;
   bottom: 14px;
   transform: skewY(45deg);
 }
