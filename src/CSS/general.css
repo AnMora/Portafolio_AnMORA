@@ -6042,7 +6042,7 @@ p.lead {
   left: -10px;
   width: 20px;
   height: 20px;
-  background-color: #cf1111;
+  background-color: #161616;
 }
 
 .column-style-left-top::before{
@@ -6066,7 +6066,7 @@ p.lead {
   background-color: #cf1111;
   bottom: 0;
   right: 0;
-  bottom: -15px;
+  bottom: 26px;
   transform: skewY(-45deg);
 }
 
@@ -6076,7 +6076,7 @@ p.lead {
   right: -10px;
   width: 20px;
   height: 20px;
-  background-color: #cf1111;
+  background-color: #161616;
 }
 
 .column-style-right-top::before{
@@ -6100,7 +6100,7 @@ p.lead {
   background-color: #cf1111;
   bottom: 0;
   left: 0;
-  bottom: -15px;
+  bottom: 15px;
   transform: skewY(45deg);
 }
 
