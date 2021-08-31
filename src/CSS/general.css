@@ -6037,6 +6037,8 @@ p.lead {
   outline-color: #dee2e6;
 }
 
+/* Vista dispositivos moviles */
+
 .column-style-left-top{
   position: fixed;
 }
@@ -6123,6 +6125,10 @@ p.lead {
   transform: skewX(-45deg);
 }
 
+/* Vista dispositivos moviles */
+
+/* Vista ordenadores */
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -6133,8 +6139,8 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
-    border: 0.2rem solid transparent;
-    border-image: linear-gradient(to left, #161616 0%, #cf1111 100%) 1;
+    border: 0.3rem solid transparent;
+    border-image: linear-gradient(to left, #161616 10%, #cf1111 100%) 1;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -6143,8 +6149,8 @@ p.lead {
   #sideNav .navbar-brand .rotate{
     position: relative;
     /* border: 1px solid #cf1111; */
-    height: 170px;
-    width: 170px;
+    height: 180px;
+    width: 180px;
     background-color: #161616;
     overflow: hidden;
   }
@@ -6157,15 +6163,17 @@ p.lead {
     );
     height: 150%;
     width: 150%;
-    left: -35px;
-    top: -35px;
+    left: -40px;
+    top: -50px;
     animation: rotate 2s infinite linear;
   }
+
   @keyframes rotate{
     100%{
       transform: rotate(-360deg);
     }
   }
+  
   #sideNav .navbar-brand .rotate::after{
     content: "";
     height: 95%;
@@ -6282,9 +6290,9 @@ p.lead {
   .column-style-left-top{
     position: fixed;
     top: 0;
-    left: 252px;
-    width: 40px;
-    height: 60px;
+    left: 242px;
+    width: 60px;
+    height: 70px;
     background-color: #7e0412;
     z-index: 100;
   }
@@ -6297,7 +6305,7 @@ p.lead {
     position: absolute;
     background-color: #161616;
     left: 0;
-    bottom: -10px;
+    bottom: -15px;
     transform: skewY(45deg);
   }
 
@@ -6316,9 +6324,9 @@ p.lead {
   .column-style-right-top{
     position: fixed;
     top: 0;
-    right: -20px;
-    width: 40px;
-    height: 60px;
+    right: -30px;
+    width: 60px;
+    height: 70px;
     background-color: #7e0412;
     z-index: 100;
   }
@@ -6350,9 +6358,9 @@ p.lead {
   .column-style-left-bottom{
     position: fixed;
     bottom: 0;
-    left: 252px;
-    width: 40px;
-    height: 60px;
+    left: 242px;
+    width: 60px;
+    height: 70px;
     background-color: #7e0412;
     z-index: 100;
   }
@@ -6365,7 +6373,7 @@ p.lead {
     position: absolute;
     background-color: #161616;
     left: 0;
-    bottom: 20px;
+    bottom: 35px;
     transform: skewY(-45deg);
   }
 
@@ -6384,9 +6392,9 @@ p.lead {
   .column-style-right-bottom{
     position: fixed;
     bottom: 0;
-    right: -20px;
-    width: 40px;
-    height: 60px;
+    right: -30px;
+    width: 60px;
+    height: 70px;
     background-color: #7e0412;
     z-index: 100;
   }

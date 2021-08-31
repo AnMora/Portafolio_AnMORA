@@ -15,6 +15,11 @@ const Data = {
             hash: "#certification",
             id: "certification"
         },
+        // {
+        //     Option: "Charlas",
+        //     hash: "#certification",
+        //     id: "certification"
+        // },
         {
             Option: "Profesional",
             hash: "#experience",
@@ -300,7 +305,7 @@ const Data = {
                     flujo: "Pruebas y depuración de navegadores cruzados"
                 },
                 {
-                    flujo: "Desarrollo ágil y SCRUM"
+                    flujo: "Desarrollo ágil y metodologias SCRUM y KANBAN"
                 },
                 {
                     flujo: "Pensamiento analítico, crítico e innovación"
