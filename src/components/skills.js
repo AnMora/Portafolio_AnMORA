@@ -9,7 +9,7 @@ const Skills = (props) => {
     AOS.init({ duration: 2000 });
   }, []);
 
-  const Skills = props.data.Options[4];
+  const Skills = props.data.Options[5];
 
   const Skills_info = props.data.Skills[0];
 

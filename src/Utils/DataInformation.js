@@ -15,11 +15,11 @@ const Data = {
             hash: "#certification",
             id: "certification"
         },
-        // {
-        //     Option: "Charlas",
-        //     hash: "#certification",
-        //     id: "certification"
-        // },
+        {
+            Option: "Talleres",
+            hash: "#workshops",
+            id: "workshops"
+        },
         {
             Option: "Profesional",
             hash: "#experience",
@@ -49,8 +49,9 @@ const Data = {
             email: "anmora.2396@gmail.com",
             descripcion: "Desarrollador Web Full Stack",
             presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos, se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
-            resumen: "Capacitado en nuevas tecnologías, aprendizaje en nuevas herramientas de tendencia en el mercado laboral y proyección de servicios, provisionar los recursos y productos de alta calidad de entregada para el desempeño, funciónalidad y mejoramiento de un crecimiento a mayor nivel de escabilidad.",
-            invitacion: "Te invito a usar la primera opción 'Enviar Correo' por si deseas comunicarte conmigo.",
+            resumen: "Autodidacta, con grandes sueños y aspiraciones, metas por cumplir y agregar más a mi lista de aprendizaje, surgir y superarme cada día más como desarrollador web, en capacitación constante en nuevas tecnologías, aprendizaje en nuevas herramientas de tendencia en el mercado laboral y proyección de servicios, provisionar los recursos y productos de alta calidad de entregada para el desempeño, funcionalidad y mejoramiento de un crecimiento, los proyectos se hacen a un mayor nivel de escabilidad con un valor único y original.",
+            tiempo_libre: "Dedico gran parte de mi tiempo libre a explorar los últimos avances tecnológicos en el mundo del desarrollo web. Además de ser desarrollador web, disfruto parte del tiempo a diseñar e investigar, soy un ávido dibujante, deseo lograr un sitio web para publicar mis dibujos y permitir a otros dibujantes que den a conocer sus proyectos. Durante los días de descanso, disfruto pasar en familia, compartir con amistades y disfrutar de los pequeños detalles.",
+            invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
             Titulo_mision: "Mision",
             mision: "Proveer las herramientas web que impulsen el desarrollo competitivo y efectivo, proporciónando crecimiento e ingresos economicos deseados, proyectos que satisfagan las necesidades de los clientes y superen las espectativas de escabilidad y crecimiento para sus emprendimiento.",
             Titulo_vision: "Vision",
@@ -163,6 +164,24 @@ const Data = {
     Certifications: [
         {
             Issuer: "Udemy",
+            Title: "Create a Business or Personal Website with Wordpress",
+            Issued_On_Day: "12",
+            Issued_On_Month: "Septiembre",
+            Issued_On_Year: "2021",
+            Expired_On: "No caduda",
+            Instructores: [
+                {Instructor: "Bluelime Learning Solutions en Udemy"}
+            ],
+            Description: "El anterior certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Create a Business or Personal Website with Wordpress, habiendo sido impartido por Bluelime Learning Solutions en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+            Level: "No obtenido",
+            Total_Hours: "3,5",
+            Total_Classes: "33",
+            link_name: "udemy.com/certificate",
+            link_verified: "https://www.udemy.com/certificate/UC-bbeb27d5-9c9f-44d2-913a-9b235289efae/",
+            Register_No: "UC-bbeb27d5-9c9f-44d2-913a-9b235289efae"
+        },
+        {
+            Issuer: "Udemy",
             Title: "Full-Stack Web Development with React and MongoDB",
             Issued_On_Day: "24",
             Issued_On_Month: "Junio",
@@ -237,7 +256,69 @@ const Data = {
             Register_No: "UC-5a94fd97-1607-4dbe-b9cf-740d62e8286c"
         },
     ],
+    Workshops: [
+        {
+            Issuer: "Udemy",
+            Title: "Aprende PHP y MySQLi, conceptos básicos para principiantes.",
+            Issued_On_Day: "14",
+            Issued_On_Month: "Agosto",
+            Issued_On_Year: "2021",
+            Description: "Introducción a PHP de una manera rápida y sencilla, adquiriendo todos los conceptos básicos que les permitan desarrollar proyectos desde lo más básico, obteniendo las bases necesarias para proyectos de mayor complejidad. Gracias a este lenguaje han sido creados proyectos exitosos como Facebook, Wordpress, Wikipedia y muchos más. Capacidad de entender la lógica de la programación web, contaran con la habilidad de manejar datos por medio de mysqli y php, capacidad de crear sus propios proyectos de sitios dinámicos, contar con el conocimiento suficiente para continuar aprendiendo.",
+            Level: "No obtenido",
+            Total_Hours: "2",
+            Total_Classes: "28",
+        },
+        {
+            Issuer: "Udemy",
+            Title: "Fundamentos de Programación Web para Principiantes.",
+            Issued_On_Day: "25",
+            Issued_On_Month: "Julio",
+            Issued_On_Year: "2021",
+            Description: "Introducción a la Programación Web, Lenguajes, Frameworks, BD, Herramientas y como convertirte en Desarrollador Web. Te enseñará lo básico de convertirte en Desarrollador Web, temas como: Lenguajes de Programación web, cuales son los más populares, Diferencias entre Desarrolladores Front End y Backend, ¿Que es un framework y porque aprender uno o más?, ¿Que son las Operaciones CRUD que todo desarrollador backend debe hacer?, ¿Que son las Bases de Datos?, ¿Qué es el Hosting?, Otras herramientas como Web Developer Tools, Emuladores y servidores locales, Diseño de Interfaz de Usuario, wireframing y prototyping, Responsive Web Design, Accesibilidad y más al finalizar el curso no serás un programador web pero tendrás más claro tu camino y que debes aprender para convertirte en uno.",
+            Level: "No obtenido",
+            Total_Hours: "2,5",
+            Total_Classes: "30",
+        },
+        {
+            Issuer: "4Geeks Academy",
+            Title: "Iníciate en Node.Js",
+            Issued_On_Day: "2",
+            Issued_On_Month: "Junio",
+            Issued_On_Year: "2021",
+            Description: "Introducción para tomar rumbo en NodeJS. ¿De qué se trata?, dudas sobre los siguientes temas: ¿Qué es NodeJS?, Instalación, ¿Qué es NPM?, Arquitectura de NodeJS, Principales módulos, ¿Por qué usar TypeScript?, Ecosistema. Además, resolveremos todas las dudas junto al gran experto, Manuel Ortega, Mentor Instructor de 4Geeks Academy.",
+            Level: "No obtenido",
+            Total_Hours: "",
+            Total_Classes: "",
+        },
+    ],
     Pro_Practice: [
+        {
+            Workplace: "YFSE Fundacion para la juventud el ambiente y los deportes",
+            Workplace_nick: "PSH Bitcoin",
+            Ubication: "No obtenido",
+            telephone: "No obtenido",
+            position: "Lider de Proyecto",
+            supervisor: "Luis Santiago Berliotz / Juan Villalobos",
+            range: "Project Management",
+            cellphone: "(+506) 8433-5496",
+            job_description: "Encargado como líder de proyecto, bajo uso de plataforma JIRA en metodología KANBAN para registro de actividades realizadas, uso de plataforma WordPress con widget Elementor (Front End) y CPanel con PHPMyAdmin (Backend), realización de backups, entre otras actividades como reuniones y uso correo institucional para supervision a cargo de implementación y producción de este sitio. De momento el sitio web se encuentra en desarrollo.",
+            link_name: "yfse.org",
+            link_verified: "https://yfse.org/",
+            since_On_Day: "25",
+            since_On_Month: "Agosto",
+            since_On_Year: "2021",
+            phrase: "Actualmente",
+            Work_here: "Si",
+            until_On_Day: "",
+            until_On_Month: "",
+            until_On_Year: "",
+            links: [
+                {
+                    icon: "fab fa-facebook-f",
+                    facebook: "https://www.facebook.com/SitrainaCR/",
+                },
+            ]
+        },
         {
             Workplace: "4Geeks Academy",
             Workplace_nick: "BreathCode (4Geeks Product)",
@@ -253,11 +334,11 @@ const Data = {
             since_On_Day: "5",
             since_On_Month: "Junio",
             since_On_Year: "2021",
-            phrase: "Actualmente",
-            Work_here: "Si",
-            until_On_Day: "",
-            until_On_Month: "",
-            until_On_Year: "",
+            phrase: "",
+            Work_here: "No",
+            until_On_Day: "30",
+            until_On_Month: "Agosto",
+            until_On_Year: "2021",
             links: [
                 {
                     icon: "fab fa-facebook-f",

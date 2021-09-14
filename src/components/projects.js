@@ -12,7 +12,7 @@ const Projects = (props) => {
     AOS.init({ duration: 2000 });
   }, []);
 
-  const Projects = props.data.Options[5];
+  const Projects = props.data.Options[6];
 
   const Projects_info = props.data.Projects.map((item, position) => {
     return (
@@ -123,7 +123,3 @@ const Projects = (props) => {
 };
 
 export default Projects;
-
-// Además de ser desarrollador web, disfruto parte del tiempo a investigar y evacuar dudas tecnologicas. Soy un avido dibujante, deseo lograr un sitio web para publicar mis dibujos y permitir a otros dibujantes que den a conocer sus proyectos. Durante los dias de descanso, disfruto pasar en familia, compartir con amistades y compartir con los que he perdido comunicacion.
-
-// Dedico gran parte de mi tiempo libre a explorar los últimos avances tecnológicos en el mundo del desarrollo web front-end.

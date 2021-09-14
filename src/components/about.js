@@ -179,10 +179,11 @@ const About = (props) => {
             <span className="text-danger-danger">{About.LastName}</span>
           </h1>
           <div className="subheading mb-3">{About.descripcion}</div>
-          <p>{About.presentacion}</p>
+          {/* <p>{About.presentacion}</p> */}
           <p>{About.resumen}</p>
+          <p>{About.tiempo_libre}</p>
           <p>{About.invitacion}</p>
-          <div className="mt-2 social-icons">{About_icons}</div>
+          {/* <div className="mt-2 social-icons">{About_icons}</div> */}
         </div>
       </section>
       <hr className="m-0" />

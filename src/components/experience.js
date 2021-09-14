@@ -8,7 +8,7 @@ const Experience = (props) => {
         AOS.init({ duration: 2000 });
     }, []);
 
-    const proPractice = props.data.Options[3];
+    const proPractice = props.data.Options[4];
 
     const Pro_info = props.data.Pro_Practice.map((item,position) => {
         return(

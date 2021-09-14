@@ -4,12 +4,14 @@ import '../CSS/general.css';
 // Develop Parts
 import Loading from '../loading';
 import Nav from './nav';
+import Options from './options';
 import About from './about';
 import Experience from './experience';
 import Education from './education';
 import Skills from './skills';
 import Projects from './projects';
 import Certifications from './certifications';
+import Workshops from './workshops';
 
 // Data
 import Data from '../Utils/DataInformation';
@@ -27,9 +29,11 @@ export class Portfolio extends Component {
                 <About data={this.state.productData}/>
                 <Education data={this.state.productData}/>
                 <Certifications data={this.state.productData}/>
+                <Workshops data={this.state.productData}/>
                 <Experience data={this.state.productData}/>
                 <Skills data={this.state.productData}/>
                 <Projects data={this.state.productData}/>
+                <Options />
             </>
         )
     }
