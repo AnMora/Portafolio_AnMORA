@@ -33,7 +33,7 @@ export class Portfolio extends Component {
                 <Experience data={this.state.productData}/>
                 <Skills data={this.state.productData}/>
                 <Projects data={this.state.productData}/>
-                <Options />
+                <Options data={this.state.productData}/>
             </>
         )
     }

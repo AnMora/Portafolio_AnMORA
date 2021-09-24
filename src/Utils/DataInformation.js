@@ -324,11 +324,11 @@ const Data = {
             Workplace_nick: "BreathCode (4Geeks Product)",
             Ubication: "No obtenido",
             telephone: "No obtenido",
-            position: "Front End / Back-End Developer",
+            position: "Front End",
             supervisor: "Lic. Alejandro Sanchez",
             range: "4Geeks Co-founder & Master Mentor",
             cellphone: "No obtenido",
-            job_description: "Encargado de Front-End y Back-End bajo asignaturas de Tech SCRUM correspondientes a diferentes proyectos de la academia para mi entrenamiento, investigación, uso de diferentes herramientas como AXIOS to FETCH API, Material Design UI, Matx React, React-Toastify, API Django, muestra de avances y manejo de controlador de versiones en ramas Master y Development.",
+            job_description: "Encargado de Front-End bajo asignaturas de Tech SCRUM correspondientes a diferentes proyectos de la academia para mi entrenamiento, investigación, uso de diferentes herramientas como AXIOS to FETCH API, Material Design UI, Matx React, React-Toastify, muestra de avances y manejo de controlador de versiones en ramas Master y Development.",
             link_name: "breatheco.de",
             link_verified: "https://github.com/orgs/4GeeksAcademy/projects",
             since_On_Day: "5",
@@ -575,7 +575,19 @@ const Data = {
                 {
                     name: "POSTMAN",
                     icon: "fas fa-rocket"
-                }
+                },
+                {
+                    name: "Wordpress",
+                    icon: "fab fa-wordpress"
+                },
+                {
+                    name: "CPANEL",
+                    icon: "fab fa-cpanel"
+                },
+                {
+                    name: "PHP",
+                    icon: "fab fa-php"
+                },
             ]
         }
     ],
@@ -583,7 +595,7 @@ const Data = {
         {
             Title: "Proyecto M||RA",
             Project_by: "Instituto Nacional de Aprendizaje",
-            Description: "El propósito de esta sitio es dar a conocer las capacidades que como desarrolladores web obtuvimos mediante un largo tiempo de estudio. La arquitectura de software se realiza API REST remota para la interaccion de servicio web en data JSON y AJAX con JavaScript. Cabe resaltar el entretenimiento del sitio web con videos y musica que incluye, ideas propias de mi persona.",
+            Description: "El propósito de este sitio es dar a conocer las capacidades que como desarrolladores Web obtuvimos mediante un largo tiempo de estudio. La arquitectura de software se realiza API REST remota para la interacción de servicio Web en data JSON y AJAX con JavaScript. Cabe resaltar el entretenimiento del sitio Web con videos y música que incluye ideas propias de mi persona.",
             img: "image01",
             link: "https://anmora.github.io/Practica-HTML-API-JSON/index.html"
         },

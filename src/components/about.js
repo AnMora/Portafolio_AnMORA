@@ -282,7 +282,7 @@ const About = (props) => {
                 />
               </div>
               <div className="modal-footer">
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="btn bg-black text-light">
                   Enviar
                 </button>
                 <button

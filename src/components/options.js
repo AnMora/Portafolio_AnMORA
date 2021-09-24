@@ -128,7 +128,7 @@ export class Options extends Component {
                                     data-tip
                                     data-for="Slack"
                                 >
-                                    <i className="fas fa-mobile-alt" onClick={ () => this.setState({isSwitchOn: isOn}) }></i>
+                                    <i className="fab fa-slack" onClick={ () => this.setState({isSwitchOn: isOn}) }></i>
                                     <ReactTooltip
                                         id="Slack"
                                         place="left"

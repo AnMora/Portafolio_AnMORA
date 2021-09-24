@@ -46,7 +46,7 @@ const Projects = (props) => {
                     <div className="text-light">
                       Link:{" "}
                       <a
-                        className="text-danger-danger"
+                        className="text-danger-secondary"
                         href={item.link}
                         target="_blank"
                       >
@@ -88,7 +88,7 @@ const Projects = (props) => {
                   <div className="text-light">
                     Link:{" "}
                     <a
-                      className="text-danger-danger"
+                      className="text-danger-secondary"
                       href={item.link}
                       target="_blank"
                     >
