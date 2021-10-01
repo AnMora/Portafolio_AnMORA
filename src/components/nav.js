@@ -61,7 +61,11 @@ class Nav extends Component {
             <ul className="navbar-nav">
               {Options}
             </ul>
-          </div>          
+          </div>
+
+          <div className="column-style-nav-left-top"></div>
+          <div className="column-style-nav-left-bottom"></div>
+
           <div className="column-style-left-top"></div>
           <div className="column-style-left-bottom"></div>
           <div className="column-style-right-top"></div>

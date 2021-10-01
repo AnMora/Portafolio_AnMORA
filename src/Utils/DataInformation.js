@@ -93,7 +93,7 @@ const Data = {
                 // },
                 {
                     name: "(Slack) An Mora",
-                    icon: "fab fa-slack"
+                    icon: "fab fa-slack",
                 }
             ],
             service: "gmailMessage",
@@ -259,7 +259,18 @@ const Data = {
     Workshops: [
         {
             Issuer: "Udemy",
-            Title: "Aprende PHP y MySQLi, conceptos básicos para principiantes.",
+            Title: "Las bases para desarrollar una aplicación full stack MERN",
+            Issued_On_Day: "28",
+            Issued_On_Month: "Septiembre",
+            Issued_On_Year: "2021",
+            Description: "En este curso introductorio en el stack MERN aprenderás a las bases o principios de una aplicación web spa usando las tecnologías del stack MERN (mongodb, express, react, nodejs). Adaptar la aquitectura MVC en nuestro backend, creando modelos, vistas y controladores. En la sección del frontend vamos a usar React y sus últimas actualizaciones, como lo son sus Hooks. Desarrollar una restful api, Crear un servidor usando express, Crear modelos,controladores y rutas, Hacer pruebas con postman, Desarrollar el frontend o cliente usando react con sus ultimas actualizaciones como lo son los hooks, Sweetalert2. Desarrolladores dispuestos a aprender/repasar las bases del stack MERN.",
+            Level: "No obtenido",
+            Total_Hours: "1",
+            Total_Classes: "9",
+        },
+        {
+            Issuer: "Udemy",
+            Title: "Aprende PHP y MySQLi, conceptos básicos para principiantes",
             Issued_On_Day: "14",
             Issued_On_Month: "Agosto",
             Issued_On_Year: "2021",
@@ -270,7 +281,7 @@ const Data = {
         },
         {
             Issuer: "Udemy",
-            Title: "Fundamentos de Programación Web para Principiantes.",
+            Title: "Fundamentos de Programación Web para Principiantes",
             Issued_On_Day: "25",
             Issued_On_Month: "Julio",
             Issued_On_Year: "2021",
@@ -297,7 +308,7 @@ const Data = {
             Workplace_nick: "PSH Bitcoin",
             Ubication: "No obtenido",
             telephone: "No obtenido",
-            position: "Lider de Proyecto",
+            position: "Voluntariado / Lider de Proyecto",
             supervisor: "Luis Santiago Berliotz / Juan Villalobos",
             range: "Project Management",
             cellphone: "(+506) 8433-5496",
