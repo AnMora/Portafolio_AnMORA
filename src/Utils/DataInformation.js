@@ -49,15 +49,9 @@ const Data = {
             email: "anmora.2396@gmail.com",
             descripcion: "Desarrollador Web Full Stack",
             presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos, se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
-            resumen: "Autodidacta, con grandes sueños y aspiraciones, metas por cumplir y agregar más a mi lista de aprendizaje, surgir y superarme cada día más como desarrollador web, en capacitación constante en nuevas tecnologías, aprendizaje en nuevas herramientas de tendencia en el mercado laboral y proyección de servicios, provisionar los recursos y productos de alta calidad de entregada para el desempeño, funcionalidad y mejoramiento de un crecimiento, los proyectos se hacen a un mayor nivel de escabilidad con un valor único y original.",
-            tiempo_libre: "Dedico gran parte de mi tiempo libre a explorar los últimos avances tecnológicos en el mundo del desarrollo web. Además de ser desarrollador web, disfruto parte del tiempo a diseñar e investigar, soy un ávido dibujante, deseo lograr un sitio web para publicar mis dibujos y permitir a otros dibujantes que den a conocer sus proyectos. Durante los días de descanso, disfruto pasar en familia, compartir con amistades y disfrutar de los pequeños detalles.",
+            resumen: "Como recién graduado, me encantaría poder entrar a formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, al mismo tiempo, que me permita desarrollarme profesionalmente. Gracias a mi formación especializada, considero que puedo aportar valor y seguir desarrollándome profesionalmente en una compañía que coincida con mis valores y expectativas.",
+            tiempo_libre: "Como persona organizada y con una gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.",
             invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
-            Titulo_mision: "Mision",
-            mision: "Proveer las herramientas web que impulsen el desarrollo competitivo y efectivo, proporciónando crecimiento e ingresos economicos deseados, proyectos que satisfagan las necesidades de los clientes y superen las espectativas de escabilidad y crecimiento para sus emprendimiento.",
-            Titulo_vision: "Vision",
-            vision: "Proyectar mis servicios y poder ser proveedor web de productos de alta calidad que faciliten el desempeño competitivo y el crecimiento para su empresa. Enfocado principalmente para paginas web, portales web, plataformas de comunicación y mercado de servicios.",
-            Titulo_compromiso: "Compromiso",
-            compromiso: "Como objetivo principal es garantizar y mantener la adecuada integridad, funcionalidad y desempeño de los productos, mediante implementación de ideas, monitoreo y mejoramiento de factores de exito, así como la satisfacción de las necesidades, eficiencia y eficacia de productos y servicios de óptica calidad sobre nuevas tecnologias.",
             links: [
                 {
                     name: "Enviar Correo",
