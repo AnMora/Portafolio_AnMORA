@@ -24,7 +24,7 @@ const Education = (props) => {
             <div>Expira en: {item.Expired_On}</div>
             <br />
             {item.link_verified !== "No obtenido" || item.link_name !== "No obtenido" ? (
-              <div>Link: <a className="text-danger-danger" href={item.link_verified} target="_blank">
+              <div>Link: <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noreferrer">
                 {item.link_name}
               </a>
               </div>

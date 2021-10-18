@@ -49,6 +49,7 @@ const Projects = (props) => {
                         className="text-danger-secondary"
                         href={item.link}
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {item.link}
                       </a>
@@ -91,6 +92,7 @@ const Projects = (props) => {
                       className="text-danger-secondary"
                       href={item.link}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {item.link}
                     </a>

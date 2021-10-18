@@ -2,10 +2,8 @@ import React, { useEffect, useState, useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import GoogleLogin from 'react-google-login';
 import emailjs from 'emailjs-com';
-import ReactTooltip from "react-tooltip";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import CV from "../Utils/CV_Angel_Mora_Flores.pdf"
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -94,81 +92,6 @@ const About = (props) => {
   };
 
   const About_id = props.data.Options[0];
-
-  const About_icons = props.data.About[0].links.map((item, position) => {
-    if(position === 0){
-      return (
-        <>
-          <a
-            key={position}
-            className="social-icon mb-1"
-            data-tip
-            data-for={item.name}
-            data-toggle="modal"
-            data-target="#exampleModal"
-          >
-            <i className={item.icon}></i>
-            <ReactTooltip
-              id={item.name}
-              place="bottom"
-              type="dark"
-              effect="solid"
-            >
-              {item.name}
-            </ReactTooltip>
-          </a>
-        </>
-      )
-    }else {
-      if(item.name === "Descargar CV"){
-        return (
-          <>
-            <a
-              key={position}
-              className="social-icon mb-1"
-              href={CV}
-              target="_blank"
-              data-tip
-              data-for={item.name}
-            >
-              <i className={item.icon}></i>
-              <ReactTooltip
-                id={item.name}
-                place="bottom"
-                type="dark"
-                effect="solid"
-              >
-                {item.name}
-              </ReactTooltip>
-            </a>
-          </>
-        )
-      }else{
-        return (
-          <>
-            <a
-              key={position}
-              className="social-icon mb-1"
-              href={item.link}
-              target="_blank"
-              data-tip
-              data-for={item.name}
-            >
-              <i className={item.icon}></i>
-              <ReactTooltip
-                id={item.name}
-                place="bottom"
-                type="dark"
-                effect="solid"
-              >
-                {item.name}
-              </ReactTooltip>
-            </a>
-          </>
-        )
-      }
-    }
-  });
 
   return (
     <>

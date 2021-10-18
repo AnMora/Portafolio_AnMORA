@@ -40,9 +40,3 @@ export class Portfolio extends Component {
 }
 
 export default Portfolio;
-
-{/*
-
-    Mark Zuckerberg que decidió, como lo hacia Steve Jobs años antes, no gastar energía mental en decidir qué vestir cada mañana y usar esa energía para tomar mejores decisiones, con el tiempo y su participación en foros y presentaciones, la gente lo reconoció por su vestimenta casi tanto como por sus logros profesionales.
-
-*/}

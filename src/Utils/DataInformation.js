@@ -33,8 +33,8 @@ const Data = {
         },
         {
             Option: "Proyectos",
-            hash: "#proyectos",
-            id: "proyectos"
+            hash: "#projects",
+            id: "projects"
         }
     ],
     About: [
@@ -49,7 +49,7 @@ const Data = {
             email: "anmora.2396@gmail.com",
             descripcion: "Desarrollador Web Full Stack",
             presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos, se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
-            resumen: "Como recién graduado, me gustaria poder entrar y formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, a la vez, que me permita desarrollarme profesionalmente. Gracias a mi formación especializada, considero que puedo aportar un gran valor, seguir desarrollándome profesionalmente y personalmente en una compañía que coincida con mis valores y expectativas.",
+            resumen: "Como recién graduado, me gustaría poder entrar y formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, a la vez, que me permita desarrollarme profesionalmente. Gracias a mi formación especializada, considero que puedo aportar un gran valor, seguir desarrollándome profesionalmente y personalmente en una compañía que coincida con mis valores y expectativas.",
             tiempo_libre: "Como persona organizada y con una gran motivación, soy capaz de adaptarme a cualquier a cualquier reto y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.",
             invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
             links: [
@@ -251,6 +251,17 @@ const Data = {
         },
     ],
     Workshops: [
+        {
+            Issuer: "Udemy",
+            Title: "MERN Stack Authentication And Deployment",
+            Issued_On_Day: "7",
+            Issued_On_Month: "Octubre",
+            Issued_On_Year: "2021",
+            Description: "En este curso, aprenderemos cómo autenticar (registrar / iniciar sesión) un usuario e implementar nuestra aplicación de pila MERN en Heroku. También aprenderemos cómo proteger nuestra contraseña antes de almacenarla en la base de datos. Esta no es una introducción al curso de pila MERN, por lo que debe conocer los conceptos básicos de la pila MERN. Manejo de la autenticación con JSON Web Token, implementación en Heroku, conocimientos básicos de MERN Stack, para desarrolladores principiantes de pila de MERN.",
+            Level: "No obtenido",
+            Total_Hours: "1",
+            Total_Classes: "5",
+        },
         {
             Issuer: "Udemy",
             Title: "Las bases para desarrollar una aplicación full stack MERN",

@@ -6138,7 +6138,7 @@ p.lead {
   color: #fff;
   font-size: 25px;
   font-weight: 900;
-  justify-content: start;
+  justify-content:flex-start;
   padding-left: 10px;
   right: -85px;
   width: 115px;
@@ -6189,7 +6189,7 @@ p.lead {
   align-items: center;
   cursor: pointer;
   color: #fff;
-  justify-content: start;
+  justify-content: flex-start;
   padding-left: 20px;
   left: 35px;
   width: 95px;
@@ -6268,8 +6268,8 @@ p.lead {
     width: 17rem;
     height: 100vh;
     border: 0.3rem solid transparent;
-    border-left: 2.0rem solid #fff;
-    border-right: 2.0rem solid #fff;
+    /* border-top: 20px solid #f00000;
+    border-bottom: 20px solid #f00000; */
     /* border-image: linear-gradient(to left, #16161d 10%, #f00000 100%) 1; */
     /* border-top: 0.3rem solid #f00000;
     border-bottom: 0.3rem solid #f00000; */
@@ -6426,7 +6426,7 @@ p.lead {
   .column-style-nav-left-top{
     position: fixed;
     top: 0;
-    left: 2px;
+    left: -30px;
     width: 60px;
     height: 70px;
     background-color: #f00000;
@@ -6461,7 +6461,7 @@ p.lead {
   .column-style-nav-left-bottom{
     position: fixed;
     bottom: 0;
-    left: 2px;
+    left: -30px;
     width: 60px;
     height: 70px;
     background-color: #f00000;
@@ -6498,7 +6498,7 @@ p.lead {
   .column-style-left-top{
     position: fixed;
     top: 0;
-    left: 210px;
+    left: 242px;
     width: 60px;
     height: 70px;
     background-color: #f00000;
@@ -6567,7 +6567,7 @@ p.lead {
   .column-style-left-bottom{
     position: fixed;
     bottom: 0;
-    left: 210px;
+    left: 242px;
     width: 60px;
     height: 70px;
     background-color: #f00000;
@@ -6638,7 +6638,7 @@ p.lead {
     top: 45%;
     display: inline-flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 10px;
     /* right: -30px; */
     right: -115px;
@@ -6657,7 +6657,7 @@ p.lead {
     align-items: center;
     cursor: pointer;
     color: #fff;
-    justify-content: start;
+    justify-content: flex-start;
     /* padding-left: 20px; */
     left: 35px;
     width: 105px;
@@ -6705,8 +6705,8 @@ p.lead {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3.3rem;
+    width: 3.3rem;
     background-color: #16161d;
     color: #fff;
     transition: .5s;
@@ -6736,8 +6736,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 3.3rem;
+  width: 3.3rem;
   background-color: #16161d;
   color: #fff;
   transition: .5s;

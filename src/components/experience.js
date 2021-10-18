@@ -22,7 +22,7 @@ const Experience = (props) => {
                 <div>Jerarquia: {item.range}</div>
                 <br />
                 <p>{item.job_description}</p>
-                <div>Link: <a className="text-danger-danger" href={item.link_verified} target="_blank">
+                <div>Link: <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noreferrer">
                     {item.link_name}
                 </a>
                 </div>
