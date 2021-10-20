@@ -41,13 +41,13 @@ const About = (props) => {
   
   const responseGoogle = (req) => {
     const email = req.profileObj?.email;
-    console.log(email)
+    console.log(email);
     if(email === undefined || email === ""){
       toast.error(`Porfavor, agregue un correo!`, {
         position: toast.POSITION.BOTTOM_RIGHT,
       });
       setEmailValido(false);
-      return setEmail("");
+      return setEmail('');
     }else{
       setEmailValido(true);
       return setEmail(email);
@@ -80,7 +80,10 @@ const About = (props) => {
         });
         setUsuarioValido(true);
         setCaptchaValido(true);
-        return setEmailValido(false);
+        setAsunto('');
+        setEmail('');
+        setDescripcion('');
+        setEmailValido(false);
       } else {
         toast.error(`Porfavor, acepta el captcha!`, {
           position: toast.POSITION.BOTTOM_RIGHT,
