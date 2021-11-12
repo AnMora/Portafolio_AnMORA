@@ -23,7 +23,7 @@ const Data = {
         {
             Option: "Profesional",
             hash: "#experience",
-            Option_complete: "Practica Profesional",
+            Option_complete: "Practica - Profesional",
             id: "experience"
         },
         {
@@ -102,7 +102,7 @@ const Data = {
             Issuer: "4Geeks Academy",
             Title: "Desarrollo Web Full Stack",
             Issued_On_Day: "07",
-            Issued_On_Month: "April",
+            Issued_On_Month: "Abril",
             Issued_On_Year: "2021",
             Expired_On: "No caduda",
             Description: "Este documento certifica que el estudiante es un Desarrollador Web Full Stack, con un conocimiento competente para ayudar en la creación de aplicaciones web usando HTML / CSS, Javascript, React y REST API usando SQL, Python y Flask Framework.",
@@ -309,6 +309,33 @@ const Data = {
     ],
     Pro_Practice: [
         {
+            Workplace: "Sindicato Trabajadores del INA",
+            Workplace_nick: "SITRAINA",
+            Ubication: "Carvajal Castro, Heredia, San José.",
+            telephone: "(+506) 2210-6200.",
+            position: "Programador y desarrollador web",
+            supervisor: "Lic. Jeffrey Jiménez Chavarría.",
+            range: "Docente, Instituto Nacional de Aprendizaje.",
+            cellphone: "(+506) 8877-6796.",
+            job_description: "Servicio profesional dado durante más de un año con la empresa SITRAINA a cargo de su sitio web no publicada en el año 2018. Las tareas realizadas como levantamiento de requerimientos, realización de minutas, establecimiento de contrato, muestra de diseño, organización de programación y funciones, coordinación de trabajo con seguimiento del sitio web y mantenimiento del sistema se encuentran almacenados bajo mi asignación. De momento el sitio web se encuentra en desarrollo.",
+            link_name: "sitrainacr.org",
+            link_verified: "http://sitrainacr.org/",
+            since_On_Day: "5",
+            since_On_Month: "Noviembre",
+            since_On_Year: "2021",
+            phrase: "Actualmente",
+            Work_here: "Si",
+            until_On_Day: "",
+            until_On_Month: "",
+            until_On_Year: "",
+            links: [
+                {
+                    icon: "fab fa-facebook-f",
+                    facebook: "https://www.facebook.com/SitrainaCR/",
+                },
+            ]
+        },
+        {
             Workplace: "YFSE Fundacion para la juventud el ambiente y los deportes",
             Workplace_nick: "PSH Bitcoin",
             Ubication: "No obtenido",
@@ -317,7 +344,7 @@ const Data = {
             supervisor: "Luis Santiago Berliotz / Juan Villalobos",
             range: "Project Management",
             cellphone: "(+506) 8433-5496",
-            job_description: "Encargado como líder de proyecto, bajo uso de plataforma JIRA en metodología KANBAN para registro de actividades realizadas, uso de plataforma WordPress con widget Elementor (Front End) y CPanel con PHPMyAdmin (Backend), realización de backups, entre otras actividades como reuniones y uso correo institucional para supervision a cargo de implementación y producción de este sitio. De momento el sitio web se encuentra en desarrollo.",
+            job_description: "Encargado como líder de proyecto, registro de actividades realizadas, uso de plataforma WordPress con widget Elementor (Front End) y CPanel con PHPMyAdmin (Backend), realización de backups, entre otras actividades como reuniones y uso correo institucional para supervision a cargo de implementación y producción de este sitio. De momento el sitio web se encuentra en desarrollo.",
             link_name: "yfse.org",
             link_verified: "https://yfse.org/",
             since_On_Day: "25",
@@ -355,33 +382,6 @@ const Data = {
             until_On_Day: "30",
             until_On_Month: "Agosto",
             until_On_Year: "2021",
-            links: [
-                {
-                    icon: "fab fa-facebook-f",
-                    facebook: "https://www.facebook.com/SitrainaCR/",
-                },
-            ]
-        },
-        {
-            Workplace: "Sindicato Trabajadores del INA",
-            Workplace_nick: "SITRAINA",
-            Ubication: "Carvajal Castro, Heredia, San José.",
-            telephone: "(+506) 2210-6200.",
-            position: "Programador y desarrollador web",
-            supervisor: "Lic. Jeffrey Jiménez Chavarría.",
-            range: "Docente, Instituto Nacional de Aprendizaje.",
-            cellphone: "(+506) 8877-6796.",
-            job_description: "Servicio profesional durante más de un año con la empresa SITRAINA a cargo de su página web no publicada. Las tareas realizadas como levantamiento de requerimientos, realización de minutas, establecimiento de contrato, muestra de diseño, organización de programación y funciones, coordinación de trabajo conseguimiento del sitio web y mantenimiento del sistema se encuentran almacenados bajo mi asignación. Aun se encuentra en negociaciones.",
-            link_name: "sitrainacr.org",
-            link_verified: "http://sitrainacr.org/",
-            since_On_Day: "1",
-            since_On_Month: "Julio",
-            since_On_Year: "2018",
-            phrase: "",
-            Work_here: "No",
-            until_On_Day: "10",
-            until_On_Month: "Octubre",
-            until_On_Year: "2019",
             links: [
                 {
                     icon: "fab fa-facebook-f",

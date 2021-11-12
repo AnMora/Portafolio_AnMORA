@@ -28,7 +28,7 @@ const Skills = (props) => {
         <span className="fa-li">
           <i className="fas fa-check text-danger-danger" alt={item.name}></i>
         </span>
-        {item.flujo}
+        <p>{item.flujo}</p>
       </li>
     )
   })
@@ -38,15 +38,15 @@ const Skills = (props) => {
       <section className="resume-section" id={Skills.id}>
         <div className="resume-section-content" data-aos="fade-up">
           <h2 className="mb-5 text-danger-danger">{Skills.Option}</h2>
-          <div className="subheading mb-3">{Skills_info.subheading}</div>
-          <ul className="list-inline dev-icons social-icons">
-            {Skills_icons}
-          </ul>
           <div className="subheading mb-3">{Skills_info.workflow}</div>
           <ul className="fa-ul mb-0">
             {Skills_workflow}
           </ul>
-        </div>
+          <div className="subheading mb-3">{Skills_info.subheading}</div>
+          <ul className="list-inline dev-icons social-icons">
+            {Skills_icons}
+          </ul>
+         </div> 
       </section>
       <hr className="m-0" />
     </>

@@ -43,17 +43,11 @@ const Projects = (props) => {
                     <h4 className="text-white">{item.Title}</h4>
                     <h4 className="text-danger-danger">{item.Project_by}</h4>
                     <p className="text-light">{item.Description}</p>
-                    <div className="text-light">
-                      Link:{" "}
-                      <a
-                        className="text-danger-secondary"
-                        href={item.link}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {item.link}
-                      </a>
-                    </div>
+                    <a className="text-danger-danger" href={item.link} target="_blank" rel="noopener noreferrer">
+                      <button type="button" className="btn btn-outline-secondary text-danger-danger">
+                        Ver sitio
+                      </button>
+                    </a>
                     <hr className="d-none d-lg-block mb-0 ml-0" />
                   </div>
                 </div>
@@ -86,17 +80,11 @@ const Projects = (props) => {
                   <h4 className="text-white">{item.Title}</h4>
                   <h4 className="text-danger-danger">{item.Project_by}</h4>
                   <p className="text-light">{item.Description}</p>
-                  <div className="text-light">
-                    Link:{" "}
-                    <a
-                      className="text-danger-secondary"
-                      href={item.link}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {item.link}
-                    </a>
-                  </div>
+                  <a className="text-danger-danger" href={item.link} target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="btn btn-outline-secondary text-danger-danger">
+                      Ver sitio
+                    </button>
+                  </a>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>

@@ -24,10 +24,11 @@ const Education = (props) => {
             <div>Expira en: {item.Expired_On}</div>
             <br />
             {item.link_verified !== "No obtenido" || item.link_name !== "No obtenido" ? (
-              <div>Link: <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noreferrer">
-                {item.link_name}
+              <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
+                <button type="button" className="btn btn-outline-secondary text-danger-danger">
+                  Ver certificado
+                </button>
               </a>
-              </div>
             ) : ("")}
             {item.Register_No !== "No obtenido" ? (
               <div>Register No. {item.Register_No}</div>

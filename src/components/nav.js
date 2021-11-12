@@ -30,7 +30,7 @@ class Nav extends Component {
           className="navbar navbar-expand-lg navbar-dark bg-black fixed-top"
           id="sideNav"
         >
-          <a className="navbar-brand js-scroll-trigger" href="##" rel="noreferrer">
+          <a className="navbar-brand js-scroll-trigger" href="##" rel="noopener noreferrer">
             <span className="d-block d-lg-none">
             {About.First_NickName}<span className="text-danger-danger">{About.LastName}</span>
             </span>

@@ -28,7 +28,7 @@ export class Options extends Component {
                                     data-toggle="modal"
                                     data-target="#exampleModal"
                                     href="##"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                 >
                                     <i className="far fa-envelope"></i>
                                     <ReactTooltip
@@ -45,7 +45,7 @@ export class Options extends Component {
                                     data-tip
                                     data-for="Direction"
                                     href="##"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                     onClick={ () => this.setState({isSwitchOn: isOn}) }
                                 >
                                     <i className="fas fa-map-marker-alt"></i>
@@ -63,7 +63,7 @@ export class Options extends Component {
                                     data-tip
                                     data-for="Telephone"
                                     href="##"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                     onClick={ () => this.setState({isSwitchOn: isOn}) }
                                 >
                                     <i className="fas fa-mobile-alt"></i>
@@ -80,7 +80,7 @@ export class Options extends Component {
                                     className="social-icon-box mb-1"
                                     href={CV}
                                     target="_blank"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                     data-tip
                                     data-for="Descargar CV"
                                 >
@@ -98,7 +98,7 @@ export class Options extends Component {
                                     className="social-icon-box mb-1"
                                     href={linkedin}
                                     target="_blank"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                     data-tip
                                     data-for="Linkedin"
                                 >
@@ -116,7 +116,7 @@ export class Options extends Component {
                                     className="social-icon-box mb-1"
                                     href={github}
                                     target="_blank"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                     data-tip
                                     data-for="GitHub"
                                 >
@@ -135,7 +135,7 @@ export class Options extends Component {
                                     data-tip
                                     data-for="Slack"
                                     href="##"
-                                    rel="noreferrer"
+                                    rel="noopener noreferrer"
                                 >
                                     <i className="fab fa-slack" onClick={ () => this.setState({isSwitchOn: isOn}) }></i>
                                     <ReactTooltip
