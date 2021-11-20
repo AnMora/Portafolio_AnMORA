@@ -13,15 +13,15 @@
 }
 
 :root {
-  --red: #c7c7cc;
+  --red: #ced3db;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #c7c7cc;
+  --gray-dark: #ced3db;
   --menu-dark: #343a40;
-  --primary: #c7c7cc;
-  --danger: #c7c7cc;
+  --primary: #ced3db;
+  --danger: #ced3db;
   --danger-dark: #f00000;
-  --dark: #c7c7cc;
+  --dark: #ced3db;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -91,7 +91,7 @@
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #c7c7cc;
+  background-color: #ced3db;
 }
 
 .nav-fill > .nav-link,
@@ -759,7 +759,7 @@
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #c7c7cc;
+  color: #ced3db;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -788,8 +788,8 @@
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #c7c7cc;
-  border-color: #c7c7cc;
+  background-color: #ced3db;
+  border-color: #ced3db;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -865,7 +865,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #c7c7cc;
+  background-color: #ced3db;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
@@ -930,7 +930,7 @@ a.badge-warning:focus, a.badge-warning.focus {
 
 .badge-danger {
   color: #fff;
-  background-color: #c7c7cc;
+  background-color: #ced3db;
 }
 a.badge-danger:hover, a.badge-danger:focus {
   color: #fff;
@@ -956,7 +956,7 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #c7c7cc;
+  background-color: #ced3db;
 }
 a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
@@ -1144,7 +1144,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #c7c7cc;
+  background-color: #ced3db;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -1225,8 +1225,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #c7c7cc;
-  border-color: #c7c7cc;
+  background-color: #ced3db;
+  border-color: #ced3db;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -1973,7 +1973,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #c7c7cc;
+  color: #ced3db;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -2312,7 +2312,7 @@ a.close.disabled {
 }
 
 .border-primary {
-  border-color: #c7c7cc !important;
+  border-color: #ced3db !important;
 }
 
 .clearfix::after {
@@ -5807,7 +5807,7 @@ a.close.disabled {
 }
 
 .text-primary {
-  color: #c7c7cc !important;
+  color: #ced3db !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -5841,7 +5841,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #c7c7cc !important;
+  color: #ced3db !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -6101,7 +6101,7 @@ p.lead {
   left: 0;
   width: 100%;
   height: 10px;
-  background-color: #c7c7cc;
+  background-color: #ced3db;
 }
 
 .column-style-bottom::before{
@@ -6250,7 +6250,7 @@ p.lead {
   border-bottom: 0.3rem solid #f00000;
   border-left: 0.3rem solid #343a40;
   border-right: 0.3rem solid #343a40;
-  /* border-bottom: 0.3rem solid #c7c7cc; */
+  /* border-bottom: 0.3rem solid #ced3db; */
 }
 
 /* Vista dispositivos moviles */
@@ -6280,7 +6280,7 @@ p.lead {
   }
   #sideNav .navbar-brand .rotate{
     position: relative;
-    /* border: 1px solid #c7c7cc; */
+    /* border: 1px solid #ced3db; */
     height: 160px;
     width: 160px;
     background-color: #343a40;
@@ -6452,7 +6452,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #c7c7cc;
+    background-color: #ced3db;
     left: 0;
     bottom: -15px;
     transform: skewY(45deg);
@@ -6487,7 +6487,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #c7c7cc;
+    background-color: #ced3db;
     left: 0;
     bottom: -15px;
     transform: skewY(-45deg);
@@ -6524,7 +6524,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #c7c7cc;
+    background-color: #ced3db;
     right: 0;
     bottom: -15px;
     transform: skewY(-45deg);
@@ -6558,7 +6558,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #c7c7cc;
+    background-color: #ced3db;
     left: 0;
     bottom: -15px;
     transform: skewY(45deg);
@@ -6593,7 +6593,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #c7c7cc;
+    background-color: #ced3db;
     right: 0;
     top: -15px;
     transform: skewY(45deg);
@@ -6627,7 +6627,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #c7c7cc;
+    background-color: #ced3db;
     left: 0;
     top: -15px;
     transform: skewY(-45deg);
@@ -6651,7 +6651,7 @@ p.lead {
   /* estilos menu en movil */
   .box-content {
     border: 0.4rem solid transparent;
-    /* border-image: linear-gradient(to right, #343a40 10%, #c7c7cc 100%) 1; */
+    /* border-image: linear-gradient(to right, #343a40 10%, #ced3db 100%) 1; */
     position: fixed;
     display: inline-flex;
     align-items: center;
@@ -6728,7 +6728,7 @@ p.lead {
     border-bottom: 0.3rem solid #f00000;
     border-left: 0.3rem solid #343a40;
     border-right: 0.3rem solid #343a40;
-    /* border-bottom: 0.3rem solid #c7c7cc; */
+    /* border-bottom: 0.3rem solid #ced3db; */
   }
   
 }
@@ -6759,7 +6759,7 @@ p.lead {
   border-bottom: 0.3rem solid #f00000;
   border-left: 0.3rem solid #343a40;
   border-right: 0.3rem solid #343a40;
-  /* border-bottom: 0.3rem solid #c7c7cc; */
+  /* border-bottom: 0.3rem solid #ced3db; */
 }
 
 .dev-icons {
@@ -6805,7 +6805,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #c7c7cc;
+    border-left: 0.5rem solid #ced3db;
   }
 }
 
@@ -6819,7 +6819,7 @@ section.resume-section .resume-section-content {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #c7c7cc;
+    border-color: #ced3db;
     border-width: .25rem;
     width: 100%;
   }

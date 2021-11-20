@@ -1,8 +1,4 @@
 import React, { useEffect } from "react";
-// import image01 from "../multimedia/demo-image-01.jpg";
-import image01 from "../multimedia/PRO_HTML_API_JSON.gif";
-import image02 from "../multimedia/PRO_SITRAINA.gif";
-import image03 from "../multimedia/Que_peli_ver.gif";
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,21 +16,12 @@ const Projects = (props) => {
         {position % 2 ? (
           <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
             <div className="col-lg-6">
-            {item.img === "image01" ? (
               <img
                 className="img-fluid"
-                src={image01}
+                src={item.img}
                 alt={item.Title}
                 data-aos="fade-up"
               />
-            ) : (
-              <img
-                className="img-fluid"
-                src={image02}
-                alt={item.Title}
-                data-aos="fade-up"
-              />
-            )}
             </div>
             <div className="col-lg-6" data-aos="fade-up">
               <div className="bg-black text-center h-100 project">
@@ -57,21 +44,12 @@ const Projects = (props) => {
         ) : (
           <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            {item.img === "image01" ? (
               <img
                 className="img-fluid"
-                src={image01}
+                src={item.img}
                 alt={item.Title}
                 data-aos="fade-up"
               />
-            ) : (
-              <img
-                className="img-fluid"
-                src={image03}
-                alt={item.Title}
-                data-aos="fade-up"
-              />
-            )}
           </div>
           <div className="col-lg-6 order-lg-first" data-aos="fade-up">
             <div className="bg-black text-center h-100 project">

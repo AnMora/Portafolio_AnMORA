@@ -319,7 +319,7 @@ const Data = {
             cellphone: "(+506) 8877-6796.",
             job_description: "Servicio profesional dado durante más de un año con la empresa SITRAINA a cargo de su sitio web no publicada en el año 2018. Las tareas realizadas como levantamiento de requerimientos, realización de minutas, establecimiento de contrato, muestra de diseño, organización de programación y funciones, coordinación de trabajo con seguimiento del sitio web y mantenimiento del sistema se encuentran almacenados bajo mi asignación. De momento el sitio web se encuentra en desarrollo.",
             link_name: "sitrainacr.org",
-            link_verified: "http://sitrainacr.org/",
+            link_verified: "http://proyectositraina.netlify.app/",
             since_On_Day: "5",
             since_On_Month: "Noviembre",
             since_On_Year: "2021",
@@ -337,7 +337,7 @@ const Data = {
         },
         {
             Workplace: "YFSE Fundacion para la juventud el ambiente y los deportes",
-            Workplace_nick: "PSH Bitcoin",
+            Workplace_nick: "Podemos ser heroes",
             Ubication: "No obtenido",
             telephone: "No obtenido",
             position: "Voluntariado / Lider de Proyecto",
@@ -616,28 +616,28 @@ const Data = {
             Title: "Proyecto M||RA",
             Project_by: "Instituto Nacional de Aprendizaje",
             Description: "El propósito de este sitio es dar a conocer las capacidades que como desarrolladores Web obtuvimos mediante un largo tiempo de estudio. La arquitectura de software se realiza API REST remota para la interacción de servicio Web en data JSON y AJAX con JavaScript. Cabe resaltar el entretenimiento del sitio Web con videos y música que incluye ideas propias de mi persona.",
-            img: "image01",
+            img: "./multimedia/proyectos/PRO_HTML_API_JSON.gif",
             link: "https://anmora.github.io/Practica-HTML-API-JSON/index.html"
         },
-        // {
-        //     Title: "TOMATE'LO",
-        //     Project_by: "4Geeks Academy",
-        //     Description: "Proyecto final de Bootcamp Full-Time de 4Geeks Academy, su Front End esta construido con React Router y Back End con Python usando como motor Flask para Fetch API, poniendo a prueba el conocimiento adquirido tras varias practicas usando herramientas como Gitpod, GitHub para almacenamiento de proyectos en repositorios, Command line, SCRUM para asignaciones por equipo y Wireframing & Prototyping del sitio web",
-        //     img: "image02",
-        //     link: "https://anmora.github.io/Practica-HTML-API-JSON/index.html"
-        // },
         {
             Title: "SITRAINA",
             Project_by: "Instituto Nacional de Aprendizaje",
             Description: "Proyecto nuevo, continuacion de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje(INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en negociaciones para su total implementacion. Preview, en su funcion las pagina principal, hoja de miercoles y contactenos.",
-            img: "image02",
+            img: "./multimedia/proyectos/PRO_SITRAINA.gif",
             link: "https://proyectositraina.netlify.app"
+        },
+        {
+            Title: "PSHBITCOIN",
+            Project_by: "YFSE",
+            Description: "Proyecto PSH BITCOIN es un programa educativo de la fundacion YFSE PSH que busca mostrar los beneficios de la criptomoneda Bitcoin como carbono neutral, informar por medio de noticias, datos, documentos, con respuesta a preguntas frecuentes y educar con un curso para que los internautas aprendan y a la vez hagamos conciencia, permitiendo recibir donaciones en criptomoneda Bitcoin para rescate del ambiente.",
+            img: "./multimedia/proyectos/PRO_PSHBITCOIN.gif",
+            link: "https://pshbitcoin.org"
         },
         {
             Title: "Que pelis ver?",
             Project_by: "AnMORA",
             Description: "Proyecto personal de investigacion y aprendizaje para sugerir peliculas y que otros podamos ver, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aun se encuentra en construccion y en mejoras.",
-            img: "image03",
+            img: "./multimedia/proyectos/Que_peli_ver.gif",
             link: "https://mighty-gorge-25078.herokuapp.com/"
         },
     ]
