@@ -15,10 +15,10 @@ export class Options extends Component {
         const linkedin = "https://www.linkedin.com/in/an-mora-56a5b31b5/";
         return (
             <>
-                <div className={isOn ? "box-options switch-on" : "box-options switch-off"} onClick={ () => this.setState({isSwitchOn: !isOn}) }>
+                <div className={isOn ? "box-options switch-on shadow-lg" : "box-options switch-off"} onClick={ () => this.setState({isSwitchOn: !isOn}) }>
                     {isOn ? ">" : "<"}
 
-                    <div className="box-content">
+                    <div className="box-content shadow-lg">
                         <div className="options-box">
                             <div className="social-icons-box">
                                 <a
@@ -96,6 +96,24 @@ export class Options extends Component {
                                 </a>
                                 <a
                                     className="social-icon-box mb-1"
+                                    data-tip
+                                    data-for="Slack"
+                                    href="https://www.facebook.com/profile.php?id=100068136885895"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fab fa-facebook" onClick={ () => this.setState({isSwitchOn: isOn}) }></i>
+                                    <ReactTooltip
+                                        id="Slack"
+                                        place="left"
+                                        type="dark"
+                                        effect="solid"
+                                    >
+                                        Facebook
+                                    </ReactTooltip>
+                                </a>
+                                <a
+                                    className="social-icon-box mb-1"
                                     href={linkedin}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -128,23 +146,6 @@ export class Options extends Component {
                                         effect="solid"
                                     >
                                         GitHub
-                                    </ReactTooltip>
-                                </a>
-                                <a
-                                    className="social-icon-box mb-1"
-                                    data-tip
-                                    data-for="Slack"
-                                    href="##"
-                                    rel="noopener noreferrer"
-                                >
-                                    <i className="fab fa-slack" onClick={ () => this.setState({isSwitchOn: isOn}) }></i>
-                                    <ReactTooltip
-                                        id="Slack"
-                                        place="left"
-                                        type="dark"
-                                        effect="solid"
-                                    >
-                                        (Slack) An Mora
                                     </ReactTooltip>
                                 </a>
                             </div>

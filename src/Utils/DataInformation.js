@@ -107,7 +107,7 @@ const Data = {
             Expired_On: "No caduda",
             Description: "Este documento certifica que el estudiante es un Desarrollador Web Full Stack, con un conocimiento competente para ayudar en la creación de aplicaciones web usando HTML / CSS, Javascript, React y REST API usando SQL, Python y Flask Framework.",
             Level: "No obtenido",
-            Total_Hours: "320",
+            Total_Hours: "380",
             link_name: "certificate.breatheco.de",
             link_verified: "https://certificate.breatheco.de/1bf82bc26776ac6a6874024e4a1b38312c563a60",
             Register_No: "No obtenido"
@@ -622,21 +622,28 @@ const Data = {
         {
             Title: "SITRAINA",
             Project_by: "Instituto Nacional de Aprendizaje",
-            Description: "Proyecto nuevo, continuacion de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje(INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en negociaciones para su total implementacion. Preview, en su funcion las pagina principal, hoja de miercoles y contactenos.",
+            Description: "Proyecto nuevo, continuación de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje (INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en construcción para su total implementación. Pre visualización, en su función y primera etapa solo cuenta con algunas páginas funcionando y documentos descargables.",
             img: "./multimedia/proyectos/PRO_SITRAINA.gif",
             link: "https://proyectositraina.netlify.app"
         },
         {
             Title: "PSHBITCOIN",
             Project_by: "YFSE",
-            Description: "Proyecto PSH BITCOIN es un programa educativo de la fundacion YFSE PSH que busca mostrar los beneficios de la criptomoneda Bitcoin como carbono neutral, informar por medio de noticias, datos, documentos, con respuesta a preguntas frecuentes y educar con un curso para que los internautas aprendan y a la vez hagamos conciencia, permitiendo recibir donaciones en criptomoneda Bitcoin para rescate del ambiente.",
+            Description: "Proyecto PSH BITCOIN es un programa educativo de la fundación YFSE PSH que busca mostrar los beneficios de la criptomoneda Bitcoin como carbono neutral, informar por medio de noticias, datos, documentos, con respuesta a preguntas frecuentes y educar con un curso para que los internautas aprendan y a la vez hagamos conciencia, permitiendo recibir donaciones en criptomoneda Bitcoin para rescate del ambiente.",
             img: "./multimedia/proyectos/PRO_PSHBITCOIN.gif",
             link: "https://pshbitcoin.org"
         },
         {
+            Title: "Store A||N M||RA App",
+            Project_by: "AnMORA",
+            Description: "Proyecto personal de investigación y aprendizaje para sugerir libros de programación, CRUD completo, se utilizaron herramientas de interfaz Front End en ReactJS, usando Fetch API para muestra de datos remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra construcción para mejoras e implementación de más datos y registro de cuentas.",
+            img: "./multimedia/proyectos/PRO_StoreAllNMllRAApp.gif",
+            link: "https://desolate-springs-29315.herokuapp.com/"
+        },
+        {
             Title: "Que pelis ver?",
             Project_by: "AnMORA",
-            Description: "Proyecto personal de investigacion y aprendizaje para sugerir peliculas y que otros podamos ver, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en practica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aun se encuentra en construccion y en mejoras.",
+            Description: "Proyecto personal de investigación y aprendizaje para sugerir películas, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra en mejoras.",
             img: "./multimedia/proyectos/Que_peli_ver.gif",
             link: "https://mighty-gorge-25078.herokuapp.com/"
         },
