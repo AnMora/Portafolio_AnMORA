@@ -1,11 +1,12 @@
 {
-  "short_name": "Portafolio AnMORA",
-  "name": "DESARROLLADOR WEB FULL STACK",
+  "name": "AnMORA Portafolio",
+  "short_name": "AnMORAPortafolio",
+  "description": "DESARROLLADOR WEB FULL STACK",
   "icons": [
     {
-      "src": "./multimedia/Nll_LllMllTS.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "./multimedia/Nll_LllMllTS.png",
+      "type": "image/x-icon",
+      "sizes": "64x64 32x32 24x24 16x16"
     },
     {
       "src": "./multimedia/Nll_LllMllTS.png",
