@@ -4,17 +4,17 @@
   "description": "DESARROLLADOR WEB FULL STACK",
   "icons": [
     {
-      "src": "./multimedia/Nll_LllMllTS.png",
+      "src": "multimedia/Nll_LllMllTS.png",
       "type": "image/x-icon",
       "sizes": "64x64 32x32 24x24 16x16"
     },
     {
-      "src": "./multimedia/Nll_LllMllTS.png",
+      "src": "multimedia/Nll_LllMllTS.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./multimedia/Nll_LllMllTS.jpg",
+      "src": "multimedia/Nll_LllMllTS.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
