@@ -624,7 +624,7 @@ const Data = {
             Project_by: "Instituto Nacional de Aprendizaje",
             Description: "Proyecto nuevo, continuación de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje (INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en construcción para su total implementación. Pre visualización, en su función y primera etapa solo cuenta con algunas páginas funcionando y documentos descargables.",
             img: "./multimedia/proyectos/PRO_SITRAINA.gif",
-            link: "https://proyectositraina.netlify.app"
+            link: "https://sitraina.org"
         },
         {
             Title: "PSHBITCOIN",
