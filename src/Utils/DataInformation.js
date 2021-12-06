@@ -48,10 +48,14 @@ const Data = {
             Telephone: "(+506) 7254-7757",
             email: "anmora.2396@gmail.com",
             descripcion: "Desarrollador Web Full Stack",
-            presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos, se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
-            resumen: "Como recién graduado, me gustaría poder entrar y formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, a la vez, que me permita desarrollarme profesionalmente. Gracias a mi formación especializada, considero que puedo aportar un gran valor, seguir desarrollándome profesionalmente y personalmente en una compañía que coincida con mis valores y expectativas.",
-            tiempo_libre: "Como persona organizada y con una gran motivación, soy capaz de adaptarme a los retos y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.",
+            presentacion: "Capaz de autogestión eficaz en proyectos independientes, me fascina todo lo que aprendo y aplico en cada proyecto que desarrollo. Trabajar con proyectos nuevos es mi pasión.",
+            resumen: "Desarrollador de software móvil y web Full Stack, me especializo en creación y diseño, maquetación y modelado, gestión, testeo y mantenimiento de software computacional, dominio de varias plataformas y lenguajes.",
+            tiempo_libre: "",
             invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
+            // presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos, se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
+            // resumen: "Como recién graduado, me gustaría poder entrar y formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, a la vez, que me permita desarrollarme profesionalmente. Gracias a mi formación especializada, considero que puedo aportar un gran valor, seguir desarrollándome profesionalmente y personalmente en una compañía que coincida con mis valores y expectativas.",
+            // tiempo_libre: "Como persona organizada y con una gran motivación, soy capaz de adaptarme a los retos y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.",
+            // invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
             links: [
                 {
                     name: "Enviar Correo",
