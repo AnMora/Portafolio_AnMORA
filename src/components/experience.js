@@ -1,14 +1,19 @@
 import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import '../CSS/general.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Experience = (props) => {
+  const proPractice = props.data.Options[4];
+
     useEffect(() => {
         AOS.init({ duration: 2000 });
-    }, []);
 
-    const proPractice = props.data.Options[4];
+        ReactGA.initialize('UA-214885646-1');
+        // to report page view
+        ReactGA.pageview(`/${proPractice.hash}`);
+    }, []);
 
     const Pro_info = props.data.Pro_Practice.map((item,position) => {
         return(

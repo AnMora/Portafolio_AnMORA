@@ -1,14 +1,19 @@
 import React, { useEffect } from "react";
+import ReactGA from 'react-ga';
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Projects = (props) => {
+  const Projects = props.data.Options[6];
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
-  }, []);
 
-  const Projects = props.data.Options[6];
+    ReactGA.initialize('UA-214885646-1');
+    // to report page view
+    ReactGA.pageview(`/${Projects.hash}`);
+  }, []);
 
   const Projects_info = props.data.Projects.map((item, position) => {
     return (

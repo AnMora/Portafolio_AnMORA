@@ -13,7 +13,7 @@ toast.configure();
 
 const About = (props) => {
   const About = props.data.About[0];
-
+  const About_id = props.data.Options[0];
   const service = About.service;
   const template = About.template;
   const user = About.user;
@@ -23,9 +23,9 @@ const About = (props) => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
 
-    ReactGA.initialize(About.trackingId);
+    ReactGA.initialize('UA-214885646-1');
     // to report page view
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(`/${About_id.hash}`);
   }, []);
 
   const [email, setEmail] = useState("");
@@ -104,8 +104,6 @@ const About = (props) => {
       }
     }
   };
-
-  const About_id = props.data.Options[0];
 
   return (
     <>

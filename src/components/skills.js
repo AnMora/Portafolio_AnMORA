@@ -1,15 +1,20 @@
 import React, { useEffect } from "react";
+import ReactGA from 'react-ga';
 import ReactTooltip from "react-tooltip";
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Skills = (props) => {
+  const Skills = props.data.Options[5];
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
-  }, []);
 
-  const Skills = props.data.Options[5];
+    ReactGA.initialize('UA-214885646-1');
+    // to report page view
+    ReactGA.pageview(`/${Skills.hash}`);
+  }, []);
 
   const Skills_info = props.data.Skills[0];
 

@@ -1,15 +1,20 @@
 import React, { useEffect } from "react";
+import ReactGA from "react-ga";
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Certifications = (props) => {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
-  
   const Certifications = props.data.Options[2];
 
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+
+    ReactGA.initialize('UA-214885646-1');
+    // to report page view
+    ReactGA.pageview(`/${Certifications.hash}`);
+  }, []);
+  
   const Certification_info = props.data.Certifications.map((item,position) => {
     return(
         <div key={position} className="d-flex flex-column flex-md-row justify-content-between mb-5">
