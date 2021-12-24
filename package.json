@@ -12,6 +12,7 @@
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
     "react-google-login": "^5.2.2",
     "react-google-recaptcha": "^2.1.0",
     "react-jquery-plugin": "^1.1.7",

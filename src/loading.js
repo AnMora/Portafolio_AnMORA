@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './multimedia/Nll_LllMllTS.png';
 import './CSS/loading.css';
 import $  from 'jquery';
 window.jQuery = $;
@@ -16,7 +15,7 @@ export class Loading extends Component {
             <>
                 <div id="preloader">
                     <div class="wrapper">
-                        <img src={logo} className="cssload-loader" alt="Proyecto MllRA" />
+                        <img src="./multimedia/Nll_LllMllTS.png" className="cssload-loader" alt="Proyecto MllRA" />
                     </div>
                 </div>
             </>

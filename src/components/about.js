@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import GoogleLogin from "react-google-login";
 import emailjs from "emailjs-com";
+import ReactGA from "react-ga";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../CSS/general.css";
@@ -11,8 +12,20 @@ import "aos/dist/aos.css";
 toast.configure();
 
 const About = (props) => {
+  const About = props.data.About[0];
+
+  const service = About.service;
+  const template = About.template;
+  const user = About.user;
+  const clientId = About.clientId;
+  const siteKey = About.siteKey;
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
+
+    ReactGA.initialize(About.trackingId);
+    // to report page view
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   const [email, setEmail] = useState("");
@@ -30,14 +43,6 @@ const About = (props) => {
       setCaptchaValido(true);
     }
   };
-
-  const About = props.data.About[0];
-
-  const service = About.service;
-  const template = About.template;
-  const user = About.user;
-  const clientId = About.clientId;
-  const siteKey = About.siteKey;
 
   const responseGoogle = (req) => {
     const email = req.profileObj?.email;

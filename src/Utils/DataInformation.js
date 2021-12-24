@@ -42,6 +42,7 @@ const Data = {
             Name: "Angel",
             LastName: "Mora",
             First_NickName: "An",
+            logo: "./multimedia/Nll_LllMllTS.png",
             Code_Postal: "10201",
             Address: "Urb. La Nuez",
             Direction: "San Antonio de Escazu",
@@ -52,10 +53,6 @@ const Data = {
             resumen: "Desarrollador de software móvil y web Full Stack, me especializo en creación y diseño, maquetación y modelado, gestión, testeo y mantenimiento de software computacional, dominio de varias plataformas y lenguajes.",
             tiempo_libre: "",
             invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
-            // presentacion: "Con experiencia y conocimiento en la programación orientada a objetos, proporcionar una sinopsis sólida para descripciones generales y eficaces para sus proyectos, se realizan a un alto nivel ya que los enfoques interactivos de las estrategias corporativas fomentan el pensamiento colaborativo para promover la propuesta de valor único y original.",
-            // resumen: "Como recién graduado, me gustaría poder entrar y formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, a la vez, que me permita desarrollarme profesionalmente. Gracias a mi formación especializada, considero que puedo aportar un gran valor, seguir desarrollándome profesionalmente y personalmente en una compañía que coincida con mis valores y expectativas.",
-            // tiempo_libre: "Como persona organizada y con una gran motivación, soy capaz de adaptarme a los retos y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo.",
-            // invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
             links: [
                 {
                     name: "Enviar Correo",
@@ -98,6 +95,7 @@ const Data = {
             template: "template_wrhn59m",
             user: "user_NmXDJbRWH1HpgirJoZskd",
             clientId: "820641787972-k7l8h3q7a4mt28maotjod30ffqirrq8l.apps.googleusercontent.com",
+            trackingId: "G-30KNR7EDWC",
             siteKey: "6LfELJEbAAAAAK2Z1EW1Liv48bC7rfJuEzE6cVWI"
         }
     ],
@@ -323,7 +321,7 @@ const Data = {
             cellphone: "(+506) 8877-6796.",
             job_description: "Servicio profesional dado durante más de un año con la empresa SITRAINA a cargo de su sitio web no publicada en el año 2018. Las tareas realizadas como levantamiento de requerimientos, realización de minutas, establecimiento de contrato, muestra de diseño, organización de programación y funciones, coordinación de trabajo con seguimiento del sitio web y mantenimiento del sistema se encuentran almacenados bajo mi asignación. De momento el sitio web se encuentra en desarrollo.",
             link_name: "sitrainacr.org",
-            link_verified: "http://proyectositraina.netlify.app/",
+            link_verified: "https://sitraina.org",
             since_On_Day: "5",
             since_On_Month: "Noviembre",
             since_On_Year: "2021",
@@ -628,7 +626,7 @@ const Data = {
             Project_by: "Instituto Nacional de Aprendizaje",
             Description: "Proyecto nuevo, continuación de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje (INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en construcción para su total implementación. Pre visualización, en su función y primera etapa solo cuenta con algunas páginas funcionando y documentos descargables.",
             img: "./multimedia/proyectos/PRO_SITRAINA.gif",
-            link: "https://sitraina.org"
+            link: "https://proyectositraina.netlify.app"
         },
         {
             Title: "PSHBITCOIN",

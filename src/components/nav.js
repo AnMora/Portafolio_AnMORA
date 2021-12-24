@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../multimedia/Nll_LllMllTS.png";
+// import logo from "../multimedia/Nll_LllMllTS.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/js/dist/collapse";
 import "../CSS/general.css";
@@ -39,7 +39,7 @@ class Nav extends Component {
                 <div className="image">
                   <img
                     className="img-fluid img-profile mx-auto "
-                    src={logo}
+                    src={About.logo}
                     alt="AnM||RA NO_L||M||TS"
                   />
                 </div>
