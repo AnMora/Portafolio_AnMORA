@@ -7,11 +7,12 @@ import "aos/dist/aos.css";
 
 const Skills = (props) => {
   const Skills = props.data.Options[5];
+  const About = props.data.About[0];
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
 
-    ReactGA.initialize('UA-214885646-1');
+    ReactGA.initialize(About.trackingId);
     // to report page view
     ReactGA.pageview(`/${Skills.hash}`);
   }, []);

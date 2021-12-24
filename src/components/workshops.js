@@ -6,13 +6,14 @@ import "aos/dist/aos.css";
 
 const Workshops = (props) => {
   const Workshop = props.data.Options[3];
+  const About = props.data.About[0];
 
     useEffect(() => {
-        AOS.init({ duration: 2000 });
+      AOS.init({ duration: 2000 });
 
-        ReactGA.initialize('UA-214885646-1');
-        // to report page view
-        ReactGA.pageview(`/${Workshop.hash}`);
+      ReactGA.initialize(About.trackingId);
+      // to report page view
+      ReactGA.pageview(`/${Workshop.hash}`);
       }, []);
 
     const Workshops_info = props.data.Workshops.map((item,position) => {

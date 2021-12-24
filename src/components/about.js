@@ -23,7 +23,7 @@ const About = (props) => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
 
-    ReactGA.initialize('UA-214885646-1');
+    ReactGA.initialize(About.trackingId);
     // to report page view
     ReactGA.pageview(`/${About_id.hash}`);
   }, []);

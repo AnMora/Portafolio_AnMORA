@@ -5,12 +5,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Education = (props) => {
-  const Education = props.data.Options[1];
+  const Education = props.data.Options[1];  
+  const About = props.data.About[0];
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
 
-    ReactGA.initialize('UA-214885646-1');
+    ReactGA.initialize(About.trackingId);
     // to report page view
     ReactGA.pageview(`/${Education.hash}`);
   }, []);

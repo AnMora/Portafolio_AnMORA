@@ -6,11 +6,12 @@ import "aos/dist/aos.css";
 
 const Certifications = (props) => {
   const Certifications = props.data.Options[2];
+  const About = props.data.About[0];
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
 
-    ReactGA.initialize('UA-214885646-1');
+    ReactGA.initialize(About.trackingId);
     // to report page view
     ReactGA.pageview(`/${Certifications.hash}`);
   }, []);

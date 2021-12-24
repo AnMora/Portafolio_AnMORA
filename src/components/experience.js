@@ -6,13 +6,14 @@ import "aos/dist/aos.css";
 
 const Experience = (props) => {
   const proPractice = props.data.Options[4];
+  const About = props.data.About[0];
 
     useEffect(() => {
-        AOS.init({ duration: 2000 });
+      AOS.init({ duration: 2000 });
 
-        ReactGA.initialize('UA-214885646-1');
-        // to report page view
-        ReactGA.pageview(`/${proPractice.hash}`);
+      ReactGA.initialize(About.trackingId);
+      // to report page view
+      ReactGA.pageview(`/${proPractice.hash}`);
     }, []);
 
     const Pro_info = props.data.Pro_Practice.map((item,position) => {
