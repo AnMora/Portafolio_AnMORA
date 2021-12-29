@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 // import logo from "../multimedia/Nll_LllMllTS.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/js/dist/collapse";
@@ -6,15 +6,14 @@ import "../CSS/general.css";
 import $ from "jquery";
 window.jQuery = $;
 
-class Nav extends Component {
-  render() {
+const Nav = (props) => {
     const handleMenu = (e) => {
       $(".navbar-collapse").collapse("hide");
     };
 
-    const About = this.props.data.About[0];
+    const About = props.data.About[0];
 
-    const Options = this.props.data.Options.map((item,position) => {
+    const Options = props.data.Options.map((item,position) => {
       return(
         <li>
           <a key={position} className="nav-link js-scroll-trigger" href={item.hash} onClick={(e) => handleMenu(e)}>
@@ -77,7 +76,6 @@ class Nav extends Component {
         
       </>
     );
-  }
 }
 
 export default Nav;

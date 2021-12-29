@@ -16,7 +16,7 @@ import Workshops from './workshops';
 // Data
 import Data from '../Utils/DataInformation';
 
-export class Portfolio extends Component {
+class Portfolio extends Component {
     state = {
         productData: Data
     }

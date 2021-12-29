@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CV from "../Utils/CV_Angel_Mora_Flores.pdf"
 import ReactTooltip from "react-tooltip";
 
-export class Options extends Component {
+class Options extends Component {
     
     state = {
         isSwitchOn: false,
