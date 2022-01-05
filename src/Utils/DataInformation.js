@@ -255,6 +255,17 @@ const Data = {
     Workshops: [
         {
             Issuer: "Udemy",
+            Title: "Fundamentos de ReactJs desde la documentación oficial",
+            Issued_On_Day: "4",
+            Issued_On_Month: "Enero",
+            Issued_On_Year: "2022",
+            Description: "Este curso lo he creado como si fuera para mi mismo, en mis inicios me hubiera gustado contar con una guía que me hubiera dado los conceptos básicos sobre React, pero sobre todo que me hubiera enseñado o mostrado el conocimiento aprendido desde la documentación oficial. Así cuando tenga dudas o inquietudes, recurrir a ella para aclararlas. También es importante decir que este curso es un curso de iniciación, veremos los conceptos básicos pero con un proyecto de aprendizaje muy interesante, que te abrirá la mente para seguir creando tus propios proyectos.",
+            Level: "No obtenido",
+            Total_Hours: "1,5",
+            Total_Classes: "15",
+        },
+        {
+            Issuer: "Udemy",
             Title: "MERN Stack Authentication And Deployment",
             Issued_On_Day: "7",
             Issued_On_Month: "Octubre",
