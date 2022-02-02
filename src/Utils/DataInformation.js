@@ -647,7 +647,7 @@ const Data = {
             link: "https://pshbitcoin.org"
         },
         {
-            Title: "Store A||N M||RA App",
+            Title: "Books API App",
             Project_by: "AnMORA",
             Description: "Proyecto personal de investigación y aprendizaje para sugerir libros de programación, CRUD completo, se utilizaron herramientas de interfaz Front End en ReactJS, usando Fetch API para muestra de datos remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra construcción para mejoras e implementación de más datos y registro de cuentas.",
             img: "./multimedia/proyectos/PRO_StoreAllNMllRAApp.gif",
