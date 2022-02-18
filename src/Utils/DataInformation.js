@@ -42,7 +42,7 @@ const Data = {
             Name: "Angel",
             LastName: "Mora",
             First_NickName: "An",
-            logo: "./multimedia/Nll_LllMllTS.png",
+            logo: "./multimedia/MllRA.png",
             Code_Postal: "10201",
             Address: "Urb. La Nuez",
             Direction: "San Antonio de Escazu",
@@ -356,7 +356,7 @@ const Data = {
             position: "Voluntariado / Lider de Proyecto",
             supervisor: "Luis Santiago Berliotz / Juan Villalobos",
             range: "Project Management",
-            cellphone: "(+506) 8433-5496",
+            cellphone: "No obtenido",
             job_description: "Encargado como líder de proyecto, registro de actividades realizadas, uso de plataforma WordPress con widget Elementor (Front End) y CPanel con PHPMyAdmin (Backend), realización de backups, entre otras actividades como reuniones y uso correo institucional para supervision a cargo de implementación y producción de este sitio. De momento el sitio web se encuentra en desarrollo.",
             link_name: "yfse.org",
             link_verified: "https://yfse.org/",
@@ -415,7 +415,7 @@ const Data = {
                     flujo: "Pruebas y depuración de navegadores cruzados"
                 },
                 {
-                    flujo: "Desarrollo ágil y metodologias SCRUM y KANBAN"
+                    flujo: "Desarrollo ágil y metodologia SCRUM"
                 },
                 {
                     flujo: "Pensamiento analítico, crítico e innovación"
@@ -450,24 +450,8 @@ const Data = {
                     icon: "fas fa-file-code"
                 },
                 {
-                    name: "Metodologia SCRUM",
+                    name: "SCRUM",
                     icon: "fas fa-hands-helping"
-                },
-                {
-                    name: "Metodologia KANBAN",
-                    icon: "fas fa-hands-helping"
-                },
-                {
-                    name: "Codigo Seguro",
-                    icon: "fas fa-user-lock"
-                },
-                {
-                    name: "Codigo Confidencial",
-                    icon: "fas fa-user-secret"
-                },
-                {
-                    name: "Codigo Organizado",
-                    icon: "fas fa-boxes"
                 },
                 {
                     name: "Terminal",
@@ -475,10 +459,6 @@ const Data = {
                 },
                 {
                     name: "Visual Studio Code",
-                    icon: "fas fa-keyboard"
-                },
-                {
-                    name: "PyCharm JetBrains",
                     icon: "fas fa-keyboard"
                 },
                 {
@@ -494,10 +474,6 @@ const Data = {
                     icon: "fab fa-css3-alt"
                 },
                 {
-                    name: "SASS",
-                    icon: "fab fa-sass"
-                },
-                {
                     name: "JavaScript",
                     icon: "fab fa-js"
                 },
@@ -506,44 +482,8 @@ const Data = {
                     icon: "fab fa-node-js"
                 },
                 {
-                    name: "REACTJS",
-                    icon: "fab fa-react"
-                },
-                {
-                    name: "REACT FLUX",
-                    icon: "fab fa-jsfiddle"
-                },
-                {
-                    name: "Fetch API",
-                    icon: "far fa-window-restore"
-                },
-                {
-                    name: "Data Structure & Model",
-                    icon: "fas fa-server"
-                },
-                {
-                    name: "Firebase",
-                    icon: "fas fa-fire-alt"
-                },
-                {
                     name: "NPM",
                     icon: "fab fa-npm"
-                },
-                {
-                    name: "WEBPACK",
-                    icon: "fas fa-box-open"
-                },
-                {
-                    name: "Firefox Dev Edition",
-                    icon: "fab fa-firefox-browser"
-                },
-                {
-                    name: "Chrome",
-                    icon: "fab fa-chrome"
-                },
-                {
-                    name: "GIT",
-                    icon: "fab fa-git"
                 },
                 {
                     name: "GITHUB",
@@ -553,46 +493,50 @@ const Data = {
                     name: "GITPOD",
                     icon: "fab fa-github-square"
                 },
-                {
-                    name: "GIT-ALT",
-                    icon: "fab fa-git-alt"
-                },
+                // {
+                //     name: "GIT-ALT",
+                //     icon: "fab fa-git-alt"
+                // },
                 {
                     name: "CODE-BRANCH",
                     icon: "fas fa-code-branch"
                 },
                 {
-                    name: "NODEJS",
-                    icon: "fab fa-node"
+                    name: "MONGODB",
+                    icon: "fas fa-database"
                 },
                 {
                     name: "EXPRESSJS",
                     icon: "fas fa-cogs"
                 },
                 {
+                    name: "REACTJS",
+                    icon: "fab fa-react"
+                },
+                {
+                    name: "NODEJS",
+                    icon: "fab fa-node"
+                },
+                {
                     name: "MONGOOSE",
                     icon: "fas fa-cog"
                 },
-                {
-                    name: "SWAGGER API REST",
-                    icon: "fas fa-wrench"
-                },
-                {
-                    name: "PYTHON",
-                    icon: "fab fa-python"
-                },
-                {
-                    name: "FLASK",
-                    icon: "fas fa-flask"
-                },
-                {
-                    name: "Django DRF",
-                    icon: "fas fa-cogs"
-                },
-                {
-                    name: "MONGODB",
-                    icon: "fas fa-database"
-                },
+                // {
+                //     name: "SWAGGER API REST",
+                //     icon: "fas fa-wrench"
+                // },
+                // {
+                //     name: "PYTHON",
+                //     icon: "fab fa-python"
+                // },
+                // {
+                //     name: "FLASK",
+                //     icon: "fas fa-flask"
+                // },
+                // {
+                //     name: "Django DRF",
+                //     icon: "fas fa-cogs"
+                // },
                 {
                     name: "MONGODB Compass",
                     icon: "far fa-compass"
@@ -601,10 +545,10 @@ const Data = {
                     name: "MONGODB ATLAS",
                     icon: "fas fa-cloud-upload-alt"
                 },
-                {
-                    name: "Robot 3T",
-                    icon: "fas fa-robot"
-                },
+                // {
+                //     name: "Robot 3T",
+                //     icon: "fas fa-robot"
+                // },
                 {
                     name: "POSTMAN",
                     icon: "fas fa-rocket"
@@ -617,10 +561,10 @@ const Data = {
                     name: "CPANEL",
                     icon: "fab fa-cpanel"
                 },
-                {
-                    name: "PHP",
-                    icon: "fab fa-php"
-                },
+                // {
+                //     name: "PHP",
+                //     icon: "fab fa-php"
+                // },
             ]
         }
     ],
@@ -647,14 +591,21 @@ const Data = {
             link: "https://pshbitcoin.org"
         },
         {
-            Title: "Books API App",
+            Title: "Registro/Login MERN",
             Project_by: "AnMORA",
-            Description: "Proyecto personal de investigación y aprendizaje para sugerir libros de programación, CRUD completo, se utilizaron herramientas de interfaz Front End en ReactJS, usando Fetch API para muestra de datos remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra construcción para mejoras e implementación de más datos y registro de cuentas.",
+            Description: "Proyecto de aprendizaje para autenticar (registrarse/iniciar sesión) el usuario e implementar nuestra aplicación de pila MERN en Heroku. También de cómo proteger nuestra contraseña de forma encriptada antes de almacenarla en la base de datos. El sitio aún se encuentra construcción para mejoras e implementación de más datos y CRUD de ventas.",
+            img: "./multimedia/proyectos/PRO_Register_Login.gif",
+            link: "https://agile-plains-93591.herokuapp.com/login/"
+        },
+        {
+            Title: "Books API App MERN",
+            Project_by: "AnMORA",
+            Description: "Proyecto personal de investigación y aprendizaje para sugerir libros de programación, CRUD completo, se utilizaron herramientas de interfaz Front End en ReactJS, usando Fetch API para muestra de datos remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku.",
             img: "./multimedia/proyectos/PRO_StoreAllNMllRAApp.gif",
             link: "https://desolate-springs-29315.herokuapp.com/"
         },
         {
-            Title: "Que pelis ver?",
+            Title: "Que pelis ver? MERN",
             Project_by: "AnMORA",
             Description: "Proyecto personal de investigación y aprendizaje para sugerir películas, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra en mejoras.",
             img: "./multimedia/proyectos/Que_peli_ver.gif",
