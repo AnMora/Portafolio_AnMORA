@@ -106,7 +106,7 @@ const Data = {
             Issued_On_Day: "07",
             Issued_On_Month: "Abril",
             Issued_On_Year: "2021",
-            Expired_On: "No caduda",
+            Expired_On: "No caduca",
             Description: "Este documento certifica que el estudiante es un Desarrollador Web Full Stack, con un conocimiento competente para ayudar en la creación de aplicaciones web usando HTML / CSS, Javascript, React y REST API usando SQL, Python y Flask Framework.",
             Level: "No obtenido",
             Total_Hours: "380",
@@ -120,8 +120,8 @@ const Data = {
             Issued_On_Day: "10",
             Issued_On_Month: "Octubre",
             Issued_On_Year: "2019",
-            Expired_On: "No caduda",
-            Description: "Este documento certifica que el estudiante es un desarrollador web, otorgado por el Instituto Nacional de Aprendizaje (INA) por su conclusion exitosa en periodo de aprendizaje, con un conocimiento competente para ayudar en la creación de aplicaciones web usando lo aprendido en clases en resumen: levantamiento de requerimientos segun el cliente, estudio e implementación de sitio web, minutas y establecimiento de acuerdo para desarrollo de software para/con los clientes, test case (casos de prueba), matriz de trazabilidad de requisitos, wireframing (wireframes) y prototyping (mockups), Brackets (Editor de codigo), Sublime Text 3 (Editor de codigo) Instalación de plugings, HTML 5, CSS 3, Bootstrap (framework), Fetch API en DATA JSON, manejo del DOM JavaScript con AJAX, Angular (breve aprendizaje), TypeScript (breve aprendizaje), WordPress (breve aprendizaje) y estudio e implementación sobre accesibilidad web.",
+            Expired_On: "No caduca",
+            Description: "Este documento certifica que el estudiante es un desarrollador web, otorgado por el Instituto Nacional de Aprendizaje (INA) por su conclusión exitosa en periodo de aprendizaje, con un conocimiento competente para ayudar en la creación de aplicaciones web usando lo aprendido en clases en resumen: levantamiento de requerimientos según el cliente, estudio e implementación de sitio web, minutas y establecimiento de acuerdo para desarrollo de software para/con los clientes, test case (casos de prueba), matriz de trazabilidad de requisitos, wireframing (wireframes) y prototyping (mockups), Brackets (Editor de código), Sublime Text 3 (Editor de codigo) Instalación de plugings, HTML 5, CSS 3, Bootstrap (framework), Fetch API en DATA JSON, manejo del DOM JavaScript con AJAX, Angular (breve aprendizaje), TypeScript (breve aprendizaje), WordPress (breve aprendizaje) y estudio e implementación sobre accesibilidad web.",
             Level: "Técnico",
             Total_Hours: "1594",
             link_name: "No obtenido",
@@ -134,8 +134,8 @@ const Data = {
             Issued_On_Day: "16",
             Issued_On_Month: "Marzo",
             Issued_On_Year: "2018",
-            Expired_On: "No caduda",
-            Description: "Este documento certifica que el estudiante es un programador de paginas web, otorgado por el Instituto Nacional de Aprendizaje (INA) por su conclusion exitosa en periodo de aprendizaje, con un conocimiento competente para ayudar en la creación de aplicaciones web usando lo aprendido en clases en resumen: Logica Computacional (Algoritmos), Pseudocodigo, Teoria de factores y fundamentos del diseño grafico para web, HTML 4.1, CSS 3, Dreamweaver (IDE), Introducción DOM con JavaScript.",
+            Expired_On: "No caduca",
+            Description: "Este documento certifica que el estudiante es un programador de páginas web, otorgado por el Instituto Nacional de Aprendizaje (INA) por su conclusión exitosa en periodo de aprendizaje, con un conocimiento competente para ayudar en la creación de aplicaciones web usando lo aprendido en clases en resumen: Lógica Computacional (Algoritmos), Seudocódigo, Teoría de factores y fundamentos del diseño gráfico para web, HTML 4.1, CSS 3, Dreamweaver (IDE), Introducción DOM con JavaScript.",
             Level: "Técnico",
             Total_Hours: "294",
             link_name: "No obtenido",
@@ -148,8 +148,8 @@ const Data = {
             Issued_On_Day: "19",
             Issued_On_Month: "Junio",
             Issued_On_Year: "2019",
-            Expired_On: "No caduda",
-            Description: "Este documento certifica que el estudiante ha concluido con exito el modulo de Compresion de lectura de ingles, otorgado por el Instituto Nacional de Aprendizaje (INA) en periodo de aprendizaje y un conocimiento competente.",
+            Expired_On: "No caduca",
+            Description: "Este documento certifica que el estudiante ha concluido con éxito el módulo de Compresión de lectura de inglés, otorgado por el Instituto Nacional de Aprendizaje (INA) en periodo de aprendizaje y un conocimiento competente.",
             Level: "No obtenido",
             Total_Hours: "294",
             link_name: "No obtenido",
@@ -164,7 +164,7 @@ const Data = {
             Issued_On_Day: "12",
             Issued_On_Month: "Septiembre",
             Issued_On_Year: "2021",
-            Expired_On: "No caduda",
+            Expired_On: "No caduca",
             Instructores: [
                 {Instructor: "Bluelime Learning Solutions en Udemy"}
             ],
@@ -182,7 +182,7 @@ const Data = {
             Issued_On_Day: "24",
             Issued_On_Month: "Junio",
             Issued_On_Year: "2021",
-            Expired_On: "No caduda",
+            Expired_On: "No caduca",
             Instructores: [
                 {Instructor: "Chandan Kumar"}
             ],
@@ -200,7 +200,7 @@ const Data = {
             Issued_On_Day: "06",
             Issued_On_Month: "Mayo",
             Issued_On_Year: "2021",
-            Expired_On: "No caduda",
+            Expired_On: "No caduca",
             Instructores: [
                 {Instructor: "EdYoda Digital University"},
                 {Instructor: "Qaifi Khan"},
@@ -220,7 +220,7 @@ const Data = {
             Issued_On_Day: "26",
             Issued_On_Month: "Junio",
             Issued_On_Year: "2021",
-            Expired_On: "No caduda",
+            Expired_On: "No caduca",
             Instructores: [
                 {Instructor: "EdYoda Digital University"},
                 {Instructor: "Qaifi Khan"}
@@ -239,7 +239,7 @@ const Data = {
             Issued_On_Day: "1",
             Issued_On_Month: "Julio",
             Issued_On_Year: "2021",
-            Expired_On: "No caduda",
+            Expired_On: "No caduca",
             Instructores: [
                 {Instructor: "Bogdan Stashchuk"}
             ],
@@ -259,7 +259,7 @@ const Data = {
             Issued_On_Day: "4",
             Issued_On_Month: "Enero",
             Issued_On_Year: "2022",
-            Description: "Este curso lo he creado como si fuera para mi mismo, en mis inicios me hubiera gustado contar con una guía que me hubiera dado los conceptos básicos sobre React, pero sobre todo que me hubiera enseñado o mostrado el conocimiento aprendido desde la documentación oficial. Así cuando tenga dudas o inquietudes, recurrir a ella para aclararlas. También es importante decir que este curso es un curso de iniciación, veremos los conceptos básicos pero con un proyecto de aprendizaje muy interesante, que te abrirá la mente para seguir creando tus propios proyectos.",
+            Description: "Este curso lo he creado como si fuera para mí mismo, en mis inicios me hubiera gustado contar con una guía que me hubiera dado los conceptos básicos sobre React, pero sobre todo que me hubiera enseñado o mostrado el conocimiento aprendido desde la documentación oficial. Así cuando tenga dudas o inquietudes, recurrir a ella para aclararlas. También es importante decir que este curso es un curso de iniciación, veremos los conceptos básicos, pero con un proyecto de aprendizaje muy interesante, que te abrirá la mente para seguir creando tus propios proyectos.",
             Level: "No obtenido",
             Total_Hours: "1,5",
             Total_Classes: "15",
@@ -281,7 +281,7 @@ const Data = {
             Issued_On_Day: "28",
             Issued_On_Month: "Septiembre",
             Issued_On_Year: "2021",
-            Description: "En este curso introductorio en el stack MERN aprenderás a las bases o principios de una aplicación web spa usando las tecnologías del stack MERN (mongodb, express, react, nodejs). Adaptar la aquitectura MVC en nuestro backend, creando modelos, vistas y controladores. En la sección del frontend vamos a usar React y sus últimas actualizaciones, como lo son sus Hooks. Desarrollar una restful api, Crear un servidor usando express, Crear modelos,controladores y rutas, Hacer pruebas con postman, Desarrollar el frontend o cliente usando react con sus ultimas actualizaciones como lo son los hooks, Sweetalert2. Desarrolladores dispuestos a aprender/repasar las bases del stack MERN.",
+            Description: "En este curso introductorio en el stack MERN aprenderás a las bases o principios de una aplicación web spa usando las tecnologías del stack MERN (mongodb, express, react, nodejs). Adaptar la aquitectura MVC en nuestro backend, creando modelos, vistas y controladores. En la sección del frontend vamos a usar React y sus últimas actualizaciones, como lo son sus Hooks. Desarrollar una restful api, Crear un servidor usando express, Crear modelos, controladores y rutas, Hacer pruebas con postman, Desarrollar el frontend o cliente usando react con sus últimas actualizaciones como lo son los hooks, Sweetalert2. Desarrolladores dispuestos a aprender/repasar las bases del stack MERN.",
             Level: "No obtenido",
             Total_Hours: "1",
             Total_Classes: "9",
@@ -415,7 +415,7 @@ const Data = {
                     flujo: "Pruebas y depuración de navegadores cruzados"
                 },
                 {
-                    flujo: "Desarrollo ágil y metodologia SCRUM"
+                    flujo: "Desarrollo ágil y metodología SCRUM"
                 },
                 {
                     flujo: "Pensamiento analítico, crítico e innovación"
@@ -493,10 +493,6 @@ const Data = {
                     name: "GITPOD",
                     icon: "fab fa-github-square"
                 },
-                // {
-                //     name: "GIT-ALT",
-                //     icon: "fab fa-git-alt"
-                // },
                 {
                     name: "CODE-BRANCH",
                     icon: "fas fa-code-branch"
@@ -521,22 +517,6 @@ const Data = {
                     name: "MONGOOSE",
                     icon: "fas fa-cog"
                 },
-                // {
-                //     name: "SWAGGER API REST",
-                //     icon: "fas fa-wrench"
-                // },
-                // {
-                //     name: "PYTHON",
-                //     icon: "fab fa-python"
-                // },
-                // {
-                //     name: "FLASK",
-                //     icon: "fas fa-flask"
-                // },
-                // {
-                //     name: "Django DRF",
-                //     icon: "fas fa-cogs"
-                // },
                 {
                     name: "MONGODB Compass",
                     icon: "far fa-compass"
@@ -545,10 +525,12 @@ const Data = {
                     name: "MONGODB ATLAS",
                     icon: "fas fa-cloud-upload-alt"
                 },
-                // {
-                //     name: "Robot 3T",
-                //     icon: "fas fa-robot"
-                // },
+
+                {
+                    name: "Google Analytics",
+                    icon: "fa fa-chart-line"
+                },
+
                 {
                     name: "POSTMAN",
                     icon: "fas fa-rocket"
@@ -561,10 +543,6 @@ const Data = {
                     name: "CPANEL",
                     icon: "fab fa-cpanel"
                 },
-                // {
-                //     name: "PHP",
-                //     icon: "fab fa-php"
-                // },
             ]
         }
     ],
