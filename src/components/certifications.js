@@ -26,8 +26,14 @@ const Certifications = (props) => {
             {item.Level !== "No obtenido" ? (
               <div>Nivel de cualificación: {item.Level}</div>
             ) : ("")}
-            <div>Horas: {item.Total_Hours} Horas</div>
-            <div>Cantidad de Clases: {item.Total_Classes} Clases</div>
+            {item.Total_Hours !== "No obtenido" ? (
+              <div>Horas: {item.Total_Hours} Horas</div>
+            ) : ("")}
+
+            {item.Total_Classes !== "No obtenido" ? (
+              <div>Cantidad de Clases: {item.Total_Classes} Clases</div>
+            ) : ("")}
+
             <div>Expira en: {item.Expired_On}</div>
             <br />
             {item.link_verified !== "No obtenido" || item.link_name !== "No obtenido" ? (

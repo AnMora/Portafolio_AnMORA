@@ -103,7 +103,7 @@ const Data = {
         {
             Issuer: "4Geeks Academy",
             Title: "Desarrollo Web Full Stack",
-            Issued_On_Day: "07",
+            Issued_On_Day: "7",
             Issued_On_Month: "Abril",
             Issued_On_Year: "2021",
             Expired_On: "No caduca",
@@ -125,22 +125,8 @@ const Data = {
             Level: "Técnico",
             Total_Hours: "1594",
             link_name: "No obtenido",
-            link_verified: "No obtenido",
+            link_verified: "../../Documentos/Desarrollo_web.pdf",
             Register_No: "2418-01490-2019"
-        },
-        {
-            Issuer: "Instituto Nacional de Aprendizaje",
-            Title: "Programador de Paginas Web",
-            Issued_On_Day: "16",
-            Issued_On_Month: "Marzo",
-            Issued_On_Year: "2018",
-            Expired_On: "No caduca",
-            Description: "Este documento certifica que el estudiante es un programador de páginas web, otorgado por el Instituto Nacional de Aprendizaje (INA) por su conclusión exitosa en periodo de aprendizaje, con un conocimiento competente para ayudar en la creación de aplicaciones web usando lo aprendido en clases en resumen: Lógica Computacional (Algoritmos), Seudocódigo, Teoría de factores y fundamentos del diseño gráfico para web, HTML 4.1, CSS 3, Dreamweaver (IDE), Introducción DOM con JavaScript.",
-            Level: "Técnico",
-            Total_Hours: "294",
-            link_name: "No obtenido",
-            link_verified: "No obtenido",
-            Register_No: "2418-00349-2018"
         },
         {
             Issuer: "Instituto Nacional de Aprendizaje",
@@ -153,11 +139,43 @@ const Data = {
             Level: "No obtenido",
             Total_Hours: "294",
             link_name: "No obtenido",
-            link_verified: "No obtenido",
+            link_verified: "../../Documentos/Comprension_de_lectura_en_ingles.pdf",
             Register_No: "2418-01049-2019"
-        }
+        },
+        {
+            Issuer: "Instituto Nacional de Aprendizaje",
+            Title: "Programador de Paginas Web",
+            Issued_On_Day: "16",
+            Issued_On_Month: "Marzo",
+            Issued_On_Year: "2018",
+            Expired_On: "No caduca",
+            Description: "Este documento certifica que el estudiante es un programador de páginas web, otorgado por el Instituto Nacional de Aprendizaje (INA) por su conclusión exitosa en periodo de aprendizaje, con un conocimiento competente para ayudar en la creación de aplicaciones web usando lo aprendido en clases en resumen: Lógica Computacional (Algoritmos), Seudocódigo, Teoría de factores y fundamentos del diseño gráfico para web, HTML 4.1, CSS 3, Dreamweaver (IDE), Introducción DOM con JavaScript.",
+            Level: "Técnico",
+            Total_Hours: "294",
+            link_name: "No obtenido",
+            link_verified: "../../Documentos/Programador_de_paginas_web.pdf",
+            Register_No: "2418-00349-2018"
+        },
     ],
     Certifications: [
+        {
+            Issuer: "CertiProf Professional Knowledge",
+            Title: "Scrum Foundation Professional Certificate SFPC (v2020)",
+            Issued_On_Day: "9",
+            Issued_On_Month: "Marzo",
+            Issued_On_Year: "2022",
+            Expired_On: "No caduca",
+            Instructores: [
+                {Instructor: "Bluelime Learning Solutions en Udemy"}
+            ],
+            Description: "The Scrum Guide™, The Definitive Guide to Scrum: The Rules of the Game, desarrollada y sustentada por los fundadores de Scrum, Ken Schwaber y Jeff Sutherland, contiene la definición de Scrum, incluidos roles, eventos, artefactos y las reglas que vinculan ellos juntos.",
+            Level: "No obtenido",
+            Total_Hours: "No obtenido",
+            Total_Classes: "No obtenido",
+            link_name: "certiprof.com/pages/scrum-foundation-professional-certificate-sfpc-spanish",
+            link_verified: "../../Documentos/Certificate.pdf",
+            Register_No: "74457375"
+        },
         {
             Issuer: "Udemy",
             Title: "Create a Business or Personal Website with Wordpress",
@@ -197,7 +215,7 @@ const Data = {
         {
             Issuer: "Udemy",
             Title: "The Complete ReactJS Course - Basic to Advanced(2021)",
-            Issued_On_Day: "06",
+            Issued_On_Day: "6",
             Issued_On_Month: "Mayo",
             Issued_On_Year: "2021",
             Expired_On: "No caduca",
@@ -253,6 +271,28 @@ const Data = {
         },
     ],
     Workshops: [
+        {
+            Issuer: "Udemy",
+            Title: "Agile Scrum Project Management",
+            Issued_On_Day: "9",
+            Issued_On_Month: "Marzo",
+            Issued_On_Year: "2022",
+            Description: "El programa de capacitación Customer Centric Scrum está diseñado para aprender a usar formas ágiles de trabajo para brindar el máximo valor a los clientes o empresas. El curso fortalece los conocimientos básicos y las habilidades sobre formas ágiles de trabajar utilizando Scrum aplicado para gestionar proyectos/programas, desarrollo de productos, gestión de servicios, mejora de procesos y mejora continua.",
+            Level: "No obtenido",
+            Total_Hours: "2",
+            Total_Classes: "7",
+        },
+        {
+            Issuer: "Método SER Ágil",
+            Title: "Curso Gratuito de Fundamentos de Scrum",
+            Issued_On_Day: "5",
+            Issued_On_Month: "Marzo",
+            Issued_On_Year: "2022",
+            Description: "El interés con este curso gratuito no es solo que te certifiques sino que puedas poner en práctica el conocimiento adquirido. El curso esta dividido en diferentes sesiones para abarcar los diferentes fundamentos.",
+            Level: "No obtenido",
+            Total_Hours: "7,5",
+            Total_Classes: "3",
+        },
         {
             Issuer: "Udemy",
             Title: "Fundamentos de ReactJs desde la documentación oficial",
@@ -409,22 +449,22 @@ const Data = {
             workflow: "Habilidades Blandas",
             description: [
                 {
-                    flujo: "Diseño receptivo, primero en dispositivos móviles, multifuncional"
+                    flujo: "Diseño receptivo, primero en dispositivos móviles, multifuncional."
                 },
                 {
-                    flujo: "Pruebas y depuración de navegadores cruzados"
+                    flujo: "Pruebas y depuración de navegadores cruzados."
                 },
                 {
-                    flujo: "Desarrollo ágil y metodología SCRUM"
+                    flujo: "Desarrollo en método ágil de marco SCRUM."
                 },
                 {
-                    flujo: "Pensamiento analítico, crítico e innovación"
+                    flujo: "Pensamiento analítico, crítico e innovación."
                 },
                 {
-                    flujo: "Creatividad, originalidad e iniciativa"
+                    flujo: "Creatividad, originalidad e iniciativa."
                 },
                 {
-                    flujo: "Razonamiento, resolución de problemas complejos e ideación"
+                    flujo: "Razonamiento, resolución de problemas complejos e ideación."
                 }
 
             ],

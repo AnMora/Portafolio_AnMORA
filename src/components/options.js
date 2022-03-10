@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CV from "../Utils/CV_Angel_Mora_Flores.pdf"
 import ReactTooltip from "react-tooltip";
 
 class Options extends Component {
@@ -78,7 +77,7 @@ class Options extends Component {
                                 </a>
                                 <a
                                     className="social-icon-box mb-1"
-                                    href={CV}
+                                    href="../../Documentos/CV_Angel_Mora_Flores.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     data-tip
