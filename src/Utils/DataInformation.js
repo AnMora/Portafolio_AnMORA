@@ -272,17 +272,6 @@ const Data = {
     ],
     Workshops: [
         {
-            Issuer: "Udemy",
-            Title: "Agile Scrum Project Management",
-            Issued_On_Day: "9",
-            Issued_On_Month: "Marzo",
-            Issued_On_Year: "2022",
-            Description: "El programa de capacitación Customer Centric Scrum está diseñado para aprender a usar formas ágiles de trabajo para brindar el máximo valor a los clientes o empresas. El curso fortalece los conocimientos básicos y las habilidades sobre formas ágiles de trabajar utilizando Scrum aplicado para gestionar proyectos/programas, desarrollo de productos, gestión de servicios, mejora de procesos y mejora continua.",
-            Level: "No obtenido",
-            Total_Hours: "2",
-            Total_Classes: "7",
-        },
-        {
             Issuer: "Método SER Ágil",
             Title: "Curso Gratuito de Fundamentos de Scrum",
             Issued_On_Day: "5",
