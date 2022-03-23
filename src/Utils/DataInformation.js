@@ -392,11 +392,11 @@ const Data = {
             since_On_Day: "25",
             since_On_Month: "Agosto",
             since_On_Year: "2021",
-            phrase: "Actualmente",
-            Work_here: "Si",
-            until_On_Day: "",
-            until_On_Month: "",
-            until_On_Year: "",
+            phrase: "",
+            Work_here: "No",
+            until_On_Day: "3",
+            until_On_Month: "Febrero",
+            until_On_Year: "2022",
             links: [
                 {
                     icon: "fab fa-facebook-f",
