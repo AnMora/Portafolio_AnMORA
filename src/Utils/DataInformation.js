@@ -102,7 +102,7 @@ const Data = {
     Education: [
         {
             Issuer: "4Geeks Academy",
-            Title: "Desarrollo Web Full Stack",
+            Title: "Full Stack Software Development FT",
             Issued_On_Day: "7",
             Issued_On_Month: "Abril",
             Issued_On_Year: "2021",
@@ -137,7 +137,7 @@ const Data = {
             Expired_On: "No caduca",
             Description: "Este documento certifica que el estudiante ha concluido con éxito el módulo de Compresión de lectura de inglés, otorgado por el Instituto Nacional de Aprendizaje (INA) en periodo de aprendizaje y un conocimiento competente.",
             Level: "No obtenido",
-            Total_Hours: "294",
+            Total_Hours: "60",
             link_name: "No obtenido",
             link_verified: "../../Documentos/Comprension_de_lectura_en_ingles.pdf",
             Register_No: "2418-01049-2019"
