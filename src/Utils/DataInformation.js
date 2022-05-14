@@ -42,15 +42,15 @@ const Data = {
             Name: "Angel",
             LastName: "Mora",
             First_NickName: "An",
-            logo: "./multimedia/MllRA.png",
+            logo: "./multimedia/Nll_LllMllTS.png",
             Code_Postal: "10201",
             Address: "Urb. La Nuez",
             Direction: "San Antonio de Escazu",
             Telephone: "(+506) 7254-7757",
             email: "anmora.2396@gmail.com",
-            descripcion: "Desarrollador Web Full Stack",
+            descripcion: "Desarrollador Software Web",
             presentacion: "Capaz de autogestión eficaz en proyectos independientes, me fascina todo lo que aprendo y aplico en cada proyecto que desarrollo. Trabajar con proyectos nuevos es mi pasión.",
-            resumen: "Desarrollador de software móvil y web Full Stack, me especializo en creación y diseño, maquetación y modelado, gestión, testeo y mantenimiento de software computacional, dominio de varias plataformas y lenguajes.",
+            resumen: "Aspirante a desarrollador de software web Full Stack MERN, creación, diseño, gestión y mantenimiento de software computacional.",
             tiempo_libre: "",
             invitacion: "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
             links: [
@@ -378,33 +378,6 @@ const Data = {
             ]
         },
         {
-            Workplace: "YFSE Fundacion para la juventud el ambiente y los deportes",
-            Workplace_nick: "Podemos ser heroes",
-            Ubication: "No obtenido",
-            telephone: "No obtenido",
-            position: "Voluntariado / Lider de Proyecto",
-            supervisor: "Luis Santiago Berliotz / Juan Villalobos",
-            range: "Project Management",
-            cellphone: "No obtenido",
-            job_description: "Encargado como líder de proyecto, registro de actividades realizadas, uso de plataforma WordPress con widget Elementor (Front End) y CPanel con PHPMyAdmin (Backend), realización de backups, entre otras actividades como reuniones y uso correo institucional para supervision a cargo de implementación y producción de este sitio. De momento el sitio web se encuentra en desarrollo.",
-            link_name: "yfse.org",
-            link_verified: "https://yfse.org/",
-            since_On_Day: "25",
-            since_On_Month: "Agosto",
-            since_On_Year: "2021",
-            phrase: "",
-            Work_here: "No",
-            until_On_Day: "3",
-            until_On_Month: "Febrero",
-            until_On_Year: "2022",
-            links: [
-                {
-                    icon: "fab fa-facebook-f",
-                    facebook: "https://www.facebook.com/SitrainaCR/",
-                },
-            ]
-        },
-        {
             Workplace: "4Geeks Academy",
             Workplace_nick: "BreathCode (4Geeks Product)",
             Ubication: "No obtenido",
@@ -430,24 +403,45 @@ const Data = {
                     facebook: "https://www.facebook.com/SitrainaCR/",
                 },
             ]
+        },
+        {
+            Workplace: "Departamento Netgear",
+            Workplace_nick: "Concentrix",
+            Ubication: "Av. Elena Lahmann de Rohrmoser, Zona Industrial, San José",
+            telephone: "(+506) 2519-6700",
+            position: "Agente de servicio al cliente",
+            supervisor: "Gloriana Cabrera Chaves",
+            range: "Project Management",
+            cellphone: "No obtenido",
+            job_description: "Ayudar a los clientes que tuvieran inconvenientes con los dispositivos de red para el hogar, realizando registro de dispositivos, configuraciones iniciales, cambio de contraseñas, independización de señales de red, problemas de velocidad o intermitencia, desfragmentación de paquetes, cambio de canales, bloqueo de usuarios desconocidos y recomendaciones para uso de los dispositivos",
+            link_name: "",
+            link_verified: "",
+            since_On_Day: "10",
+            since_On_Month: "Noviembre",
+            since_On_Year: "2019",
+            phrase: "",
+            Work_here: "No",
+            until_On_Day: "10",
+            until_On_Month: "Abril",
+            until_On_Year: "2020",
+            links: [
+                {
+                    icon: "fab fa-facebook-f",
+                    facebook: "https://www.facebook.com/SitrainaCR/",
+                },
+            ]
         }
     ],
     Skills: [
         {
-            subheading: "Lenguajes de programacion & herramientas",
+            subheading: "programacion & herramientas",
             workflow: "Habilidades Blandas",
             description: [
                 {
                     flujo: "Diseño receptivo, primero en dispositivos móviles, multifuncional."
                 },
                 {
-                    flujo: "Pruebas y depuración de navegadores cruzados."
-                },
-                {
                     flujo: "Desarrollo en método ágil de marco SCRUM."
-                },
-                {
-                    flujo: "Pensamiento analítico, crítico e innovación."
                 },
                 {
                     flujo: "Creatividad, originalidad e iniciativa."
@@ -459,117 +453,145 @@ const Data = {
             ],
             links: [
                 {
-                    name: "Requerimientos",
-                    icon: "far fa-folder"
-                },
-                {
-                    name: "Diagramas de flujo",
-                    icon: "fas fa-project-diagram"
-                },
-                {
-                    name: "Mapeo de sitios web",
-                    icon: "fas fa-sitemap"
-                },
-                {
-                    name: "Wireframing",
-                    icon: "far fa-file-code"
-                },
-                {
-                    name: "Prototyping",
-                    icon: "fas fa-file-code"
-                },
-                {
-                    name: "SCRUM",
-                    icon: "fas fa-hands-helping"
-                },
-                {
-                    name: "Terminal",
-                    icon: "fas fa-terminal"
-                },
-                {
-                    name: "Visual Studio Code",
-                    icon: "fas fa-keyboard"
-                },
-                {
-                    name: "HTML",
-                    icon: "fab fa-html5"
-                },
-                {
-                    name: "Bootstrap",
-                    icon: "fab fa-bootstrap"
-                },
-                {
-                    name: "CSS",
-                    icon: "fab fa-css3-alt"
-                },
-                {
-                    name: "JavaScript",
-                    icon: "fab fa-js"
-                },
-                {
-                    name: "VANILLAJS",
-                    icon: "fab fa-node-js"
-                },
-                {
-                    name: "NPM",
-                    icon: "fab fa-npm"
-                },
-                {
-                    name: "GITHUB",
-                    icon: "fab fa-github"
-                },
-                {
-                    name: "GITPOD",
-                    icon: "fab fa-github-square"
-                },
-                {
-                    name: "CODE-BRANCH",
-                    icon: "fas fa-code-branch"
-                },
-                {
                     name: "MONGODB",
+                    porcent: "50%",
                     icon: "fas fa-database"
                 },
                 {
                     name: "EXPRESSJS",
+                    porcent: "20%",
                     icon: "fas fa-cogs"
                 },
                 {
                     name: "REACTJS",
+                    porcent: "10%",
                     icon: "fab fa-react"
                 },
                 {
                     name: "NODEJS",
+                    porcent: "100%",
                     icon: "fab fa-node"
                 },
                 {
+                    name: "Requerimientos",
+                    porcent: "50%",
+                    icon: "far fa-folder"
+                },
+                {
+                    name: "Diagramas de flujo",
+                    porcent: "50%",
+                    icon: "fas fa-project-diagram"
+                },
+                {
+                    name: "Mapeo de sitios web",
+                    porcent: "50%",
+                    icon: "fas fa-sitemap"
+                },
+                {
+                    name: "Visual Studio Code",
+                    porcent: "50%",
+                    icon: "fas fa-keyboard"
+                },
+                {
+                    name: "Wireframing",
+                    porcent: "50%",
+                    icon: "far fa-file-code"
+                },
+                {
+                    name: "Prototyping",
+                    porcent: "50%",
+                    icon: "fas fa-file-code"
+                },
+                {
+                    name: "SCRUM",
+                    porcent: "50%",
+                    icon: "fas fa-hands-helping"
+                },
+                {
+                    name: "Terminal",
+                    porcent: "50%",
+                    icon: "fas fa-terminal"
+                },
+                {
+                    name: "HTML",
+                    porcent: "50%",
+                    icon: "fab fa-html5"
+                },
+                {
+                    name: "Bootstrap",
+                    porcent: "50%",
+                    icon: "fab fa-bootstrap"
+                },
+                {
+                    name: "CSS",
+                    porcent: "50%",
+                    icon: "fab fa-css3-alt"
+                },
+                {
+                    name: "JavaScript",
+                    porcent: "50%",
+                    icon: "fab fa-js"
+                },
+                {
+                    name: "VANILLAJS",
+                    porcent: "50%",
+                    icon: "fab fa-node-js"
+                },
+                {
+                    name: "NPM",
+                    porcent: "50%",
+                    icon: "fab fa-npm"
+                },
+                {
+                    name: "GITHUB",
+                    porcent: "50%",
+                    icon: "fab fa-github"
+                },
+                {
+                    name: "GITPOD",
+                    porcent: "50%",
+                    icon: "fab fa-github-square"
+                },
+                {
+                    name: "CODE-BRANCH",
+                    porcent: "50%",
+                    icon: "fas fa-code-branch"
+                },
+                {
                     name: "MONGOOSE",
+                    porcent: "50%",
                     icon: "fas fa-cog"
                 },
                 {
                     name: "MONGODB Compass",
+                    porcent: "50%",
                     icon: "far fa-compass"
                 },
                 {
                     name: "MONGODB ATLAS",
+                    porcent: "50%",
                     icon: "fas fa-cloud-upload-alt"
                 },
 
                 {
                     name: "Google Analytics",
+                    porcent: "50%",
                     icon: "fa fa-chart-line"
                 },
 
                 {
                     name: "POSTMAN",
+                    porcent: "50%",
                     icon: "fas fa-rocket"
                 },
                 {
                     name: "Wordpress",
+                    porcent: "50%",
                     icon: "fab fa-wordpress"
                 },
                 {
                     name: "CPANEL",
+                    porcent: "50%",
                     icon: "fab fa-cpanel"
                 },
             ]
@@ -589,13 +611,6 @@ const Data = {
             Description: "Proyecto nuevo, continuación de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje (INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en construcción para su total implementación. Pre visualización, en su función y primera etapa solo cuenta con algunas páginas funcionando y documentos descargables.",
             img: "./multimedia/proyectos/PRO_SITRAINA.gif",
             link: "https://proyectositraina.netlify.app"
-        },
-        {
-            Title: "PSHBITCOIN",
-            Project_by: "YFSE",
-            Description: "Proyecto PSH BITCOIN es un programa educativo de la fundación YFSE PSH que busca mostrar los beneficios de la criptomoneda Bitcoin como carbono neutral, informar por medio de noticias, datos, documentos, con respuesta a preguntas frecuentes y educar con un curso para que los internautas aprendan y a la vez hagamos conciencia, permitiendo recibir donaciones en criptomoneda Bitcoin para rescate del ambiente.",
-            img: "./multimedia/proyectos/PRO_PSHBITCOIN.gif",
-            link: "https://pshbitcoin.org"
         },
         {
             Title: "Registro/Login MERN",

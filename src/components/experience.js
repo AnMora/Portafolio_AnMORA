@@ -28,11 +28,13 @@ const Experience = (props) => {
                 <div>Jerarquia: {item.range}</div>
                 <br />
                 <p>{item.job_description}</p>
-                <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="btn btn-outline-secondary text-danger-danger">
-                    Visitar sitio
-                  </button>
-                </a>
+                {item.link_verified === "" ? "" : (
+                  <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="btn btn-outline-secondary text-danger-danger">
+                      Visitar sitio
+                    </button>
+                  </a>
+                )}
                 {item.Ubication === "No obtenido" ? ("") : (<div>Ubicacion: {item.Ubication}</div>)}
                 {item.telephone === "No obtenido" ? ("") : (<div>Telefono: {item.telephone}</div>)}
               </div>
