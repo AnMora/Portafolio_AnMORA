@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Skills = (props) => {
-  const Skills = props.data.Options[5];
+  const Skills = props.data.Options[6];
   const About = props.data.About[0];
 
   useEffect(() => {

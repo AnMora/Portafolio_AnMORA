@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Education = (props) => {
-  const Education = props.data.Options[1];  
+  const Education = props.data.Options[2];  
   const About = props.data.About[0];
 
   useEffect(() => {

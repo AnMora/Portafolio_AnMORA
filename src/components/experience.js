@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Experience = (props) => {
-  const proPractice = props.data.Options[4];
+  const proPractice = props.data.Options[5];
   const About = props.data.About[0];
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const Experience = (props) => {
                 <div className="subheading mb-3">{item.position}</div>
                 <div>Encargado: {item.supervisor}</div>
                 {item.cellphone === "No obtenido" ? ("") : (<div>Telefono: {item.cellphone}</div>)}
-                <div>Jerarquia: {item.range}</div>
+                {item.range === "No obtenido" ? ("") : (<div>Telefono: {item.range}</div>)}
                 <br />
                 <p>{item.job_description}</p>
                 {item.link_verified === "" ? "" : (

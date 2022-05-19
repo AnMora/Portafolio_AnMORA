@@ -9,6 +9,7 @@ import About from './about';
 import Experience from './experience';
 import Education from './education';
 import Skills from './skills';
+import Study from './study';
 import Projects from './projects';
 import Certifications from './certifications';
 import Workshops from './workshops';
@@ -27,6 +28,7 @@ class Portfolio extends Component {
                 <Loading />
                 <Nav data={this.state.productData}/>
                 <About data={this.state.productData}/>
+                <Study data={this.state.productData}/>
                 <Education data={this.state.productData}/>
                 <Certifications data={this.state.productData}/>
                 <Workshops data={this.state.productData}/>

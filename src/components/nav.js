@@ -38,7 +38,7 @@ class Nav extends Component {
               <div className="rotate">
                 <div className="image">
                   <img
-                    className="img-fluid img-profile mx-auto "
+                    className="img-fluid img-profile mx-auto"
                     src={About.logo}
                     alt="AnM||RA NO_L||M||TS"
                   />

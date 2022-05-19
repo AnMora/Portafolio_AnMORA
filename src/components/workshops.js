@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Workshops = (props) => {
-  const Workshop = props.data.Options[3];
+  const Workshop = props.data.Options[4];
   const About = props.data.About[0];
 
     useEffect(() => {

@@ -6,6 +6,11 @@ const Data = {
             id: "about"
         },
         {
+            Option: "Servicios",
+            hash: "#study",
+            id: "study"
+        },
+        {
             Option: "Educacion",
             hash: "#education",
             id: "education"
@@ -74,7 +79,7 @@ const Data = {
                 {
                     name: "Linkeldin",
                     icon: "fab fa-linkedin-in",
-                    link: "https://www.linkedin.com/in/an-mora-56a5b31b5/"
+                    link: "https://www.linkedin.com/in/angel-mora-56a5b31b5/"
                 },
                 {
                     name: "GitHub",
@@ -98,6 +103,14 @@ const Data = {
             trackingId: "UA-214885646-1",
             siteKey: "6LfELJEbAAAAAK2Z1EW1Liv48bC7rfJuEzE6cVWI"
         }
+    ],
+    Study: [
+        {
+            Title: "Por que elegirme?",
+            Project_by: "Desarrollador web con experiencia",
+            Description: "Trabajo en conjunto para organizar tus ideas, desarrollo a la medida y llevar tu proyecto a la realidad.",
+            img: "./multimedia/Certifications.jpg",
+        },
     ],
     Education: [
         {
@@ -411,7 +424,7 @@ const Data = {
             telephone: "(+506) 2519-6700",
             position: "Agente de servicio al cliente",
             supervisor: "Gloriana Cabrera Chaves",
-            range: "Project Management",
+            range: "No obtenido",
             cellphone: "No obtenido",
             job_description: "Ayudar a los clientes que tuvieran inconvenientes con los dispositivos de red para el hogar, realizando registro de dispositivos, configuraciones iniciales, cambio de contraseñas, independización de señales de red, problemas de velocidad o intermitencia, desfragmentación de paquetes, cambio de canales, bloqueo de usuarios desconocidos y recomendaciones para uso de los dispositivos",
             link_name: "",
