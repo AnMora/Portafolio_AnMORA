@@ -25,7 +25,7 @@ const Experience = (props) => {
                 <div className="subheading mb-3">{item.position}</div>
                 <div>Encargado: {item.supervisor}</div>
                 {item.cellphone === "No obtenido" ? ("") : (<div>Telefono: {item.cellphone}</div>)}
-                {item.range === "No obtenido" ? ("") : (<div>Telefono: {item.range}</div>)}
+                {item.range === "No obtenido" ? ("") : (<div>Jerarquia: {item.range}</div>)}
                 <br />
                 <p>{item.job_description}</p>
                 {item.link_verified === "" ? "" : (

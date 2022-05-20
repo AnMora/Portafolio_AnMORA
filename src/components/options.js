@@ -77,7 +77,7 @@ class Options extends Component {
                                 </a>
                                 <a
                                     className="social-icon-box mb-1"
-                                    href="../../Documentos/CV_Angel_Mora_Flores.pdf"
+                                    href="../../Documentos/CVAnMora.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     data-tip
