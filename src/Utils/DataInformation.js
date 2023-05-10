@@ -363,6 +363,33 @@ const Data = {
         },
     ],
     Pro_Practice: [
+        // {
+        //     Workplace: "Hotel Real Intercontinental",
+        //     Workplace_nick: "Hotel Real Intercontinental",
+        //     Ubication: "En frente Multiplaza Escazu, San Jose.",
+        //     telephone: "(+506) 2208-2100.",
+        //     position: "Agente de Reservaciones",
+        //     supervisor: "Juliette Dusaud.",
+        //     range: "Concierge Manager.",
+        //     cellphone: "No obtenido",
+        //     job_description: "",
+        //     link_name: "sitrainacr.org",
+        //     link_verified: "https://sitraina.org",
+        //     since_On_Day: "5",
+        //     since_On_Month: "Noviembre",
+        //     since_On_Year: "2021",
+        //     phrase: "Actualmente",
+        //     Work_here: "Si",
+        //     until_On_Day: "",
+        //     until_On_Month: "",
+        //     until_On_Year: "",
+        //     links: [
+        //         {
+        //             icon: "fab fa-facebook-f",
+        //             facebook: "https://www.facebook.com/SitrainaCR/",
+        //         },
+        //     ]
+        // },
         {
             Workplace: "Sindicato Trabajadores del INA",
             Workplace_nick: "SITRAINA",
