@@ -47,7 +47,7 @@ const Data = {
             Name: "Angel",
             LastName: "Mora",
             First_NickName: "An",
-            logo: "./multimedia/MllRA.png",
+            logo: "./multimedia/Nll_LllMllTS.png",
             Code_Postal: "10201",
             Address: "Urb. La Nuez",
             Direction: "San Antonio de Escazu",
@@ -96,12 +96,15 @@ const Data = {
                     icon: "fab fa-slack",
                 }
             ],
+            // Verificar los datos de google y realizar los cambios
+            // Puede que por la migracion de GA4 hayan cambiado estos valores, verificar los datos
             service: "gmailMessage",
             template: "template_wrhn59m",
             user: "user_NmXDJbRWH1HpgirJoZskd",
             clientId: "820641787972-k7l8h3q7a4mt28maotjod30ffqirrq8l.apps.googleusercontent.com",
             trackingId: "UA-214885646-1",
             siteKey: "6LfELJEbAAAAAK2Z1EW1Liv48bC7rfJuEzE6cVWI"
+            // ===================================================================================>
         }
     ],
     Study: [
@@ -391,6 +394,33 @@ const Data = {
         //     ]
         // },
         {
+            Workplace: "Laboratorio Echandi",
+            Workplace_nick: "LAB ECHANDI",
+            Ubication: "San Rafael de Escazu, 75 mts norte del McDonald, edificio esquinero.",
+            telephone: "(+506) 2258-4334.",
+            position: "Servicio al cliente",
+            supervisor: "Rebeca Solano",
+            range: "Jefactura a cargo",
+            cellphone: "No obtenido",
+            job_description: "Brindar la información relacionada con el laboratorio para dar el mejor servicio al ayudar a los pacientes con sus consultas, preparaciones para toma de muestras y cotizaciones de tarifas tanto de laboratorio como cotizaciones bajo convenios o aseguradoras, formularios, diagnósticos y coberturas del asegurado; envió de resultados de pacientes así como solicitudes de agenda y coordinación para toma de muestras a domicilio.",
+            link_name: "https://labechandi.com",
+            link_verified: "https://labechandi.com",
+            since_On_Day: "16",
+            since_On_Month: "Enero",
+            since_On_Year: "2023",
+            phrase: "Actualmente",
+            Work_here: "Si",
+            until_On_Day: "",
+            until_On_Month: "",
+            until_On_Year: "",
+            links: [
+                {
+                    icon: "fab fa-facebook-f",
+                    facebook: "https://www.facebook.com/LaboratoriosEchandi",
+                },
+            ]
+        },
+        {
             Workplace: "Sindicato Trabajadores del INA",
             Workplace_nick: "SITRAINA",
             Ubication: "Carvajal Castro, Heredia, San José.",
@@ -399,9 +429,9 @@ const Data = {
             supervisor: "Lic. Jeffrey Jiménez Chavarría.",
             range: "Docente, Instituto Nacional de Aprendizaje.",
             cellphone: "(+506) 8877-6796.",
-            job_description: "Servicio profesional para la empresa SITRAINA encargado de su sitio web. Entre las tareas realizadas son levantamiento de requerimientos, realización de minutas, establecimiento de contrato, muestra de diseño, organización de programación y funciones, coordinación de trabajo con seguimiento del sitio web tanto principal como secundario y mantenimiento del sistema que se encuentran bajo mi asignación.",
-            link_name: "sitrainacr.org",
-            link_verified: "https://sitraina.org",
+            job_description: "Servicio profesional para la empresa SITRAINA encargado de su sitio web secundario. Entre las tareas realizadas son levantamiento de requerimientos, realización de minutas, establecimiento de contrato, muestra de diseño, organización de programación y funciones, coordinación de trabajo con seguimiento del sitio web tanto principal como secundario y mantenimiento del sistema que se encuentran bajo mi asignación.",
+            link_name: "https://proyectositraina.netlify.app",
+            link_verified: "https://proyectositraina.netlify.app",
             since_On_Day: "5",
             since_On_Month: "Noviembre",
             since_On_Year: "2021",
@@ -652,27 +682,27 @@ const Data = {
             img: "./multimedia/proyectos/PRO_SITRAINA.gif",
             link: "https://proyectositraina.netlify.app"
         },
-        {
-            Title: "Registro/Login MERN",
-            Project_by: "AnMORA",
-            Description: "Proyecto de aprendizaje para autenticar (registrarse/iniciar sesión) el usuario e implementar nuestra aplicación de pila MERN en Heroku. También de cómo proteger nuestra contraseña de forma encriptada antes de almacenarla en la base de datos. El sitio aún se encuentra construcción para mejoras e implementación de más datos y CRUD de ventas.",
-            img: "./multimedia/proyectos/PRO_Register_Login.gif",
-            link: "https://agile-plains-93591.herokuapp.com/login/"
-        },
-        {
-            Title: "Books API App MERN",
-            Project_by: "AnMORA",
-            Description: "Proyecto personal de investigación y aprendizaje para sugerir libros de programación, CRUD completo, se utilizaron herramientas de interfaz Front End en ReactJS, usando Fetch API para muestra de datos remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku.",
-            img: "./multimedia/proyectos/PRO_StoreAllNMllRAApp.gif",
-            link: "https://desolate-springs-29315.herokuapp.com/"
-        },
-        {
-            Title: "Que pelis ver? MERN",
-            Project_by: "AnMORA",
-            Description: "Proyecto personal de investigación y aprendizaje para sugerir películas, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra en mejoras.",
-            img: "./multimedia/proyectos/Que_peli_ver.gif",
-            link: "https://mighty-gorge-25078.herokuapp.com/"
-        },
+        // {
+        //     Title: "Registro/Login MERN",
+        //     Project_by: "AnMORA",
+        //     Description: "Proyecto de aprendizaje para autenticar (registrarse/iniciar sesión) el usuario e implementar nuestra aplicación de pila MERN en Heroku. También de cómo proteger nuestra contraseña de forma encriptada antes de almacenarla en la base de datos. El sitio aún se encuentra construcción para mejoras e implementación de más datos y CRUD de ventas.",
+        //     img: "./multimedia/proyectos/PRO_Register_Login.gif",
+        //     link: "https://agile-plains-93591.herokuapp.com/login/"
+        // },
+        // {
+        //     Title: "Books API App MERN",
+        //     Project_by: "AnMORA",
+        //     Description: "Proyecto personal de investigación y aprendizaje para sugerir libros de programación, CRUD completo, se utilizaron herramientas de interfaz Front End en ReactJS, usando Fetch API para muestra de datos remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku.",
+        //     img: "./multimedia/proyectos/PRO_StoreAllNMllRAApp.gif",
+        //     link: "https://desolate-springs-29315.herokuapp.com/"
+        // },
+        // {
+        //     Title: "Que pelis ver? MERN",
+        //     Project_by: "AnMORA",
+        //     Description: "Proyecto personal de investigación y aprendizaje para sugerir películas, se utilizaron herramientas de interfaz Front End en ReactJS, usando React AXIOS para API REST remota con arquitectura de software Back End JavaScript NodeJS y uso de servicio web MongoDB ATLAS en data JSON mediante consulta de recursos URI, poniendo en práctica el conocimiento adquirido usando herramientas como Command line, NPM y servicio web Heroku. El sitio aún se encuentra en mejoras.",
+        //     img: "./multimedia/proyectos/Que_peli_ver.gif",
+        //     link: "https://mighty-gorge-25078.herokuapp.com/"
+        // },
     ]
 }
 
