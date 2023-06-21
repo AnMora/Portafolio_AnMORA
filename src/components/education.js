@@ -31,7 +31,7 @@ const Education = (props) => {
             <br />
             {item.link_verified !== "No obtenido" || item.link_name !== "No obtenido" ? (
               <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
-                <button type="button" className="btn btn-outline-secondary text-danger-danger">
+                <button type="button" className="btn btn-outline-primary text-danger-danger">
                   Ver certificado
                 </button>
               </a>

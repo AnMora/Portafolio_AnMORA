@@ -30,7 +30,7 @@ const Experience = (props) => {
                 <p>{item.job_description}</p>
                 {item.link_verified === "" ? "" : (
                   <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="btn btn-outline-secondary text-danger-danger">
+                    <button type="button" className="btn btn-outline-primary text-danger-danger">
                       Visitar sitio
                     </button>
                   </a>
