@@ -13,15 +13,15 @@
 }
 
 :root {
-  --red: #0396ff;
+  --red: #0f596b;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #0396ff;
-  --menu-dark: #191e29;
-  --primary: #0396ff;
-  --danger: #0396ff;
-  --danger-dark: #83b8ff;
-  --dark: #0396ff;
+  --gray-dark: #0f596b;
+  --menu-dark: #040c14 ;
+  --primary: #0f596b;
+  --danger: #0f596b;
+  --danger-dark: #349db2;
+  --dark: #0f596b;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -91,7 +91,7 @@
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #0396ff;
+  background-color: #0f596b;
 }
 
 .nav-fill > .nav-link,
@@ -759,7 +759,7 @@
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0396ff;
+  color: #0f596b;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -788,8 +788,8 @@
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0396ff;
-  border-color: #0396ff;
+  background-color: #0f596b;
+  border-color: #0f596b;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -865,7 +865,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #0396ff;
+  background-color: #0f596b;
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
@@ -930,7 +930,7 @@ a.badge-warning:focus, a.badge-warning.focus {
 
 .badge-danger {
   color: #fff;
-  background-color: #0396ff;
+  background-color: #0f596b;
 }
 a.badge-danger:hover, a.badge-danger:focus {
   color: #fff;
@@ -956,7 +956,7 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #0396ff;
+  background-color: #0f596b;
 }
 a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
@@ -1144,7 +1144,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #0396ff;
+  background-color: #0f596b;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -1225,8 +1225,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #0396ff;
-  border-color: #0396ff;
+  background-color: #0f596b;
+  border-color: #0f596b;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -1973,7 +1973,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #0396ff;
+  color: #0f596b;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -2264,11 +2264,11 @@ a.close.disabled {
 }
 
 .bg-danger-danger {
-  background-color: #83b8ff !important;
+  background-color: #349db2 !important;
 }
 
 .bg-black {
-  background-color: #191e29 !important;
+  background-color: #040c14  !important;
 }
 
 .border {
@@ -2312,7 +2312,7 @@ a.close.disabled {
 }
 
 .border-primary {
-  border-color: #0396ff !important;
+  border-color: #0f596b !important;
 }
 
 .clearfix::after {
@@ -5807,7 +5807,7 @@ a.close.disabled {
 }
 
 .text-primary {
-  color: #0396ff !important;
+  color: #0f596b !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -5815,21 +5815,21 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-danger-danger {
-  color: #83b8ff !important;
+  color: #349db2 !important;
 }
 
 a.text-danger-danger:hover, a.text-danger-danger:focus {
-  color: #83b8ff !important;
+  color: #349db2 !important;
 }
 
 /* Second color */
 
 .text-danger-secondary {
-  color: #83b8ff !important;
+  color: #349db2 !important;
 }
 
 a.text-danger-secondary:hover, a.text-danger-secondary:focus {
-  color: #83b8ff !important;
+  color: #349db2 !important;
 }
 
 .text-light {
@@ -5841,7 +5841,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #0396ff !important;
+  color: #0f596b !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -6066,7 +6066,7 @@ p.lead {
   left: 0;
   width: 100%;
   height: 5px;
-  background-color: #83b8ff;
+  background-color: #349db2;
 }
 
 .column-style-top::before{
@@ -6075,7 +6075,7 @@ p.lead {
   min-height: 20px;
   max-height: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   right: 90%;
   top: -14px;
   transform: skewX(45deg);
@@ -6087,7 +6087,7 @@ p.lead {
   min-height: 20px;
   max-height: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   left: 90%;
   top: -14px;
   transform: skewX(-45deg);
@@ -6101,7 +6101,7 @@ p.lead {
   left: 0;
   width: 100%;
   height: 10px;
-  background-color: #0396ff;
+  background-color: #0f596b;
 }
 
 .column-style-bottom::before{
@@ -6110,7 +6110,7 @@ p.lead {
   min-height: 20px;
   max-height: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   right: 90%;
   top: -9px;
   transform: skewX(45deg);
@@ -6122,7 +6122,7 @@ p.lead {
   min-height: 20px;
   max-height: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   left: 90%;
   top: -9px;
   transform: skewX(-45deg);
@@ -6143,7 +6143,7 @@ p.lead {
   right: -85px;
   width: 115px;
   height: 70px;
-  background-color: #191e29;
+  background-color: #040c14 ;
   z-index: 100;
 }
 
@@ -6153,7 +6153,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   left: 18px;
   top: -35px;
   transform: skewX(-45deg);
@@ -6165,7 +6165,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   left: 18px;
   bottom: -35px;
   transform: skewX(45deg);
@@ -6195,7 +6195,7 @@ p.lead {
   width: 95px;
   height: 450px;
   transition: .3s;
-  background-color: #191e29;
+  background-color: #040c14 ;
   z-index: 1000;
 }
 
@@ -6205,7 +6205,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   left: 113px;
   top: -225px;
   transform: skewX(-45deg);
@@ -6217,7 +6217,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #191e29;
+  background-color: #040c14 ;
   left: 113px;
   bottom: -225px;
   transform: skewX(45deg);
@@ -6229,13 +6229,13 @@ p.lead {
   justify-content: center;
   height: 3.0rem;
   width: 3.0rem;
-  background-color: #191e29;
+  background-color: #040c14 ;
   color: #fff;
   transition: .5s;
-  border-top: 1.5rem solid #191e29;
-  border-bottom: 1.5rem solid #191e29;
-  border-left: 1.5rem solid #191e29;
-  border-right: 1.5rem solid #191e29;
+  border-top: 1.5rem solid #040c14 ;
+  border-bottom: 1.5rem solid #040c14 ;
+  border-left: 1.5rem solid #040c14 ;
+  border-right: 1.5rem solid #040c14 ;
   font-size: 1.5rem;
   margin-right: 2.5rem;
   cursor: pointer;
@@ -6245,12 +6245,12 @@ p.lead {
   margin-right: 0;
 }
 .social-icons-box .social-icon-box:hover {
-  color: #83b8ff;
-  border-top: 0.3rem solid #83b8ff;
-  border-bottom: 0.3rem solid #83b8ff;
-  border-left: 0.3rem solid #191e29;
-  border-right: 0.3rem solid #191e29;
-  /* border-bottom: 0.3rem solid #0396ff; */
+  color: #349db2;
+  border-top: 0.3rem solid #349db2;
+  border-bottom: 0.3rem solid #349db2;
+  border-left: 0.3rem solid #040c14 ;
+  border-right: 0.3rem solid #040c14 ;
+  /* border-bottom: 0.3rem solid #0f596b; */
 }
 
 /* Vista dispositivos moviles */
@@ -6268,11 +6268,11 @@ p.lead {
     width: 17rem;
     height: 100vh;
     border: 0.3rem solid transparent;
-    /* border-top: 20px solid #83b8ff;
-    border-bottom: 20px solid #83b8ff; */
-    /* border-image: linear-gradient(to left, #191e29 10%, #83b8ff 100%) 1; */
-    /* border-top: 0.3rem solid #83b8ff;
-    border-bottom: 0.3rem solid #83b8ff; */
+    /* border-top: 20px solid #349db2;
+    border-bottom: 20px solid #349db2; */
+    /* border-image: linear-gradient(to left, #040c14  10%, #349db2 100%) 1; */
+    /* border-top: 0.3rem solid #349db2;
+    border-bottom: 0.3rem solid #349db2; */
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -6280,17 +6280,17 @@ p.lead {
   }
   #sideNav .navbar-brand .rotate{
     position: relative;
-    /* border: 1px solid #0396ff; */
+    /* border: 1px solid #0f596b; */
     height: 160px;
     width: 160px;
-    background-color: #191e29;
+    background-color: #040c14 ;
     overflow: hidden;
   }
   #sideNav .navbar-brand .rotate::before{
     content: "";
     position: absolute;
     background-image: conic-gradient(
-      #83b8ff 20deg,
+      #349db2 20deg,
       transparent 120deg
     );
     height: 150%;
@@ -6319,7 +6319,7 @@ p.lead {
     top: 2.5%;
     height: 95%;
     width: 95%;
-    background-color: #191e29;
+    background-color: #040c14 ;
   }
 
   #sideNav .navbar-brand .image .img-profile {
@@ -6429,7 +6429,7 @@ p.lead {
     left: -30px;
     width: 60px;
     height: 70px;
-    background-color: #83b8ff;
+    background-color: #349db2;
     z-index: 100;
   }
 
@@ -6439,8 +6439,8 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #191e29;
-    border-left: 0.3rem solid #83b8ff;
+    background-color: #040c14 ;
+    border-left: 0.3rem solid #349db2;
     right: 0;
     bottom: -15px;
     transform: skewY(-45deg);
@@ -6452,7 +6452,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #0396ff;
+    background-color: #0f596b;
     left: 0;
     bottom: -15px;
     transform: skewY(45deg);
@@ -6464,7 +6464,7 @@ p.lead {
     left: -30px;
     width: 60px;
     height: 70px;
-    background-color: #83b8ff;
+    background-color: #349db2;
     z-index: 100;
   }
 
@@ -6474,8 +6474,8 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #191e29;
-    border-left: 0.3rem solid #83b8ff;
+    background-color: #040c14 ;
+    border-left: 0.3rem solid #349db2;
     right: 0;
     bottom: 35px;
     transform: skewY(45deg);
@@ -6487,7 +6487,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #0396ff;
+    background-color: #0f596b;
     left: 0;
     bottom: -15px;
     transform: skewY(-45deg);
@@ -6501,7 +6501,7 @@ p.lead {
     left: 242px;
     width: 60px;
     height: 70px;
-    background-color: #83b8ff;
+    background-color: #349db2;
     z-index: 100;
   }
 
@@ -6511,8 +6511,8 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #191e29;
-    border-right: 0.3rem solid #83b8ff;
+    background-color: #040c14 ;
+    border-right: 0.3rem solid #349db2;
     left: 0;
     bottom: -15px;
     transform: skewY(45deg);
@@ -6524,7 +6524,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #0396ff;
+    background-color: #0f596b;
     right: 0;
     bottom: -15px;
     transform: skewY(-45deg);
@@ -6536,7 +6536,7 @@ p.lead {
     right: -30px;
     width: 60px;
     height: 70px;
-    background-color: #83b8ff;
+    background-color: #349db2;
     z-index: 100;
   }
 
@@ -6558,7 +6558,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #0396ff;
+    background-color: #0f596b;
     left: 0;
     bottom: -15px;
     transform: skewY(45deg);
@@ -6570,7 +6570,7 @@ p.lead {
     left: 242px;
     width: 60px;
     height: 70px;
-    background-color: #83b8ff;
+    background-color: #349db2;
     z-index: 100;
   }
 
@@ -6580,8 +6580,8 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #191e29;
-    border-right: 0.3rem solid #83b8ff;
+    background-color: #040c14 ;
+    border-right: 0.3rem solid #349db2;
     left: 0;
     bottom: 35px;
     transform: skewY(-45deg);
@@ -6593,7 +6593,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #0396ff;
+    background-color: #0f596b;
     right: 0;
     top: -15px;
     transform: skewY(45deg);
@@ -6605,7 +6605,7 @@ p.lead {
     right: -30px;
     width: 60px;
     height: 70px;
-    background-color: #83b8ff;
+    background-color: #349db2;
     z-index: 100;
   }
 
@@ -6627,7 +6627,7 @@ p.lead {
     min-height: 100px;
     max-height: 25vh;
     position: absolute;
-    background-color: #0396ff;
+    background-color: #0f596b;
     left: 0;
     top: -15px;
     transform: skewY(-45deg);
@@ -6644,14 +6644,14 @@ p.lead {
     right: -115px;
     width: 150px;
     height: 70px;
-    background-color: #191e29;
+    background-color: #040c14 ;
     z-index: 100;
   }
   
   /* estilos menu en movil */
   .box-content {
     border: 0.4rem solid transparent;
-    /* border-image: linear-gradient(to right, #191e29 10%, #0396ff 100%) 1; */
+    /* border-image: linear-gradient(to right, #040c14  10%, #0f596b 100%) 1; */
     position: fixed;
     display: inline-flex;
     align-items: center;
@@ -6663,7 +6663,7 @@ p.lead {
     width: 105px;
     height: 450px;
     transition: .3s;
-    background-color: #191e29;
+    background-color: #040c14 ;
     z-index: 1000;
   }
   
@@ -6673,7 +6673,7 @@ p.lead {
     min-width: 150px;
     max-width: 25vh;
     position: absolute;
-    background-color: #191e29;
+    background-color: #040c14 ;
     left: 103px;
     top: -225px;
     transform: skewX(-45deg);
@@ -6685,7 +6685,7 @@ p.lead {
     min-width: 150px;
     max-width: 25vh;
     position: absolute;
-    background-color: #191e29;
+    background-color: #040c14 ;
     left: 103px;
     bottom: -225px;
     transform: skewX(45deg);
@@ -6707,13 +6707,13 @@ p.lead {
     justify-content: center;
     height: 3.3rem;
     width: 3.3rem;
-    background-color: #191e29;
+    background-color: #040c14 ;
     color: #fff;
     transition: .5s;
-    border-top: 1.5rem solid #191e29;
-    border-bottom: 1.5rem solid #191e29;
-    border-left: 1.5rem solid #191e29;
-    border-right: 1.5rem solid #191e29;
+    border-top: 1.5rem solid #040c14 ;
+    border-bottom: 1.5rem solid #040c14 ;
+    border-left: 1.5rem solid #040c14 ;
+    border-right: 1.5rem solid #040c14 ;
     font-size: 1.5rem;
     margin-right: 2.5rem;
     cursor: pointer;
@@ -6723,12 +6723,12 @@ p.lead {
     margin-right: 0;
   }
   .social-icons-box .social-icon-box:hover {
-    color: #83b8ff;
-    border-top: 0.3rem solid #83b8ff;
-    border-bottom: 0.3rem solid #83b8ff;
-    border-left: 0.3rem solid #191e29;
-    border-right: 0.3rem solid #191e29;
-    /* border-bottom: 0.3rem solid #0396ff; */
+    color: #349db2;
+    border-top: 0.3rem solid #349db2;
+    border-bottom: 0.3rem solid #349db2;
+    border-left: 0.3rem solid #040c14 ;
+    border-right: 0.3rem solid #040c14 ;
+    /* border-bottom: 0.3rem solid #0f596b; */
   }
   
 }
@@ -6738,14 +6738,14 @@ p.lead {
   justify-content: center;
   height: 3.3rem;
   width: 3.3rem;
-  background-color: #191e29;
+  background-color: #040c14 ;
   color: #fff;
   transition: .5s;
   /* border-radius: 100%; */
-  border-top: 1.5rem solid #191e29;
-  border-bottom: 1.5rem solid #191e29;
-  border-left: 1.5rem solid #191e29;
-  border-right: 1.5rem solid #191e29;
+  border-top: 1.5rem solid #040c14 ;
+  border-bottom: 1.5rem solid #040c14 ;
+  border-left: 1.5rem solid #040c14 ;
+  border-right: 1.5rem solid #040c14 ;
   font-size: 1.5rem;
   margin-right: 1.5rem;
   cursor: pointer;
@@ -6754,12 +6754,12 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  color: #83b8ff;
-  border-top: 0.3rem solid #83b8ff;
-  border-bottom: 0.3rem solid #83b8ff;
-  border-left: 0.3rem solid #191e29;
-  border-right: 0.3rem solid #191e29;
-  /* border-bottom: 0.3rem solid #0396ff; */
+  color: #349db2;
+  border-top: 0.3rem solid #349db2;
+  border-bottom: 0.3rem solid #349db2;
+  border-left: 0.3rem solid #040c14 ;
+  border-right: 0.3rem solid #040c14 ;
+  /* border-bottom: 0.3rem solid #0f596b; */
 }
 
 .dev-icons {
@@ -6805,7 +6805,7 @@ section.resume-section .resume-section-content {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #0396ff;
+    border-left: 0.5rem solid #0f596b;
   }
 }
 
@@ -6819,7 +6819,7 @@ section.resume-section .resume-section-content {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #0396ff;
+    border-color: #0f596b;
     border-width: .25rem;
     width: 100%;
   }
