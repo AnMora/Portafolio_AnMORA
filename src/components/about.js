@@ -107,9 +107,9 @@ const About = (props) => {
 
   return (
     <>
-      <section className="resume-section" id={About_id.id}>
-        <div className="resume-section-content" data-aos="fade-up">
-          <h1 className="mb-0">
+      <section className="resume-section bg-dark-one" id={About_id.id}>
+        <div className="resume-section-content text-white" data-aos="fade-up">
+          <h1 className="mb-0 text-secondary">
             {About.Name}
             <span className="text-danger-danger">{About.LastName}</span>
           </h1>

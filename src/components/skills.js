@@ -70,8 +70,8 @@ const Skills = (props) => {
 
   return (
     <>
-      <section className="resume-section" id={Skills.id}>
-        <div className="resume-section-content" data-aos="fade-up">
+      <section className="resume-section bg-dark-one" id={Skills.id}>
+        <div className="resume-section-content text-white" data-aos="fade-up">
           <h2 className="mb-5 text-danger-danger">{Skills.Option}</h2>
           <div className="subheading mb-3">{Skills_info.workflow}</div>
           <ul className="fa-ul mb-0">

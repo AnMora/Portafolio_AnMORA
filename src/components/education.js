@@ -20,7 +20,7 @@ const Education = (props) => {
     return(
         <div key={position} className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="flex-grow-1">
-            <h3 className="mb-0">{item.Issuer}</h3>
+            <h3 className="mb-0 text-secondary">{item.Issuer}</h3>
             <div className="subheading mb-3">{item.Title}</div>
             <p>{item.Description}</p>
             {item.Level !== "No obtenido" ? (
@@ -31,7 +31,7 @@ const Education = (props) => {
             <br />
             {item.link_verified !== "No obtenido" || item.link_name !== "No obtenido" ? (
               <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
-                <button type="button" className="btn btn-outline-primary text-danger-danger">
+                <button type="button" className="btn btn-outline-dark text-danger-danger">
                   Ver certificado
                 </button>
               </a>
@@ -49,8 +49,8 @@ const Education = (props) => {
 
   return (
     <>
-      <section className="resume-section" id={Education.id}>
-        <div className="resume-section-content" data-aos="fade-up">
+      <section className="resume-section bg-dark-one" id={Education.id}>
+        <div className="resume-section-content text-white" data-aos="fade-up">
           <h2 className="mb-5 text-danger-danger">{Education.Option}</h2>
           {/* <h4 className="mb-5 text-danger-danger">Cantidad de Horas: {item.Total_Hours}</h4> */}
           {Education_info}

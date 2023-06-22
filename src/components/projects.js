@@ -65,7 +65,7 @@ const Projects = (props) => {
                   <h4 className="text-danger-danger">{item.Project_by}</h4>
                   <p className="text-light">{item.Description}</p>
                   <a className="text-danger-danger" href={item.link} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="btn btn-outline-primary text-danger-danger">
+                    <button type="button" className="btn btn-outline-dark text-danger-danger">
                       Ver sitio
                     </button>
                   </a>
@@ -84,12 +84,12 @@ const Projects = (props) => {
     <>
       <section
         id={Projects.id}
-        className="resume-section projects-section"
+        className="resume-section projects-section bg-dark-one"
       >
-        <div className="resume-section-content">
+        <div className="resume-section-content text-white">
           <h2 className="mb-5 text-danger-danger">{Projects.Option}</h2>
           {Projects_info}
-          <h4 className="mt-3" data-aos="fade-up">Pronto se mostrarán más proyectos que siguen en producción...</h4>
+          <h4 className="mt-3 text-white" data-aos="fade-up">Pronto se mostrarán más proyectos que siguen en producción...</h4>
         </div>
       </section>
     </>

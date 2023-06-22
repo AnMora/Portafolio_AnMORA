@@ -20,7 +20,7 @@ const Workshops = (props) => {
         return(
             <div key={position} className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
-                <h3 className="mb-0">{item.Issuer}</h3>
+                <h3 className="mb-0 text-secondary">{item.Issuer}</h3>
                 <div className="subheading mb-3">{item.Title}</div>
                 <p>{item.Description}</p>
                 {item.Total_Hours !== "" ? (
@@ -40,8 +40,8 @@ const Workshops = (props) => {
 
     return (
         <>
-            <section className="resume-section" id={Workshop.id}>
-                <div className="resume-section-content" data-aos="fade-up">
+            <section className="resume-section bg-dark-one" id={Workshop.id}>
+                <div className="resume-section-content text-white" data-aos="fade-up">
                 <h2 className="mb-5 text-danger-danger">{Workshop.Option}</h2>
                 {Workshops_info}
                 </div>

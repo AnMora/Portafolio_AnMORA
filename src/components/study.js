@@ -50,7 +50,7 @@ const Study = (props) => {
     <>
       <section
         id={Study.id}
-        className="resume-section projects-section"
+        className="resume-section projects-section bg-dark-one"
       >
         <div className="resume-section-content">
           <h2 className="mb-5 text-danger-danger">{Study.Option}</h2>
