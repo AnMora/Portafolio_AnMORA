@@ -26,16 +26,18 @@ class Portfolio extends Component {
         return (
             <>
                 <Loading />
-                <Nav data={this.state.productData}/>
-                <About data={this.state.productData}/>
-                <Study data={this.state.productData}/>
-                <Education data={this.state.productData}/>
-                <Certifications data={this.state.productData}/>
-                <Workshops data={this.state.productData}/>
-                <Experience data={this.state.productData}/>
-                <Skills data={this.state.productData}/>
-                <Projects data={this.state.productData}/>
-                <Options data={this.state.productData}/>
+                <div className="bg-dark-one">
+                    <Nav data={this.state.productData}/>
+                    <About data={this.state.productData}/>
+                    <Study data={this.state.productData}/>
+                    <Education data={this.state.productData}/>
+                    <Certifications data={this.state.productData}/>
+                    <Workshops data={this.state.productData}/>
+                    <Experience data={this.state.productData}/>
+                    <Skills data={this.state.productData}/>
+                    <Projects data={this.state.productData}/>
+                    <Options data={this.state.productData}/>
+                </div>
             </>
         )
     }

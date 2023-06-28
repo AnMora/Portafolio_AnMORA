@@ -133,9 +133,9 @@ const About = (props) => {
         aria-hidden="true"
       >
         <div className="modal-dialog" role="document">
-          <div className="modal-content">
+          <div className="modal-content text-white bg-dark-one">
             <div className="modal-header">
-              <h5 className="modal-title">Enviar Correo</h5>
+              <h5 className="modal-title text-danger-danger">Enviar Correo</h5>
             </div>
             <form onSubmit={enviarEmail}>
               <div className="modal-body">
@@ -162,7 +162,7 @@ const About = (props) => {
                           <input
                             type="email"
                             readonly=""
-                            className="form-control-plaintext"
+                            className="form-control-plaintext text-white"
                             value={email}
                             name="email"
                             onChange={(e) => setEmail(e.target.value)}
@@ -175,23 +175,23 @@ const About = (props) => {
                       <input
                         type="text"
                         readonly=""
-                        className="form-control-plaintext"
+                        className="form-control-plaintext text-white"
                         value="anmora.2396@gmail.com"
                       />
                     </div>
                   </div>
-                  <label className="form-label">Asunto</label>
+                  <label className="form-label bg-dark-one text-white">Asunto</label>
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control bg-dark-one text-white border-secondary"
                     aria-describedby="emailHelp"
                     value={asunto}
                     name="asunto"
                     onChange={(e) => setAsunto(e.target.value)}
                   />
-                  <label className="form-label">Descripcion</label>
+                  <label className="form-label text-white">Descripcion</label>
                   <textarea
-                    className="form-control"
+                    className="form-control bg-dark-one text-white border-secondary"
                     rows="3"
                     name="descripcion"
                     value={descripcion}
@@ -205,12 +205,12 @@ const About = (props) => {
                 />
               </div>
               <div className="modal-footer">
-                <button type="submit" className="btn bg-black text-light">
+                <button type="submit" className="btn btn-outline-dark text-danger-danger">
                   Enviar
                 </button>
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-outline-dark text-danger-danger"
                   data-dismiss="modal"
                 >
                   Cerrar
