@@ -62,7 +62,6 @@ const Certifications = (props) => {
           {Certification_info}
         </div>
       </section>
-      <hr className="m-0" />
     </>
   );
 };

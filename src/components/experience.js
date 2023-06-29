@@ -58,7 +58,6 @@ const Experience = (props) => {
                 {Pro_info}
                 </div>
             </section>
-            <hr className="m-0" />
         </>
     )
 }

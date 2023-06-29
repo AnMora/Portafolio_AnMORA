@@ -121,7 +121,6 @@ const About = (props) => {
           {/* <div className="mt-2 social-icons">{About_icons}</div> */}
         </div>
       </section>
-      <hr className="m-0" />
 
       {/* MODAL */}
       <div

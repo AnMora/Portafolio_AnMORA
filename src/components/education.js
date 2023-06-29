@@ -56,7 +56,6 @@ const Education = (props) => {
           {Education_info}
         </div>
       </section>
-      <hr className="m-0" />
     </>
   );
 };

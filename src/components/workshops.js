@@ -46,7 +46,6 @@ const Workshops = (props) => {
                 {Workshops_info}
                 </div>
             </section>
-            <hr className="m-0" />
         </>
     )
 }

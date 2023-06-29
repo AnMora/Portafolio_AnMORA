@@ -85,7 +85,6 @@ const Skills = (props) => {
           </ul>
          </div> 
       </section>
-      <hr className="m-0" />
     </>
   );
 };
