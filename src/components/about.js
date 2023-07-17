@@ -132,7 +132,7 @@ const About = (props) => {
         aria-hidden="true"
       >
         <div className="modal-dialog" role="document">
-          <div className="modal-content text-white bg-dark-one">
+          <div className="modal-content text-white bg-one">
             <div className="modal-header">
               <h5 className="modal-title text-danger-danger">Enviar Correo</h5>
             </div>
@@ -179,10 +179,10 @@ const About = (props) => {
                       />
                     </div>
                   </div>
-                  <label className="form-label bg-dark-one text-white">Asunto</label>
+                  <label className="form-label text-white">Asunto</label>
                   <input
                     type="text"
-                    className="form-control bg-dark-one text-white border-secondary"
+                    className="form-control bg-one text-white border-secondary"
                     aria-describedby="emailHelp"
                     value={asunto}
                     name="asunto"
@@ -190,7 +190,7 @@ const About = (props) => {
                   />
                   <label className="form-label text-white">Descripcion</label>
                   <textarea
-                    className="form-control bg-dark-one text-white border-secondary"
+                    className="form-control bg-one text-white border-secondary"
                     rows="3"
                     name="descripcion"
                     value={descripcion}
@@ -204,7 +204,7 @@ const About = (props) => {
                 />
               </div>
               <div className="modal-footer">
-                <button type="submit" className="btn btn-outline-dark text-danger-danger">
+                <button type="submit" className="btn btn-outline-dark text-danger-danger">  
                   Enviar
                 </button>
                 <button

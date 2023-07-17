@@ -27,7 +27,7 @@ class Nav extends Component {
     return (
       <>
         <nav
-          className="navbar navbar-expand-lg navbar-dark bg-black fixed-top"
+          className="navbar navbar-expand-lg navbar-dark bg-one fixed-top"
           id="sideNav"
         >
           <a className="navbar-brand js-scroll-trigger" href="##" rel="noopener noreferrer">
