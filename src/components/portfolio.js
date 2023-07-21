@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../CSS/general.css';
 
+
 // Develop Parts
 import Loading from '../loading';
 import Nav from './nav';
@@ -26,6 +27,9 @@ class Portfolio extends Component {
         return (
             <>
                 <Loading />
+                <video className='videoTag' loop autoPlay muted>
+                    <source src="./multimedia/inshot.mp4" type='video/mp4' />
+                </video>
                 <div className="bg-dark-one">
                     <Nav data={this.state.productData}/>
                     <About data={this.state.productData}/>

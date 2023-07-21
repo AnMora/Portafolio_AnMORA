@@ -8,7 +8,11 @@ window.jQuery = $;
 
 class Nav extends Component {
   render() {
+    // const click = new Audio()
+    // click.src = './multimedia/punto.mp3'
+
     const handleMenu = (e) => {
+      // click.play();
       $(".navbar-collapse").collapse("hide");
     };
 
