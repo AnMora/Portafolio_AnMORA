@@ -32,7 +32,7 @@ const Workshops = (props) => {
                 <br />
               </div>
               <div className="flex-shrink-0">
-                <span className="text-danger-danger">Emitido: {item.Issued_On_Day} {item.Issued_On_Month} {item.Issued_On_Year}</span>
+                <span className="text-danger-secondary">Emitido: {item.Issued_On_Day} {item.Issued_On_Month} {item.Issued_On_Year}</span>
               </div>
             </div>
         )

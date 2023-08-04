@@ -111,7 +111,7 @@ const About = (props) => {
         <div className="resume-section-content text-white" data-aos="fade-up">
           <h1 className="mb-0 text-secondary">
             {About.Name}
-            <span className="text-danger-danger">{About.LastName}</span>
+            <span className="text-danger-secondary">{About.LastName}</span>
           </h1>
           <div className="subheading mb-3">{About.descripcion}</div>
           {/* <p>{About.presentacion}</p> */}
@@ -204,7 +204,7 @@ const About = (props) => {
                 />
               </div>
               <div className="modal-footer">
-                <button type="submit" className="btn btn-outline-dark text-danger-danger">  
+                <button type="submit" className="btn btn-outline-dark text-danger-secondary">  
                   Enviar
                 </button>
                 <button

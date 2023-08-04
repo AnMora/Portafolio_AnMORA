@@ -37,7 +37,7 @@ const Projects = (props) => {
                     <h4 className="text-danger-danger">{item.Project_by}</h4>
                     <p className="text-light">{item.Description}</p>
                     <a className="text-danger-danger" href={item.link} target="_blank" rel="noopener noreferrer">
-                      <button type="button" className="btn btn-outline-dark text-danger-danger">
+                      <button type="button" className="btn btn-outline-dark text-danger-secondary">
                         Ver sitio
                       </button>
                     </a>
@@ -65,7 +65,7 @@ const Projects = (props) => {
                   <h4 className="text-danger-danger">{item.Project_by}</h4>
                   <p className="text-light">{item.Description}</p>
                   <a className="text-danger-danger" href={item.link} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="btn btn-outline-dark text-danger-danger">
+                    <button type="button" className="btn btn-outline-dark text-danger-secondary">
                       Ver sitio
                     </button>
                   </a>

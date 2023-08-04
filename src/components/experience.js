@@ -30,7 +30,7 @@ const Experience = (props) => {
                 <p>{item.job_description}</p>
                 {item.link_verified === "" ? "" : (
                   <a className="text-danger-danger" href={item.link_verified} target="_blank" rel="noopener noreferrer">
-                    <button type="button" className="btn btn-outline-dark text-danger-danger">
+                    <button type="button" className="btn btn-outline-dark text-danger-secondary">
                       Visitar sitio
                     </button>
                   </a>
@@ -40,9 +40,9 @@ const Experience = (props) => {
               </div>
               <div className="flex-shrink-0">
                 {item.phrase === "Actualmente" ? (
-                  <span className="text-danger-danger">{item.since_On_Day} {item.since_On_Month} {item.since_On_Year} - {item.phrase}</span>
+                  <span className="text-danger-secondary">{item.since_On_Day} {item.since_On_Month} {item.since_On_Year} - {item.phrase}</span>
                 ) : (
-                  <span className="text-danger-danger">{item.since_On_Day} {item.since_On_Month} {item.since_On_Year} - {item.until_On_Day} {item.until_On_Month} {item.until_On_Year}</span>
+                  <span className="text-danger-secondary">{item.since_On_Day} {item.since_On_Month} {item.since_On_Year} - {item.until_On_Day} {item.until_On_Month} {item.until_On_Year}</span>
                 )}
               </div>
             </div>
