@@ -47,7 +47,7 @@ const Data = {
       Name: "Angel",
       LastName: "Mora",
       First_NickName: "An",
-      logo: "./multimedia/ANllMllRA.png",
+      logo: "./multimedia/Nll_LllMllTS.png",
       Code_Postal: "10201",
       Address: "Urb. La Nuez",
       Direction: "San Antonio de Escazu",
