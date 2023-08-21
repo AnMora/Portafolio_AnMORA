@@ -2270,16 +2270,6 @@ video {
   z-index: -1;
 }
 
-.bg-one {
-  background-color: #16161d;
-}
-
-/* Fondo para cuando este el video */
-/* Recordar cuando se ponga el video, devolver colores de menu al menu lateral */
-.bg-dark-one {
-  background: -webkit-linear-gradient(left,  rgba(4,4,5,.7) 0%, rgba(4,4,5,.4) 60%, transparent 100%);
-}
-
 .bg-two {
   background-color: #700f08 !important;
   /* background-color: #16161d !important; */
@@ -6074,6 +6064,16 @@ p.lead {
 
 /* celular */
 
+.bg-one {
+  background-color: #16161d;
+}
+
+/* Fondo para cuando este el video */
+/* Recordar cuando se ponga el video, devolver colores de menu al menu lateral */
+.bg-dark-one {
+  background: rgba(4,4,5,.7);
+}
+
 .column-style-top{
   position: fixed;
   top: 0;
@@ -6359,6 +6359,16 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+
+  .bg-one {
+    background-color: #16161d;
+  }
+  
+  /* Fondo para cuando este el video */
+  /* Recordar cuando se ponga el video, devolver colores de menu al menu lateral */
+  .bg-dark-one {
+    background: -webkit-linear-gradient(left,  rgba(4,4,5,.7) 0%, rgba(4,4,5,.4) 60%, transparent 100%);
   }
 
   /* Celular */
