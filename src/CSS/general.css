@@ -2259,10 +2259,6 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-one {
-  background-color: #16161d;
-}
-
 video {
   overflow: hidden;
   position: fixed;
@@ -2272,6 +2268,10 @@ video {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
+}
+
+.bg-one {
+  background-color: #16161d;
 }
 
 /* Fondo para cuando este el video */
