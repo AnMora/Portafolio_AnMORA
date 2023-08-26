@@ -17,7 +17,7 @@
   --text-danger-danger: #32c4ca;
   --text-danger-secondary: #700f08;
   --text: #fff;
-  --background: #16161d;
+  --background: #161616;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -47,7 +47,7 @@
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #16161d;
+  color: #161616;
   pointer-events: none;
   cursor: default;
 }
@@ -65,7 +65,7 @@
   border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-  color: #16161d;
+  color: #161616;
   background-color: transparent;
   border-color: transparent;
 }
@@ -729,7 +729,7 @@
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0.5rem;
-  color: #16161d;
+  color: #161616;
   content: "/";
 }
 .breadcrumb-item + .breadcrumb-item:hover::before {
@@ -739,7 +739,7 @@
   text-decoration: none;
 }
 .breadcrumb-item.active {
-  color: #16161d;
+  color: #161616;
 }
 
 .pagination {
@@ -788,7 +788,7 @@
   border-color: #343a40;
 }
 .page-item.disabled .page-link {
-  color: #16161d;
+  color: #161616;
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
@@ -874,7 +874,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #16161d;
+  background-color: #161616;
 }
 a.badge-secondary:hover, a.badge-secondary:focus {
   color: #fff;
@@ -1214,7 +1214,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-bottom-left-radius: inherit;
 }
 .list-group-item.disabled, .list-group-item:disabled {
-  color: #16161d;
+  color: #161616;
   pointer-events: none;
   background-color: #fff;
 }
@@ -1529,7 +1529,7 @@ a.close.disabled {
   display: flex;
   align-items: center;
   padding: 0.25rem 0.75rem;
-  color: #16161d;
+  color: #161616;
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -2272,7 +2272,7 @@ video {
 
 .bg-two {
   background-color: #700f08 !important;
-  /* background-color: #16161d !important; */
+  /* background-color: #161616 !important; */
 }
 
 .border {
@@ -5857,7 +5857,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #16161d!important;
+  color: #161616!important;
 }
 
 .text-black-50 {
@@ -5993,7 +5993,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #16161d;
+  color: #161616;
 }
 
 @media (min-width: 992px) {
@@ -6065,7 +6065,7 @@ p.lead {
 /* celular */
 
 .bg-one {
-  background-color: #16161d;
+  background-color: #161616;
 }
 
 /* Fondo para cuando este el video */
@@ -6089,7 +6089,7 @@ p.lead {
   min-height: 20px;
   max-height: 25vh;
   position: absolute;
-  background-color: #16161d;
+  background-color: #161616;
   right: 90%;
   top: -14px;
   transform: skewX(45deg);
@@ -6101,7 +6101,7 @@ p.lead {
   min-height: 20px;
   max-height: 25vh;
   position: absolute;
-  background-color: #16161d;
+  background-color: #161616;
   left: 90%;
   top: -14px;
   transform: skewX(-45deg);
@@ -6284,7 +6284,7 @@ p.lead {
     border: 0.3rem solid transparent;
     /* border-top: 20px solid #700f08;
     border-bottom: 20px solid #700f08; */
-    /* border-image: linear-gradient(to left, #16161d 10%, #700f08 100%) 1; */
+    /* border-image: linear-gradient(to left, #161616 10%, #700f08 100%) 1; */
     /* border-top: 0.3rem solid #700f08;
     border-bottom: 0.3rem solid #700f08; */
   }
@@ -6297,7 +6297,7 @@ p.lead {
     /* border: 1px solid #343a40; */
     height: 160px;
     width: 160px;
-    background-color: #16161d;
+    background-color: #161616;
     overflow: hidden;
   }
   #sideNav .navbar-brand .rotate::before{
@@ -6333,7 +6333,7 @@ p.lead {
     top: 2.5%;
     height: 95%;
     width: 95%;
-    background-color: #16161d;
+    background-color: #161616;
   }
 
   #sideNav .navbar-brand .image .img-profile {
@@ -6362,13 +6362,13 @@ p.lead {
   }
 
   .bg-one {
-    background-color: #16161d;
+    background-color: #161616;
   }
   
   /* Fondo para cuando este el video */
   /* Recordar cuando se ponga el video, devolver colores de menu al menu lateral */
   .bg-dark-one {
-    background: -webkit-linear-gradient(left,  rgba(4,4,5,.7) 0%, rgba(4,4,5,.4) 60%, transparent 100%);
+    background: -webkit-linear-gradient(left,  rgba(4,4,5,.8) 0%, rgba(4,4,5,.4) 90%, transparent 100%);
   }
 
   /* Celular */
@@ -6463,7 +6463,7 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #16161d;
+    background-color: #161616;
     border-left: 0.3rem solid #700f08;
     right: 0;
     bottom: -15px;
@@ -6498,7 +6498,7 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #16161d;
+    background-color: #161616;
     border-left: 0.3rem solid #700f08;
     right: 0;
     bottom: 35px;
@@ -6535,7 +6535,7 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #16161d;
+    background-color: #161616;
     border-right: 0.3rem solid #700f08;
     left: 0;
     bottom: -15px;
@@ -6604,7 +6604,7 @@ p.lead {
     min-height: 50px;
     max-height: 25vh;
     position: absolute;
-    background-color: #16161d;
+    background-color: #161616;
     border-right: 0.3rem solid #700f08;
     left: 0;
     bottom: 35px;
@@ -6675,7 +6675,7 @@ p.lead {
   /* estilos menu en movil */
   .box-content {
     border: 0.4rem solid transparent;
-    /* border-image: linear-gradient(to right, #16161d 10%, #343a40 100%) 1; */
+    /* border-image: linear-gradient(to right, #161616 10%, #343a40 100%) 1; */
     position: fixed;
     display: inline-flex;
     align-items: center;
@@ -6762,14 +6762,14 @@ p.lead {
   justify-content: center;
   height: 3.3rem;
   width: 3.3rem;
-  background-color: #16161d;
+  background-color: #161616;
   color: #fff;
   transition: .5s;
   /* border-radius: 100%; */
-  border-top: 1.5rem solid #16161d;
-  border-bottom: 1.5rem solid #16161d;
-  border-left: 1.5rem solid #16161d;
-  border-right: 1.5rem solid #16161d;
+  border-top: 1.5rem solid #161616;
+  border-bottom: 1.5rem solid #161616;
+  border-left: 1.5rem solid #161616;
+  border-right: 1.5rem solid #161616;
   font-size: 1.5rem;
   margin-right: 1.5rem;
   cursor: pointer;
@@ -6781,8 +6781,8 @@ p.lead {
   color: #32c4ca;
   border-top: 0.3rem solid #32c4ca;
   border-bottom: 0.3rem solid #32c4ca;
-  border-left: 0.3rem solid #16161d;
-  border-right: 0.3rem solid #16161d;
+  border-left: 0.3rem solid #161616;
+  border-right: 0.3rem solid #161616;
   /* border-bottom: 0.3rem solid #343a40; */
 }
 
