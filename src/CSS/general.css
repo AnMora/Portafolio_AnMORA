@@ -6065,7 +6065,7 @@ p.lead {
 /* celular */
 
 .bg-one {
-  background-color: #161616;
+  background-color: #161616 !important;
 }
 
 /* Fondo para cuando este el video */
@@ -6359,10 +6359,6 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-  }
-
-  .bg-one {
-    background-color: #161616;
   }
   
   /* Fondo para cuando este el video */
