@@ -30,11 +30,11 @@ const Study = (props) => {
                 />
               </div>
               <div className="col-lg-6" data-aos="fade-up">
-                <div className="bg-one text-center h-100 project">
+                <div className="bg-two text-center h-100 project">
                   <div className="d-flex h-100">
                     <div className="project-text w-100 my-auto text-center text-lg-left">
                       <h4 className="text-white">{item.Title}</h4>
-                      <h4 className="text-danger-danger">{item.Project_by}</h4>
+                      <h4 className="text-danger-secondary">{item.Project_by}</h4>
                       <p className="text-light">{item.Description}</p>
                       <hr className="d-none d-lg-block mb-0 ml-0" />
                     </div>

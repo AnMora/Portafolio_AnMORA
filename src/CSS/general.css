@@ -43,7 +43,7 @@
   display: block;
   padding: 0.5rem 1rem;
 }
-.nav-link:hover, .nav-link:focus {
+.nav-link:active, .nav-link:focus {
   text-decoration: none;
 }
 .nav-link.disabled {
@@ -467,7 +467,7 @@
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: #32c4ca !important;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -2268,11 +2268,6 @@ video {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
-}
-
-.bg-two {
-  background-color: #700f08 !important;
-  /* background-color: #161616 !important; */
 }
 
 .border {
@@ -6064,8 +6059,16 @@ p.lead {
 
 /* celular */
 
+hr .hr {
+  color: #fff !important;
+}
+
 .bg-one {
   background-color: #161616 !important;
+}
+
+.bg-two {
+  background-color: #343a40 !important;
 }
 
 /* Fondo para cuando este el video */
@@ -6157,7 +6160,7 @@ p.lead {
   right: -85px;
   width: 115px;
   height: 70px;
-  background-color: #343a40;
+  background-color: #161616 !important;
   z-index: 100;
 }
 
@@ -6167,7 +6170,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #343a40;
+  background-color: #161616;
   left: 18px;
   top: -35px;
   transform: skewX(-45deg);
@@ -6179,7 +6182,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #343a40;
+  background-color: #161616;
   left: 18px;
   bottom: -35px;
   transform: skewX(45deg);
@@ -6209,7 +6212,7 @@ p.lead {
   width: 95px;
   height: 450px;
   transition: .3s;
-  background-color: #343a40;
+  background-color: #161616;
   z-index: 1000;
 }
 
@@ -6219,7 +6222,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #343a40;
+  background-color: #161616;
   left: 113px;
   top: -225px;
   transform: skewX(-45deg);
@@ -6231,7 +6234,7 @@ p.lead {
   min-width: 150px;
   max-width: 25vh;
   position: absolute;
-  background-color: #343a40;
+  background-color: #161616;
   left: 113px;
   bottom: -225px;
   transform: skewX(45deg);
@@ -6243,13 +6246,13 @@ p.lead {
   justify-content: center;
   height: 3.0rem;
   width: 3.0rem;
-  background-color: #343a40;
+  background-color: #161616;
   color: #fff;
   transition: .5s;
-  border-top: 1.5rem solid #343a40;
-  border-bottom: 1.5rem solid #343a40;
-  border-left: 1.5rem solid #343a40;
-  border-right: 1.5rem solid #343a40;
+  border-top: 1.5rem solid #161616;
+  border-bottom: 1.5rem solid #161616;
+  border-left: 1.5rem solid #161616;
+  border-right: 1.5rem solid #161616;
   font-size: 1.5rem;
   margin-right: 2.5rem;
   cursor: pointer;
@@ -6262,8 +6265,8 @@ p.lead {
   color: #32c4ca;
   border-top: 0.3rem solid #32c4ca;
   border-bottom: 0.3rem solid #32c4ca;
-  border-left: 0.3rem solid #343a40;
-  border-right: 0.3rem solid #343a40;
+  border-left: 0.3rem solid #161616;
+  border-right: 0.3rem solid #161616;
   /* border-bottom: 0.3rem solid #343a40; */
 }
 
@@ -6664,7 +6667,7 @@ p.lead {
     right: -115px;
     width: 150px;
     height: 70px;
-    background-color: #343a40;
+    background-color: #161616;
     z-index: 100;
   }
   
@@ -6683,7 +6686,7 @@ p.lead {
     width: 105px;
     height: 450px;
     transition: .3s;
-    background-color: #343a40;
+    background-color: #161616;
     z-index: 1000;
   }
   
@@ -6693,7 +6696,7 @@ p.lead {
     min-width: 150px;
     max-width: 25vh;
     position: absolute;
-    background-color: #343a40;
+    background-color: #161616;
     left: 103px;
     top: -225px;
     transform: skewX(-45deg);
@@ -6705,7 +6708,7 @@ p.lead {
     min-width: 150px;
     max-width: 25vh;
     position: absolute;
-    background-color: #343a40;
+    background-color: #161616;
     left: 103px;
     bottom: -225px;
     transform: skewX(45deg);
@@ -6727,13 +6730,13 @@ p.lead {
     justify-content: center;
     height: 3.3rem;
     width: 3.3rem;
-    background-color: #343a40;
+    background-color: #161616;
     color: #fff;
     transition: .5s;
-    border-top: 1.5rem solid #343a40;
-    border-bottom: 1.5rem solid #343a40;
-    border-left: 1.5rem solid #343a40;
-    border-right: 1.5rem solid #343a40;
+    border-top: 1.5rem solid #161616;
+    border-bottom: 1.5rem solid #161616;
+    border-left: 1.5rem solid #161616;
+    border-right: 1.5rem solid #161616;
     font-size: 1.5rem;
     margin-right: 2.5rem;
     cursor: pointer;
@@ -6746,8 +6749,8 @@ p.lead {
     color: #32c4ca;
     border-top: 0.3rem solid #32c4ca;
     border-bottom: 0.3rem solid #32c4ca;
-    border-left: 0.3rem solid #343a40;
-    border-right: 0.3rem solid #343a40;
+    border-left: 0.3rem solid #161616;
+    border-right: 0.3rem solid #161616;
     /* border-bottom: 0.3rem solid #343a40; */
   }
   
