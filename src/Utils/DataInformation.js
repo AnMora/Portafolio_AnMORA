@@ -205,6 +205,24 @@ const Data = {
   ],
   Certifications: [
     {
+      Issuer: "Udemy",
+      Title: "JavaScript: Desde cero con NodeJS",
+      Issued_On_Day: "13",
+      Issued_On_Month: "Octubre",
+      Issued_On_Year: "2023",
+      Expired_On: "No caduca",
+      Instructores: [{ Instructor: "DataBoosters Academy, Geovanny Gabriel" }],
+      Description:
+        "Este certificado garantiza que Ángel Mora Flores ha completado con éxito el curso JavaScript: Desde cero con NodeJS a fecha de 13/10/2023, habiendo sido impartido por DataBoosters Academy, Geovanny Gabriel en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+      Level: "No obtenido",
+      Total_Hours: "12",
+      Total_Classes: "63",
+      link_name: "udemy.com/certificate",
+      link_verified:
+        "https://www.udemy.com/certificate/UC-57ae38b2-37ac-4f77-893b-dc57b897e861/",
+      Register_No: "UC-57ae38b2-37ac-4f77-893b-dc57b897e861",
+    },
+    {
       Issuer: "CertiProf Professional Knowledge",
       Title: "Scrum Foundation Professional Certificate SFPC (v2020)",
       Issued_On_Day: "9",
@@ -231,7 +249,7 @@ const Data = {
       Expired_On: "No caduca",
       Instructores: [{ Instructor: "Bluelime Learning Solutions en Udemy" }],
       Description:
-        "El anterior certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Create a Business or Personal Website with Wordpress, habiendo sido impartido por Bluelime Learning Solutions en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+        "Este certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Create a Business or Personal Website with Wordpress, habiendo sido impartido por Bluelime Learning Solutions en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
       Level: "No obtenido",
       Total_Hours: "3,5",
       Total_Classes: "33",
@@ -249,7 +267,7 @@ const Data = {
       Expired_On: "No caduca",
       Instructores: [{ Instructor: "Chandan Kumar" }],
       Description:
-        "El anterior certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Full-Stack Web Development with React and MongoDB, habiendo sido impartido por Chandan Kumar en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+        "Este certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Full-Stack Web Development with React and MongoDB, habiendo sido impartido por Chandan Kumar en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
       Level: "No obtenido",
       Total_Hours: "5,5",
       Total_Classes: "54",
@@ -271,7 +289,7 @@ const Data = {
         { Instructor: "Mavludin Abdulkadirov" },
       ],
       Description:
-        "El anterior certificado garantiza que Ángel Mora Flores ha completado con éxito el curso The Complete ReactJs Course - Basics to Advanced (2021), habiendo sido impartido por EdYoda Digital University, Qaifi Khan, Mavludin Abdulkadirov en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+        "Este certificado garantiza que Ángel Mora Flores ha completado con éxito el curso The Complete ReactJs Course - Basics to Advanced (2021), habiendo sido impartido por EdYoda Digital University, Qaifi Khan, Mavludin Abdulkadirov en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
       Level: "No obtenido",
       Total_Hours: "3,5",
       Total_Classes: "26",
@@ -292,7 +310,7 @@ const Data = {
         { Instructor: "Qaifi Khan" },
       ],
       Description:
-        "El anterior certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Modern JavaScript for React JS - ES6, habiendo sido impartido por EdYoda Digital University, Qaifi Khan en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+        "Este certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Modern JavaScript for React JS - ES6, habiendo sido impartido por EdYoda Digital University, Qaifi Khan en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
       Level: "No obtenido",
       Total_Hours: "1,5",
       Total_Classes: "16",
@@ -310,7 +328,7 @@ const Data = {
       Expired_On: "No caduca",
       Instructores: [{ Instructor: "Bogdan Stashchuk" }],
       Description:
-        "El anterior certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Git and GitHub Crash Course, habiendo sido impartido por Bogdan Stashchuk en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
+        "Este certificado garantiza que Ángel Mora Flores ha completado con éxito el curso Git and GitHub Crash Course, habiendo sido impartido por Bogdan Stashchuk en Udemy. El certificado indica que se ha completado la totalidad del curso, según lo validado por el estudiante. La duración del curso representa el total de horas de vídeo del curso en el momento de finalización más reciente.",
       Level: "No obtenido",
       Total_Hours: "1,5",
       Total_Classes: "27",
