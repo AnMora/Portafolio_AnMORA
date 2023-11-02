@@ -506,7 +506,8 @@ const Data = {
       job_description:
         "Colaborador de Front-End bajo asignaturas de Tech SCRUM correspondientes a diferentes proyectos de la academia para mi entrenamiento, investigación, uso de diferentes herramientas como AXIOS to FETCH API, Material Design UI, Matx React, React-Toastify, muestra de avances y manejo de controlador de versiones GitHub.",
       link_name: "breatheco.de",
-      link_verified: "https://github.com/orgs/4GeeksAcademy/projects",
+      // link_verified: "https://github.com/orgs/4GeeksAcademy/projects",
+      link_verified: "https://4geeks.com/",
       since_On_Day: "5",
       since_On_Month: "Junio",
       since_On_Year: "2021",
@@ -661,21 +662,21 @@ const Data = {
           porcent: "50%",
           icon: "fab fa-npm",
         },
-        {
-          name: "GITHUB",
-          porcent: "40%",
-          icon: "fab fa-github",
-        },
+        // {
+        //   name: "GITHUB",
+        //   porcent: "40%",
+        //   icon: "fab fa-github",
+        // },
         // {
         //   name: "GITPOD",
         //   porcent: "50%",
         //   icon: "fab fa-github-square",
         // },
-        // {
-        //   name: "CODE-BRANCH",
-        //   porcent: "50%",
-        //   icon: "fas fa-code-branch",
-        // },
+        {
+          name: "GIT",
+          porcent: "50%",
+          icon: "fas fa-code-branch",
+        },
         // {
         //   name: "MONGOOSE",
         //   porcent: "50%",
