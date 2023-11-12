@@ -84,7 +84,7 @@ const Data = {
           istarget: "Si",
           target: "_blank",
           icon: "fas fa-file-download",
-          link: "./Documentos/ResumeAngelMoraFlores.pdf",
+          link: "./Documentos/CVAnMora.pdf",
         },
         {
           title: "Linkeldin",
@@ -92,7 +92,7 @@ const Data = {
           istarget: "Si",
           target: "_blank",
           icon: "fab fa-linkedin-in",
-          link: "https://www.linkedin.com/in/angel-mora-56a5b31b5/",
+          link: "https://www.linkedin.com/in/anmora-angel-mora",
         },
         {
           title: "GitHub",
