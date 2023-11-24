@@ -717,14 +717,14 @@ const Data = {
     },
   ],
   Projects: [
-    {
-      Title: "Proyecto M||RA",
-      Project_by: "Instituto Nacional de Aprendizaje",
-      Description:
-        "El propósito de este sitio es dar a conocer las capacidades que como desarrolladores Web obtuvimos mediante un largo tiempo de estudio. La arquitectura de software se realiza API REST remota para la interacción de servicio Web en data JSON y AJAX con JavaScript. Cabe resaltar el entretenimiento del sitio Web con videos y música que incluye ideas propias de mi persona.",
-      img: "./multimedia/proyectos/PRO_HTML_API_JSON.gif",
-      link: "https://anmora.github.io/Practica-HTML-API-JSON/index.html",
-    },
+    // {
+    //   Title: "RuffWalksCR",
+    //   Project_by: "RuffWalksCR",
+    //   Description:
+    //     "El propósito de este sitio web es ofrecer los servicios de los paseadores de perros RuffWalksCR, mostrar la informacion de empresa, sus creadores, mascotas de los clientes, asi como servicios, beneficios y promocionar de forma mas personalizada.",
+    //   img: "./multimedia/proyectos/PRO_SITRAINA.gif",
+    //   link: "https://proyectositraina.netlify.app",
+    // },
     {
       Title: "SITRAINA",
       Project_by: "Instituto Nacional de Aprendizaje",
@@ -732,6 +732,14 @@ const Data = {
         "Proyecto nuevo, continuación de proyecto final del curso de Desarrollo Web en el Instituto Nacional de Aprendizaje (INA) en el cual se migro al framework React y usando plantilla en Bootstrap, se encuentra en construcción para su total implementación. Pre visualización, en su función y primera etapa solo cuenta con algunas páginas funcionando y documentos descargables.",
       img: "./multimedia/proyectos/PRO_SITRAINA.gif",
       link: "https://proyectositraina.netlify.app",
+    },
+    {
+      Title: "Proyecto M||RA",
+      Project_by: "Instituto Nacional de Aprendizaje",
+      Description:
+        "El propósito de este sitio es dar a conocer las capacidades que como desarrolladores Web obtuvimos mediante un largo tiempo de estudio. La arquitectura de software se realiza API REST remota para la interacción de servicio Web en data JSON y AJAX con JavaScript. Cabe resaltar el entretenimiento del sitio Web con videos y música que incluye ideas propias de mi persona.",
+      img: "./multimedia/proyectos/PRO_HTML_API_JSON.gif",
+      link: "https://anmora.github.io/Practica-HTML-API-JSON/index.html",
     },
     // {
     //     Title: "Registro/Login MERN",
