@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "../CSS/general.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Typewriter } from "react-simple-typewriter";
 
 toast.configure();
 
@@ -105,6 +106,13 @@ const About = (props) => {
     }
   };
 
+  // const { animation } = useTypewriter({
+  //   words: ["MERN", "FrontEnd", "BackEnd"],
+  //   loop: {},
+  //   typeSpeed: 120,
+  //   deleteSpeed: 80,
+  // });
+
   return (
     <>
       <section className="resume-section bg-dark-one" id={About_id.id}>
@@ -113,11 +121,33 @@ const About = (props) => {
             {About.Name}
             <span className="text-danger-secondary">{About.LastName}</span>
           </h1>
-          <div className="subheading mb-3">{About.descripcion}</div>
+          <div className="subheading mb-3">
+            {About.animation}
+            <span className="text-danger-secondary">
+              <Typewriter
+                words={[
+                  "",
+                  "FrontEnd / BackEnd",
+                  "MERN Stack",
+                  "MongoDB",
+                  "ExpressJS",
+                  "ReactJS",
+                  "NodeJS",
+                  "MERN Full Stack",
+                ]}
+                loop={1}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+              /> 
+            </span>
+            {'>'}
+          </div>
           {/* <p>{About.presentacion}</p> */}
           <p>{About.resumen}</p>
           <p>{About.presentacion}</p>
-          <p>{About.invitacion}</p>
+          <p>{About.invitacion1}<span className="text-danger-secondary"><strong>{About.invite}</strong></span>{About.invitacion2}</p>
           {/* <div className="mt-2 social-icons">{About_icons}</div> */}
         </div>
       </section>
@@ -204,7 +234,10 @@ const About = (props) => {
                 />
               </div>
               <div className="modal-footer">
-                <button type="submit" className="btn btn-outline-dark text-danger-secondary">  
+                <button
+                  type="submit"
+                  className="btn btn-outline-dark text-danger-secondary"
+                >
                   Enviar
                 </button>
                 <button

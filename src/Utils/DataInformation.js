@@ -54,13 +54,16 @@ const Data = {
       Telephone: "(+506) 7254-7757",
       email: "anmora.2396@gmail.com",
       descripcion: "Desarrollador Software Web",
+      animation: '</Desarrollador Web ',
       presentacion:
         "Capaz de autogestión eficaz en proyectos independientes, me fascina todo lo que aprendo y aplico en cada proyecto que desarrollo. Trabajar con proyectos nuevos es mi pasión.",
       resumen:
-        "Aspirante a desarrollador de software web Full Stack MERN, creación, diseño, gestión y mantenimiento de software computacional.",
+        "Aspirante a desarrollador de software web MERN Full Stack, creación, diseño, gestión y mantenimiento de software computacional.",
       tiempo_libre: "",
-      invitacion:
-        "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral 'Enviar Correo' o por si deseas comunicarte conmigo.",
+      invitacion1:
+        "Te invito a ver mi portafolio y si te gustó, hazme saber usando la primera opción del menú lateral ",
+      invitacion2: " o por si deseas comunicarte conmigo.",
+      invite: "'Enviar Correo'",  
       links: [
         {
           title: "Direction",
