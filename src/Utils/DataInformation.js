@@ -47,14 +47,14 @@ const Data = {
       Name: "Angel",
       LastName: "Mora",
       First_NickName: "An",
-      logo: "./multimedia/Nll_LllMllTS.png",
+      logo: "./multimedia/XllxANllMllRAxllX.png",
       Code_Postal: "10201",
       Address: "Urb. La Nuez",
       Direction: "San Antonio de Escazu",
       Telephone: "(+506) 7254-7757",
       email: "anmora.2396@gmail.com",
       descripcion: "Desarrollador Software Web",
-      animation: '</Desarrollador Web ',
+      animation: '</ Desarrollador Web ',
       presentacion:
         "Capaz de autogestión eficaz en proyectos independientes, me fascina todo lo que aprendo y aplico en cada proyecto que desarrollo. Trabajar con proyectos nuevos es mi pasión.",
       resumen:

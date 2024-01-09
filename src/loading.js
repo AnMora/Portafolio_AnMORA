@@ -15,7 +15,7 @@ export class Loading extends Component {
             <>
                 <div id="preloader">
                     <div class="wrapper">
-                        <img src="./multimedia/MllRA_Skull.png" className="cssload-loader" alt="Proyecto MllRA" />
+                        <img src="./multimedia/XllxANllMllRAxllX.png" className="cssload-loader" alt="Proyecto MllRA" />
                     </div>
                 </div>
             </>
