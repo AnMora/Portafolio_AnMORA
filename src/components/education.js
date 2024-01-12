@@ -51,7 +51,7 @@ const Education = (props) => {
     <>
       <section className="resume-section bg-dark-one" id={Education.id}>
         <div className="resume-section-content text-white" data-aos="fade-up">
-          <h2 className="mb-5 text-danger-danger">{Education.Option}</h2>
+          <h2 className="mb-5 text-danger-secondary">{Education.Option}</h2>
           {/* <h4 className="mb-5 text-danger-danger">Cantidad de Horas: {item.Total_Hours}</h4> */}
           {Education_info}
         </div>

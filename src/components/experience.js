@@ -21,7 +21,7 @@ const Experience = (props) => {
             <div key={position} className="d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="flex-grow-1">
                 <h3 className="mb-0 text-secondary">{item.Workplace_nick}</h3>
-                <h3 className="mb-0 text-danger-danger">{item.Workplace}</h3>
+                <h3 className="mb-0 text-danger-secondary">{item.Workplace}</h3>
                 <div className="subheading mb-3">{item.position}</div>
                 <div>Encargado: {item.supervisor}</div>
                 {item.cellphone === "No obtenido" ? ("") : (<div>Telefono: {item.cellphone}</div>)}
@@ -53,7 +53,7 @@ const Experience = (props) => {
         <>
             <section className="resume-section bg-dark-one" id={proPractice.id}>
                 <div className="resume-section-content text-white" data-aos="fade-up">
-                <h2 className="mb-5 text-danger-danger">{proPractice.Option_complete}</h2>
+                <h2 className="mb-5 text-danger-secondary">{proPractice.Option_complete}</h2>
                 {/* <h4 className="mb-5 text-danger-danger">Cantidad de Horas: {item.Total_Hours}</h4> */}
                 {Pro_info}
                 </div>

@@ -58,7 +58,7 @@ const Certifications = (props) => {
     <>
       <section className="resume-section bg-dark-one" id={Certifications.id}>
         <div className="resume-section-content text-white" data-aos="fade-up">
-          <h2 className="mb-5 text-danger-danger">{Certifications.Option}</h2>
+          <h2 className="mb-5 text-danger-secondary">{Certifications.Option}</h2>
           {Certification_info}
         </div>
       </section>

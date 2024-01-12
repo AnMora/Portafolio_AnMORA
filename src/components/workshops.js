@@ -42,7 +42,7 @@ const Workshops = (props) => {
         <>
             <section className="resume-section bg-dark-one" id={Workshop.id}>
                 <div className="resume-section-content text-white" data-aos="fade-up">
-                <h2 className="mb-5 text-danger-danger">{Workshop.Option}</h2>
+                <h2 className="mb-5 text-danger-secondary">{Workshop.Option}</h2>
                 {Workshops_info}
                 </div>
             </section>

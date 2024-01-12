@@ -53,7 +53,7 @@ const Study = (props) => {
         className="resume-section projects-section bg-dark-one"
       >
         <div className="resume-section-content">
-          <h2 className="mb-5 text-danger-danger">{Study.Option}</h2>
+          <h2 className="mb-5 text-danger-secondary">{Study.Option}</h2>
           {Study_info}
         </div>
       </section>

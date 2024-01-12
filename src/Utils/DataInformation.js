@@ -452,8 +452,8 @@ const Data = {
       cellphone: "No obtenido",
       job_description:
         "Brindar la información relacionada con el laboratorio para dar el mejor servicio al ayudar a los pacientes con sus consultas, preparaciones para toma de muestras y cotizaciones de tarifas tanto de laboratorio como cotizaciones bajo convenios o aseguradoras, formularios, diagnósticos y coberturas del asegurado; envió de resultados de pacientes así como solicitudes de agenda y coordinación para toma de muestras a domicilio.",
-      link_name: "https://labechandi.com",
-      link_verified: "https://labechandi.com",
+      link_name: "",
+      link_verified: "",
       since_On_Day: "16",
       since_On_Month: "Enero",
       since_On_Year: "2023",
