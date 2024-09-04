@@ -441,6 +441,35 @@ const Data = {
   ],
   Pro_Practice: [
     {
+      Workplace: "Hospital Metropolitano",
+      Workplace_nick: "Grupo Montecristo",
+      Ubication:
+        "300 norte de Iglesia de Pozos, Edificio Pekin Santa Ana San José CR 10903, San José, Santa Ana.",
+      telephone: "(+506) 4035-1212.",
+      position: "Ejecutivo de servicio al cliente Bilingue",
+      supervisor: "Alejandra Mora",
+      range: "Jefactura a cargo",
+      cellphone: "No obtenido",
+      job_description:
+        "Brindar la información relacionada con el laboratorio, fisioterapia, oftalmologia y pediatria, manejo de caja y datafonos en recepcion de admision a pacientes con sus consultas, cobro por servicios, indicaciones de preparacion para toma de muestras y cotizaciones bajo convenios o aseguradoras, manejo de formularios y coberturas del asegurado, asi como agenda de citas.",
+      link_name: "",
+      link_verified: "",
+      since_On_Day: "16",
+      since_On_Month: "Enero",
+      since_On_Year: "2024",
+      phrase: "Actualmente",
+      Work_here: "Si",
+      until_On_Day: "",
+      until_On_Month: "",
+      until_On_Year: "",
+      links: [
+        {
+          icon: "fab fa-facebook-f",
+          facebook: "https://metropolitanocr.com/sede-lindora/",
+        },
+      ],
+    },
+    {
       Workplace: "Laboratorio Echandi",
       Workplace_nick: "LAB ECHANDI",
       Ubication:
