@@ -133,6 +133,7 @@ const About = (props) => {
                   "ExpressJS",
                   "ReactJS",
                   "NodeJS",
+                  "NextJS",
                   "MERN Full Stack",
                 ]}
                 loop={1}

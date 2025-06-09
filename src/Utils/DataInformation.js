@@ -122,8 +122,9 @@ const Data = {
         //   link: "##",
         // },
       ],
-      // Verificar los datos de google y realizar los cambios
-      // Puede que por la migracion de GA4 hayan cambiado estos valores, verificar los datos
+      // !! Verificar los datos de google y realizar los cambios
+      // !! Puede que por la migracion de GA4 hayan cambiado estos valores, verificar los datos
+      // ** TODO SIGUE IGUAL SOLO SE DEBE ACTUALIZAR EL EMAILJS CONSTANTEMENTE YA QUE PIERDE LA AUTORIZACION Y FUNCION
       service: "gmailMessage",
       template: "template_wrhn59m",
       user: "user_NmXDJbRWH1HpgirJoZskd",
@@ -660,6 +661,11 @@ const Data = {
         //   icon: "fas fa-terminal",
         // },
         {
+          name: "NEXTJS",
+          porcent: "50%",
+          icon: "fas fa-rocket",
+        },
+        {
           name: "HTML",
           porcent: "70%",
           icon: "fab fa-html5",
@@ -684,31 +690,31 @@ const Data = {
           porcent: "80%",
           icon: "fab fa-node-js",
         },
-        {
-          name: "SCRUM",
-          porcent: "50%",
-          icon: "fas fa-hands-helping",
-        },
+        // {
+        //   name: "SCRUM",
+        //   porcent: "50%",
+        //   icon: "fas fa-hands-helping",
+        // },
         {
           name: "NPM",
           porcent: "50%",
           icon: "fab fa-npm",
         },
-        // {
-        //   name: "GITHUB",
-        //   porcent: "40%",
-        //   icon: "fab fa-github",
-        // },
+        {
+          name: "GITHUB",
+          porcent: "40%",
+          icon: "fab fa-github",
+        },
         // {
         //   name: "GITPOD",
         //   porcent: "50%",
         //   icon: "fab fa-github-square",
         // },
-        {
-          name: "GIT",
-          porcent: "50%",
-          icon: "fas fa-code-branch",
-        },
+        // {
+        //   name: "GIT",
+        //   porcent: "50%",
+        //   icon: "fas fa-code-branch",
+        // },
         // {
         //   name: "MONGOOSE",
         //   porcent: "50%",
@@ -728,12 +734,6 @@ const Data = {
         //   name: "Google Analytics",
         //   porcent: "50%",
         //   icon: "fa fa-chart-line",
-        // },
-
-        // {
-        //   name: "POSTMAN",
-        //   porcent: "50%",
-        //   icon: "fas fa-rocket",
         // },
         // {
         //   name: "Wordpress",

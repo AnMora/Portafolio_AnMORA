@@ -23,12 +23,7 @@ class Options extends Component {
           rel="noopener noreferrer"
         >
           <i className={item.icon}></i>
-          <ReactTooltip
-            id={item.title}
-            place="left"
-            type="dark"
-            effect="solid"
-          >
+          <ReactTooltip id={item.title} place="left" type="dark" effect="solid">
             {item.name}
           </ReactTooltip>
         </a>
@@ -54,7 +49,6 @@ class Options extends Component {
                   data-for="Enviar Correo"
                   data-toggle="modal"
                   data-target="#exampleModal"
-                  
                   href="##"
                   rel="noopener noreferrer"
                 >
